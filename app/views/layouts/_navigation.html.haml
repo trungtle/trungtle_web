@@ -1,0 +1,47 @@
+%nav.top-bar(data-topbar)
+    %ul.title-area
+        %li.name
+            %h1
+                = link_to("TRUNG LE!", static_page_index_path(@static_page))
+
+        / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
+        %li.toggle-topbar.menu-icon
+            %a(href="#")
+                %span Menu
+
+    %section.top-bar-section
+
+        / Right Nav Section
+        %ul.left
+            %li
+                = link_to("Resume", static_page_resume_path(@static_page))
+            %li.has-dropdown
+                %a(href="#")Projects
+                %ul.dropdown
+                    %li
+                        = link_to("Moodbox", project_moodbox_path(@project))
+                    %li
+                        = link_to("Wireless Resonant Energy Link GUI", project_wrel_path(@project))
+                    %li
+                        %a Fourierbound
+                    %li
+                        = link_to("College project", project_collegeee_path(@project))
+            %li.has-dropdown
+                %a(href="#")Games
+                %ul.dropdown
+                    %li
+                        = link_to("Assylium", game_assylium_path(@game))
+                    %li
+                        %a(href="#")Pete vs. Tom
+                    %li
+                        %a{:href => "#"}Desiderata
+                    %li
+                        %a{:href => "#"}Feasor
+            %li.has-dropdown
+                %a(href="#")Blogs
+                %ul.dropdown
+                    %li
+                        %a{:href => "http://apassingroad.wordpress.com/", :target => "_blank"}A passing road (Creative writing)
+                    %li
+                        %a{:href => "https://cluesandcodes.wordpress.com/", :target => "_blank" }Clues & codes (Personal)
+

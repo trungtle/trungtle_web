@@ -1,0 +1,74 @@
+
+.row
+    .small-10.small-centered.columns.container
+        .pad-20
+        .row
+            .small-3.small-centered.columns
+                .scene
+                    .cube
+                        %span.side.top PDF DOWNLOAD
+                        %span.side.front Resume (file)
+        .pad-10
+        %ul#timeline
+            %li.work
+                %input.radio#resume_jawbone(name='works' type='radio' checked)
+                .relative
+                    %label(for='resume_jawbone') Software developer @ Jawbone
+                    %span.date
+                        Jul 2012 - Present
+
+                    %span.circle
+                .content
+                    %p
+                        Developed firmware drivers, modules and UX applications for the next generation of Jawbone fitness tracker. Experience ranges from firmware on a low energy platform to BTLE communication with iOS mobile devices, to the upper stack of Jawbone API server.
+                    %p
+                        = image_tag("jawbone/upband.png", size: "300")
+            %li.work
+                %input.radio#resume_wrel(name='works' type='radio')
+                .relative
+                    %label(for='resume_wrel')
+                        Research assistant @ Intel Labs & U of Washington's Sensor Lab
+
+                    %span.date Oct 2010 - Jun 2012
+                    %span.circle
+                .content
+                    %p
+                        Designed and built a GUI software for the Wireless Resonant Energy Link (WREL) system. The software was done in Python, supported data collection, control and diagnostics for the electrical components.
+            %li.work
+                %input.radio#resume_ta(name='works' type='radio')
+                .relative
+                    %label(for='resume_ta')
+                        Teaching Assistant @ University of Washington
+                    %span.date Mar 2012 - Jun 2012
+                    %span.circle
+                .content
+                    %p
+                        Introduction to hardware design and implementation, Computer Science Department, University of Washington, Seattle, WA
+                        Assisted students with hardware lab sections, held office hours, graded assignments and tests. Created and administrated course’s website for online materials. The course focused on building a simple CPU on an FPGA using Verilog.
+
+            %li.work
+                %input.radio#resume_genie(name='works' type='radio')
+                .relative
+                    %label(for='resume_genie')
+                        Software Intern @ Genie Industries
+                    %span.date Jun 2011 – Dec 2011
+                    %span.circle
+                .content
+                    %p
+                        Genie Industries, Redmond, WA
+                        Began working with large industry codebase. Tasked with implementing parts of the control system for a new line of scissor lift and handling electrical as well as mechanical QA process. Coded in C, Rhapsody and JavaScript.
+
+            %li.work
+                %input.radio#resume_mindbloom(name='works' type='radio')
+                .relative
+                    %label(for='resume_mindbloom')
+                        Software Intern @ Mindbloom
+                    %span.date Jun 2010 – Oct 2010
+                    %span.circle
+                .content
+                    %p
+                        Mindbloom Inc., Seattle, WA
+                        Worked on a health wellness social game in a startup scene. Tasked with simple web development QA automations.
+
+
+

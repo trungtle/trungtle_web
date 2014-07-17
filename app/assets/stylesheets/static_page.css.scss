@@ -1,0 +1,165 @@
+// Place all the styles related to the StaticPage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/* ----------------------------------------------------------------------------
+
+Colors
+
+---------------------------------------------------------------------------- */
+
+$brown: #291300;
+$orange: #daa12f;
+$cream: #e6dc70;
+$red: #ac3535;
+$lightblack: #272727;
+$lightgray: #d9d9d9;
+
+/* ----------------------------------------------------------------------------
+
+Common components
+
+---------------------------------------------------------------------------- */
+
+html,body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+  // Stripe background
+  background: -webkit-linear-gradient(45deg, #399E98 25%, #3aa19b 25%, #3aa19b 50%, #399E98 50%, #399E98 75%, #3aa19b 75%, #3aa19b);
+  background: -moz-linear-gradient(45deg, #399E98 25%, #3aa19b 25%, #3aa19b 50%, #399E98 50%, #399E98 75%, #3aa19b 75%, #3aa19b);
+  background: -o-linear-gradient(45deg, #399E98 25%, #3aa19b 25%, #3aa19b 50%, #399E98 50%, #399E98 75%, #3aa19b 75%, #3aa19b);
+  background: linear-gradient(45deg, #399E98 25%, #3aa19b 25%, #3aa19b 50%, #399E98 50%, #399E98 75%, #3aa19b 75%, #3aa19b);
+  background-size:100px 100px;
+
+  font-family: 'Gudea', sans-serif;
+  color: $lightgray;
+}
+
+// Links
+//
+
+a {
+    color: $orange;
+}
+
+// Header
+//
+
+h1, h2 {
+    color: $cream;
+    font: {
+      family: 'Amatic SC', sans-serif;
+      size: 2.8em;
+    }
+}
+
+// List
+//
+
+.spec ul {
+  margin: 0;
+  padding: 0;
+}
+
+.spec li {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 17px;
+  border-left: 3px #ccc solid;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.spec li:nth-child(1) {
+  margin-top: 20px;
+  border-color: #f6ab2b;
+}
+
+.spec li:nth-child(2) {
+  border-color: #e8703d;
+}
+
+.spec li:nth-child(3) {
+  border-color: #4ebd73;
+}
+
+.spec li:nth-child(4) {
+  border-color: #67b1ec;
+}
+
+/* ----------------------------------------------------------------------------
+
+Class
+
+---------------------------------------------------------------------------- */
+.top-bar .name h1  {
+  font-size: 2.5em;
+}
+
+// Containers
+//
+
+.container {
+  background: $red;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  height: 100%;
+}
+
+// Size
+//
+
+@mixin small-text {
+  font-size: .5em;
+}
+
+@mixin medium-text {
+  font-size: .7em;
+}
+
+// Padding
+//
+
+.pad-10 {
+  padding: 10px;
+}
+.pad-20 {
+  padding: 20px;
+}
+.pad-50 {
+  padding: 50px;
+}
+.pad-100 {
+  padding: 100px;
+}
+
+// Navigation
+//
+
+.top-bar, .top-bar-section li:not(.has-form) a:not(.button) {
+  background: $orange;
+  font: {
+    family: 'Amatic SC', sans-serif;
+    size: 1.5em;
+  }
+
+}
+
+// Button
+
+.button {
+  @include medium-text;
+  background: $lightblack;
+}
+
+/* ----------------------------------------------------------------------------
+
+Id
+
+---------------------------------------------------------------------------- */

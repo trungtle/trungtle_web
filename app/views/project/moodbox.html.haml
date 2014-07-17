@@ -1,0 +1,46 @@
+.row
+    .small-10.small-centered.columns.container
+        %h1 Mood Box
+
+        %p
+            %em "Moodbox creates a visceral experience to either reflect or manipulate your mood. Tell it how you feel or want to feel, and let Moodbox create your environment, curating music and light."
+
+        %p
+            This was a project from
+            %a{:href => "https://www.facebook.com/swseamaker?ref=stream&hc_location=stream"} Seattle Startup Weekend Maker Edition.
+            It was led by Kyle Kesterson, a talented entrepreneur and founder of
+            %a{:href => "http://www.freakngenius.com/"} Freak'n Genius.
+
+        .pad-10
+        %ul(data-orbit)
+            %li
+                = image_tag("moodbox/moodbox_logo.jpg")
+            %li
+                = image_tag("moodbox/moodbox1.jpg")
+            %li
+                = image_tag("moodbox/moodbox2.jpg")
+            %li
+                = image_tag("moodbox/moodbox4.jpg")
+            %li
+                = image_tag("moodbox/moodbox_app.jpg")
+
+        .pad-10
+        .row(data-equalizer)
+            .large-4.columns.panel(data-equalizer-watch)
+                %h2
+                    Software
+                %p
+                    iOS 7.0
+            .large-4.columns.panel(data-equalizer-watch)
+                %h2
+                    Hardware
+                %ul.spec
+                    %li
+                        %a{:href => "https://www.meethue.com/en-US"} Philips Hue
+                    %li
+                        %a{:href => "http://www.raspberrypi.org/"} Raspberry Pi
+                    %li Jambox
+            .large-4.columns.panel(data-equalizer-watch)
+                %h2
+                    Mechanical part
+                %p Custom Design box
