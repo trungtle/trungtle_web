@@ -47,6 +47,5 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-# Ruby version (as of July 16, 2014)
-gem ruby 2.1.1
-
+# Serve static assets
+gem 'rails_12factor', group: :production
