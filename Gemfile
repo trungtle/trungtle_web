@@ -9,8 +9,8 @@ gem 'haml'
 # Foundation for styling
 gem 'foundation-rails'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# Use pg as the database for Active Record
+gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -46,3 +46,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Ruby version (as of July 16, 2014)
+gem ruby 2.1.1
+
