@@ -10,4 +10,7 @@ class ProjectController < ApplicationController
 
   def collegeee
   end
+
+  def fourierbound
+  end
 end
