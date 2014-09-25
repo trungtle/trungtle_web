@@ -1,6 +1,13 @@
 .row
     .small-10.small-centered.columns.container
-        %h1.text-center trungle
+        .row
+            .small-3.small-centered.columns
+                / .profile-circular
+                - require 'digest/md5'
+                - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
+                - src = "http://www.gravatar.com/avatar/#{md5}?s=200"
+                = image_tag(src, :class => "profile-circular")
+
         .pad-10
 
         %p.text-center I am a software engineer in Seattle and currently work for Jawbone. I grew up in Ho Chi Minh city.
