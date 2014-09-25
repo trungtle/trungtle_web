@@ -9,6 +9,9 @@ gem 'haml'
 # Foundation for styling
 gem 'foundation-rails'
 
+# sqlite3
+gem 'sqlite3'
+
 # Use pg as the database for Active Record
 gem 'pg'
 
