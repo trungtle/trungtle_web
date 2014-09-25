@@ -7,6 +7,7 @@ Trungtle::Application.routes.draw do
   get "project/wrel"
   get "project/moodbox"
   get "project/collegeee"
+  get "project/fourierbound"
   get "static_page/index"
   get "static_page/about"
   get "static_page/contact"

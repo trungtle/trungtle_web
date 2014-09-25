@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"light",
+				"lightgray"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mi",
+				"medium-text"
+			],
+			[
+				"r",
+				"rea	redirect_to (action)"
+			],
+			[
 				"story",
 				"story-canvas"
 			],
@@ -498,32 +514,104 @@
 			[
 				"sequ",
 				"sequenceNumber"
-			],
-			[
-				"off",
-				"offset"
-			],
-			[
-				"Btle",
-				"BtleStreamStartEncryption"
-			],
-			[
-				"x",
-				"xTimerCreate"
-			],
-			[
-				"phon",
-				"phoneSeed"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/static_page/index.html.haml",
+			"settings":
+			{
+				"buffer_size": 770,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/static_page.css.scss",
+			"settings":
+			{
+				"buffer_size": 2922,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 830,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_navigation.html.haml",
+			"settings":
+			{
+				"buffer_size": 1809,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_page/resume.html.haml",
+			"settings":
+			{
+				"buffer_size": 3616,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/project/moodbox.html.haml",
+			"settings":
+			{
+				"buffer_size": 1729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/game/assylium.html.haml",
+			"settings":
+			{
+				"buffer_size": 580,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1172,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/database.yml",
+			"settings":
+			{
+				"buffer_size": 671,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/button_3d.css.scss",
+			"settings":
+			{
+				"buffer_size": 887,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/vertical_timeline.css.sass",
+			"settings":
+			{
+				"buffer_size": 4886,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 287.0,
 		"selected_items":
 		[
 			[
@@ -740,6 +828,24 @@
 	},
 	"file_history":
 	[
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/assets/stylesheets/calendar_box.css.scss",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/views/static_page/index.html.haml",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/views/project/wrel.html.haml",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/controllers/project_controller.rb",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/config/routes.rb",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/assets/stylesheets/vertical_timeline.css.sass",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/Gemfile",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/assets/stylesheets/button_3d.css.scss",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/views/static_page/resume.html.haml",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/views/layouts/_navigation.html.haml",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/views/project/moodbox.html.haml",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/assets/stylesheets/static_page.css.scss",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/views/layouts/application.html.erb",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/views/static_page/project.html.haml",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/assets/stylesheets/application.css",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/vendor/assets/javascripts/.keep",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/Gemfile.lock",
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/assets/javascripts/application.js",
 		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/config/application.rb",
 		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/config/routes.rb",
 		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/app/views/layouts/application.html.haml",
@@ -849,25 +955,7 @@
 		"/Users/tle/Documents/devsw/penelope/fw/project/up/Makefile",
 		"/Users/tle/Documents/devsw/penelope/fw/project/up/main.c",
 		"/Users/tle/uploadenv/lib/python2.7/site-packages/penelope_sdk/recordings.py",
-		"/Users/tle/Documents/devsw/penelope/fw/project/collector/record.c",
-		"/Users/tle/Documents/devsw/penelope/fw/ble/nrf8001/export/btle.h",
-		"/Users/tle/Documents/devsw/penelope/fw/up/Makefile",
-		"/Users/tle/Documents/devsw/penelope/fw/up/deps.mk",
-		"/Users/tle/Documents/devsw/penelope/fw/project/collector/collectorp.h",
-		"/Users/tle/Documents/devsw/penelope/fw/svc/battery/battery.c",
-		"/Users/tle/Documents/devsw/penelope/fw/platform/stm32l1xx/lewis/export/platform.h",
-		"/Users/tle/Documents/devsw/penelope/fw/platform/stm32l1xx/baseboard/export/baseboard.h",
-		"/Users/tle/Documents/devsw/penelope/fw/sys/export/sys_platform.h",
-		"/Users/tle/Documents/devsw/penelope/fw/sys/export/sys.h",
-		"/Users/tle/Documents/devsw/penelope/fw/svc/battery/export/battery.h",
-		"/Users/tle/Documents/devsw/penelope/ios/buildAndUpload.py",
-		"/Users/tle/Dropbox/FrozenPlatinum/LevelDesignerTest/Main.py",
-		"/Users/tle/.profile",
-		"/Users/tle/Library/Developer/Xcode/UserData/FontAndColorThemes/Monokai.dvtcolortheme",
-		"/Users/tle/Documents/devsw/penelope/fw/diags/diags.c",
-		"/Users/tle/Documents/devsw/penelope/fw/sys/shell.c",
-		"/Users/tle/Documents/devsw/penelope/fw/thirdparty/STM32L1xx_StdPeriph_Driver/src/stm32l1xx_flash.c",
-		"/Users/tle/Documents/devsw/penelope/fw/diags/test_elog.c"
+		"/Users/tle/Documents/devsw/penelope/fw/project/collector/record.c"
 	],
 	"find":
 	{
@@ -878,6 +966,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log,/Users/tle/Documents/workspace_home/rails_projects/trungtle",
 			"-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log,/Users/tle/Documents/workspace_home/rails_projects/Assylium",
 			"/Users/tle/Documents/devsw/penelope/,-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log",
 			"/Users/tle/Documents/devsw/penelope/,-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html",
@@ -896,6 +985,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gotham",
+			"sqlite3",
+			"small",
+			"jpg",
+			"float",
+			"Home",
+			"another",
+			"quote",
+			"div",
+			"zier",
+			"Landed",
+			"transform",
+			"transfo",
+			"padding",
+			"Maker",
+			"            ,",
+			"circle\ncircle",
+			".name",
+			"resume_genie",
+			"resume_ta",
+			"work5",
+			"work4",
+			"work3",
+			".content",
+			"label",
+			"work",
+			".work",
+			"%li.work",
+			"resume_jawbone",
+			"get",
+			"route_url",
+			"wrel",
+			"name",
+			"favicon",
+			"text",
+			"small",
+			"black",
+			"AssyliDum",
+			"Games",
+			"padding",
+			"Class",
+			"welcome",
+			"turbolink",
 			"fracta",
 			"fractalTR",
 			"jquery",
@@ -980,50 +1112,7 @@
 			"Goudy",
 			"DamagedGoods",
 			"______________________________________________________",
-			"txt-teaser",
-			"storycanvas",
-			"g_background",
-			"g_back",
-			"cream-",
-			"png",
-			"cream",
-			"Goudy",
-			"background",
-			"Cardinal",
-			"title",
-			"Meet",
-			"game",
-			"Gotham",
-			".navbar",
-			"h1",
-			".navbar",
-			"Monarchi",
-			"pageNumber",
-			"chapter-header",
-			"curPage",
-			"pageView",
-			"currentPageNumber",
-			"g_c",
-			"ev",
-			"createjs",
-			"full_title",
-			"Next",
-			"next",
-			"nil",
-			"g_pages",
-			"header",
-			"page",
-			"nextPage",
-			"g_c",
-			"paragraphs",
-			"paragraphs3",
-			"paragraphs",
-			"paragraphs2",
-			"paragraphs",
-			"clearREc",
-			"    ctx.fillStyle = \"#FFF\";\n    ctx.fillRect(0,0,1000,300)\n",
-			"title",
-			"500"
+			"txt-teaser"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1042,8 +1131,349 @@
 	"groups":
 	[
 		{
+			"selected": 6,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/static_page/index.html.haml",
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 36.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/assets/stylesheets/static_page.css.scss",
+					"settings":
+					{
+						"buffer_size": 2922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2474,
+								2474
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 966.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/layouts/_navigation.html.haml",
+					"settings":
+					{
+						"buffer_size": 1809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1198,
+								1198
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 22.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/static_page/resume.html.haml",
+					"settings":
+					{
+						"buffer_size": 3616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								679
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/project/moodbox.html.haml",
+					"settings":
+					{
+						"buffer_size": 1729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/game/assylium.html.haml",
+					"settings":
+					{
+						"buffer_size": 580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								580
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 1172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								853,
+								853
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "config/database.yml",
+					"settings":
+					{
+						"buffer_size": 671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "app/assets/stylesheets/static_page.css.scss",
+					"settings":
+					{
+						"buffer_size": 2922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1347,
+								1347
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/assets/stylesheets/button_3d.css.scss",
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/assets/stylesheets/vertical_timeline.css.sass",
+					"settings":
+					{
+						"buffer_size": 4886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1149,
+								1149
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 553.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1064,11 +1494,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1105,20 +1542,120 @@
 		"selected_items":
 		[
 			[
-				"application.hml",
-				"app/views/layouts/application.html.haml"
+				"assyl",
+				"app/views/game/assylium.html.haml"
+			],
+			[
+				"config/data",
+				"config/database.yml"
 			],
 			[
 				"gem",
 				"Gemfile"
 			],
 			[
+				"_na",
+				"app/views/layouts/_navigation.html.haml"
+			],
+			[
+				"ass",
+				"app/views/game/assylium.html.erb"
+			],
+			[
+				"moo",
+				"app/views/project/moodbox.html.haml"
+			],
+			[
+				"inde",
+				"app/views/static_page/index.html.haml"
+			],
+			[
+				"res",
+				"app/views/static_page/resume.html.haml"
+			],
+			[
+				"vert",
+				"app/assets/stylesheets/vertical_timeline.css.sass"
+			],
+			[
+				"appli",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"stat",
+				"app/assets/stylesheets/static_page.css.scss"
+			],
+			[
+				"butt",
+				"app/assets/stylesheets/button_3d.css.scss"
+			],
+			[
+				"applica",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"stati",
+				"app/assets/stylesheets/static_page.css.scss"
+			],
+			[
+				"applic",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"mood",
+				"app/views/project/moodbox.html.haml"
+			],
+			[
+				"index",
+				"app/views/static_page/index.html.haml"
+			],
+			[
+				"button",
+				"app/assets/stylesheets/button_3d.css.scss"
+			],
+			[
+				"navi",
+				"app/views/layouts/_navigation.html.haml"
+			],
+			[
+				"verti",
+				"app/assets/stylesheets/vertical_timeline.css.sass"
+			],
+			[
+				"static",
+				"app/assets/stylesheets/static_page.css.scss"
+			],
+			[
+				"resu",
+				"app/views/static_page/resume.html.haml"
+			],
+			[
+				"project/",
+				"app/views/project/wrel.html.erb"
+			],
+			[
+				"projec",
+				"app/controllers/project_controller.rb"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"app.css",
+				"app/assets/stylesheets/application.css"
+			],
+			[
 				"application.ht",
-				"app/views/layouts/application.html.haml"
+				"app/views/layouts/application.html.erb"
 			],
 			[
 				"route",
 				"config/routes.rb"
+			],
+			[
+				"application.hml",
+				"app/views/layouts/application.html.haml"
 			],
 			[
 				"applcation",
@@ -1175,10 +1712,6 @@
 			[
 				"applic.js",
 				"public/assets/application.js"
-			],
-			[
-				"navi",
-				"app/views/layouts/_navigation.html.haml"
 			],
 			[
 				"applica.ht",
@@ -1249,20 +1782,12 @@
 				"app/views/users/new.html.haml"
 			],
 			[
-				"_na",
-				"app/views/layouts/_navigation.html.haml"
-			],
-			[
 				"user.r",
 				"app/models/user.rb"
 			],
 			[
 				"sto",
 				"app/views/static_pages/story_canvas.html.haml"
-			],
-			[
-				"static",
-				"app/controllers/static_pages_controller.rb"
 			],
 			[
 				"main.",
@@ -1305,24 +1830,12 @@
 				"app/assets/stylesheets/custom.css.scss"
 			],
 			[
-				"applic",
-				"app/views/layouts/application.html.haml"
-			],
-			[
 				"_foot",
 				"app/views/layouts/_footer.html.haml"
 			],
 			[
-				"index",
-				"app/views/home/index.html.haml"
-			],
-			[
 				"home.c",
 				"app/assets/stylesheets/home.css.scss"
-			],
-			[
-				"inde",
-				"app/views/home/index.html.haml"
 			],
 			[
 				"routes",
@@ -1375,14 +1888,6 @@
 			[
 				"application.j",
 				"app/assets/javascripts/application.js"
-			],
-			[
-				"application",
-				"app/assets/javascripts/application.js"
-			],
-			[
-				"appli",
-				"public/assets/application.js"
 			],
 			[
 				"sensor/record.c",
@@ -1547,74 +2052,6 @@
 			[
 				"btle.h",
 				"penelope/fw/ble/nrf8001/export/btle.h"
-			],
-			[
-				"bringup/dep",
-				"penelope/fw/project/bringup/deps.mk"
-			],
-			[
-				"up/dep",
-				"penelope/fw/up/deps.mk"
-			],
-			[
-				"up/main",
-				"penelope/fw/project/up/main.c"
-			],
-			[
-				"sensorlo",
-				"penelope/fw/lib/sensorlog/sensorlog.c"
-			],
-			[
-				"fa",
-				"penelope/fw/up/fake_sensor.c"
-			],
-			[
-				"rawrec.h",
-				"penelope/fw/lib/rawrec/export/rawrec.h"
-			],
-			[
-				"rand_",
-				"penelope/fw/up/rand_sensor.c"
-			],
-			[
-				"faul",
-				"fw/platform/stm32l152/common/fault.c"
-			],
-			[
-				"diags",
-				"fw/diags/diags.c"
-			],
-			[
-				"device_ser",
-				"fw/svc/btle/device_service.c"
-			],
-			[
-				"start.c",
-				"fw/svc/btle/start.c"
-			],
-			[
-				"btle.c",
-				"fw/svc/btle/btle.c"
-			],
-			[
-				"device",
-				"fw/svc/btle/device_service.c"
-			],
-			[
-				"btlep.h",
-				"fw/svc/btle/btlep.h"
-			],
-			[
-				"user_",
-				"fw/app/lemond/user_state.c"
-			],
-			[
-				"devi",
-				"fw/svc/btle/device_service.c"
-			],
-			[
-				"user_state",
-				"fw/app/lemond/user_state.c"
 			]
 		],
 		"width": 0.0

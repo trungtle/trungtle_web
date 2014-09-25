@@ -9,12 +9,13 @@ $vertical: true
  * ------------------------------------- */
 
 // Colours
-$bg: #ac3535
+$bg: #272727
 $white: #eee9dc
 $red: #f98262
 $lime: #beda2f
 $babyblue: #2fbeda
 $cream: #e6dc70
+$lightblack: #272727
 
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans)
 
@@ -56,8 +57,8 @@ $cream: #e6dc70
     top: -55px
     left: 0
     right: 0
-  font-size: 1.4em
-  font-family: "Amatic SC", san-serif
+  font-size: .7em
+  font-family: "Arvo", san-serif
   line-height: 20px
   position: absolute
   color: $cream
@@ -83,7 +84,7 @@ $cream: #e6dc70
 .content
   @if $vertical
     max-height: 20px
-    padding: 50px 20px 0
+    padding: 40px 20px 0
     border-color: transparent
   @else
     width: 200px
@@ -136,17 +137,18 @@ $cream: #e6dc70
     word-break: break-word
     hyphens: auto
     overflow: hidden
+    font-size: .9em
 
 label
-  font-family: "Amatic SC", san-serif
-  font-size: 1.8em
+  font-family: "Arvo", san-serif
+  font-size: 1.0em
   position: absolute
   font-weight: bold
   z-index: 100
   cursor: pointer
   color: $white
   @if $vertical
-    top: 5px
+    top: 10px
     transition: transform 0.2s linear
   @else
     width: 200px
@@ -170,7 +172,7 @@ label
         transition: all 0.85s cubic-bezier(.17,.67,.14,.93)
         transition: width 0.3s linear 0.2s
     .circle
-      background: $red
+      background: $lightblack
   & ~ .content
     max-height: 1000px
     border-color: $white
