@@ -20,8 +20,36 @@
         .pad-20
         .row
             .small-3.small-centered.columns
+
                 .scene
                     .cube
-                        %span.top.side Email me
-                        %span.front.side Or email me?
+                        %a(href="#" data-reveal-id="emailModal")
+                            %span.top.side Email me
+
+                            %span.front.side Or email me?
+
+
         .pad-20
+
+
+#emailModal.reveal-modal(data-reveal style="height:500px;")
+    %form(data-abide)
+        .row
+            .large-6.columns
+                .name-field
+                    %label.black
+                        Your name
+                        %input(type="text" required pattern="[a-zA-Z]+")
+                    %small.error Name is required and must be a string.
+
+            .large-6.columns
+                .email-field
+                    %label.black
+                        Email
+                        %input(type="email" required)
+                    %small.error An email address is required.
+
+        .row
+            .large-12.columns
+                %button(type="submit") Submit
+    %a.close-reveal-modal &#215;
