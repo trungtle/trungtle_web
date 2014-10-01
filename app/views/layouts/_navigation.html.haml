@@ -14,7 +14,7 @@
         / Right Nav Section
         %ul.left
             %li
-                = link_to("cv", static_page_resume_path(@static_page))
+                = link_to("resume", static_page_resume_path(@static_page))
             %li.has-dropdown
                 %a(href="#")ee/cs
                 %ul.dropdown
@@ -23,22 +23,22 @@
                     %li
                         = link_to("wireless energy", project_wrel_path(@project))
                     %li
+                        = link_to("fourierbound", project_fourierbound_path(@project))
+                    %li
                         = link_to("undergraduate", project_collegeee_path(@project))
             %li.has-dropdown
                 %a(href="#")games
                 %ul.dropdown
                     %li
-                        = link_to("assylium", game_assylium_path(@game))
-                    %li
                         = link_to("local chicken", game_petevstom_path(@game))
                     %li
                         = link_to("desiderata", game_desiderata_path(@game))
                     %li
-                        %a watercube
+                        = link_to("watercube", game_watercube_webplayer_path(@game))
                     %li
-                        = link_to("fourierbound", project_fourierbound_path(@project))
+                        = link_to("feasor", game_feasor_path(@game))
             %li
-                %a(href="#")drawing
+                = link_to("drawing", static_page_drawing_path(@static_page))
             %li.has-dropdown
                 %a(href="#")writing
                 %ul.dropdown

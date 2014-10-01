@@ -13,4 +13,7 @@ class ProjectController < ApplicationController
 
   def fourierbound
   end
+
+  def wrad
+  end
 end

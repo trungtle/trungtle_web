@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
+//= require foundation/foundation.clearing
 //= require_tree .
 
 $(function(){ $(document).foundation(); });

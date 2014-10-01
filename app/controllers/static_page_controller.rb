@@ -16,4 +16,10 @@ class StaticPageController < ApplicationController
 
   def resume
   end
+
+  def drawing
+  end
+
+  def watercube_webplayer
+  end
 end

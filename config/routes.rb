@@ -2,9 +2,11 @@ Trungtle::Application.routes.draw do
   get "game/assylium"
   get "game/desiderata"
   get "game/petevstom"
+  get "game/watercube_webplayer"
   get "game/feasor"
   get "project/seattlecoop"
   get "project/wrel"
+  get "project/wrad"
   get "project/moodbox"
   get "project/collegeee"
   get "project/fourierbound"
@@ -14,6 +16,7 @@ Trungtle::Application.routes.draw do
   get "static_page/blog"
   get "static_page/project"
   get "static_page/resume"
+  get "static_page/drawing"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

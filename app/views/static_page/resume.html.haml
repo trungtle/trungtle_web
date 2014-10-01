@@ -4,67 +4,89 @@
         .pad-10
         .row
             .small-3.small-centered.columns
-                .button PDF Version
+                = link_to("PDF Version", "/doc/resume/resume.pdf", :type => "application/pdf", :target => "_blank", :class => "button")
         %ul#timeline
             %li.work
                 %input.radio#resume_jawbone(name='works' type='radio' checked)
                 .relative
-                    %label(for='resume_jawbone') Software developer @ Jawbone
+                    %label(for='resume_jawbone')
+                        Software Engineer @
+                        = link_to("Jawbone", "http://www.jawbone.com/", :target => "_blank")
                     %span.date
                         Jul 2012 - Present
 
                     %span.circle
                 .content
+                    .small-12.small-centered.columns.pad-10
+                        = image_tag("jawbone/up_colors.jpg")
                     %p
-                        Developed firmware drivers, modules and UX applications for the next generation of Jawbone fitness tracker. Experience ranges from firmware on a low energy platform to BTLE communication with iOS mobile devices, to the upper stack of Jawbone API server.
-                    %p
-                        = image_tag("jawbone/upband.png", size: "300")
+                        Developed firmware for the
+                        = link_to("UP", "http://jawbone.com/up", :target => "_blank")
+                        fitness tracker. Delivered a wide range of infrastructural modules and applications for the ARM Cortex-M3 and the iOS platform, including BTLE protocol, authentication and encryption between band and phone, data collection, peripheral drivers, USB serial interface, band UX interactions and iOS developer tools.
             %li.work
                 %input.radio#resume_wrel(name='works' type='radio')
                 .relative
                     %label(for='resume_wrel')
-                        Research assistant @ Intel Labs & U of Washington's Sensor Lab
+                        Research Assistant @ UW
+                        = link_to("Sensor Lab", "http://sensor.cs.washington.edu/", :target => "_blank")
+                        and Seattle Intel Lab
 
                     %span.date Oct 2010 - Jun 2012
                     %span.circle
                 .content
+                    .small-4.small-centered.columns.pad-10
+                        = image_tag("wrel/wrel-bulb.jpg")
                     %p
-                        Designed and built a GUI software for the Wireless Resonant Energy Link (WREL) system. The software was done in Python, supported data collection, control and diagnostics for the electrical components.
+                        Designed and built a GUI software for the Wireless Resonant Energy Link (WREL) system. The software was done in Python QT, supported data collection, control and diagnostics for the embedded microcontroller on the power system.
             %li.work
                 %input.radio#resume_ta(name='works' type='radio')
                 .relative
                     %label(for='resume_ta')
-                        Teaching Assistant @ University of Washington
+                        Teaching Assistant @
+                        = link_to("CS Department, University of Washington", "http://www.cs.washington.edu/", :target => "_blank")
                     %span.date Mar 2012 - Jun 2012
                     %span.circle
                 .content
+                    .small-7.small-centered.columns.pad-10
+                        = image_tag("cse352/CSE352_banner.png")
                     %p
-                        Introduction to hardware design and implementation, Computer Science Department, University of Washington, Seattle, WA
-                        Assisted students with hardware lab sections, held office hours, graded assignments and tests. Created and administrated course’s website for online materials. The course focused on building a simple CPU on an FPGA using Verilog.
+                        Designed and built the class
+                        = link_to("website", "http://courses.cs.washington.edu/courses/cse352/12sp/", :target => "_blank")
+                        %span .
+                        Assisted students with hardware lab sections and assignments, held office hours, graded assignments and tests. Web admin of the class website. The course focused on building a CPU with RISC architecture on an FPGA using Verilog.
 
             %li.work
                 %input.radio#resume_genie(name='works' type='radio')
                 .relative
                     %label(for='resume_genie')
-                        Software Intern @ Genie Industries
+                        Software Intern @
+                        = link_to("Genie Industries", "http://www.genielift.com/", :target => "_blank")
+                        , Redmond WA
                     %span.date Jun 2011 – Dec 2011
                     %span.circle
                 .content
+                    .small-7.small-centered.columns.pad-10
+                        = image_tag("genie/genie_stadium.jpg")
                     %p
-                        Genie Industries, Redmond, WA
-                        Began working with large industry codebase. Tasked with implementing parts of the control system for a new line of scissor lift and handling electrical as well as mechanical QA process. Coded in C, Rhapsody and JavaScript.
+                        Worked with large C codebase. Implemented the control system via a web browser interface with Javascript for a new line of
+                        = link_to("scissor lift", "http://www.genielift.com/en/products/scissor-lifts/", :target => "_blank")
+                        and performed QA tasks for the electrical and mechanical components.
 
             %li.work
                 %input.radio#resume_mindbloom(name='works' type='radio')
                 .relative
                     %label(for='resume_mindbloom')
-                        Software Intern @ Mindbloom
+                        Software Intern @
+                        = link_to("Mindbloom", "http://www.mindbloom.com/", :target => "_blank")
+                        Seattle WA
                     %span.date Jun 2010 – Oct 2010
                     %span.circle
                 .content
+                    .small-12.small-centered.columns.pad-10
+                        = image_tag("mindbloom/banner.jpg")
                     %p
-                        Mindbloom Inc., Seattle, WA
-                        Worked on a health wellness social game in a startup scene. Tasked with simple web development QA automations.
+                        Performed QA automation for a health wellness social game in the startup scene. Tasked with simple web development in Javascript, HTML and Selenium.
+
 
 
 
