@@ -5,6 +5,14 @@
         .row
             .small-3.small-centered.columns
                 = link_to("PDF Version", "/doc/resume/Resume.pdf", :type => "application/pdf", :target => "_blank", :class => "button")
+        .row
+            .small-12.small-centered.columns
+                %p
+                    %b Interests:
+                    wearable computing, embedded system, low energy, BTLE, human-computer interaction, scientific visualization & simulation, game design (I'm an organizer at a local
+                    = link_to("game workshop", "http://www.meetup.com/SeattleGames/events/161718492/", :target => "_blank")
+                    ).
+
         %ul#timeline
             %li.work
                 %input.radio#resume_jawbone(name='works' type='radio' checked)
@@ -22,7 +30,7 @@
                     %p
                         Developed firmware for the
                         = link_to("UP", "http://jawbone.com/up", :target => "_blank")
-                        fitness tracker. Delivered a wide range of infrastructural modules and applications for the ARM Cortex-M3 and the iOS platform, including BTLE protocol, authentication and encryption between band and phone, data collection, peripheral drivers, USB serial interface, band UX interactions and iOS developer tools.
+                        fitness tracker. Delivered a wide range of infrastructural modules and applications for the ARM Cortex-M3 and the iOS platform, including BTLE protocol, authentication and encryption between band and phone, data collection, peripheral drivers, USB serial interface, band UX interactions and iOS developer tools to support research in sensor-based activity classification.
             %li.work
                 %input.radio#resume_wrel(name='works' type='radio')
                 .relative
@@ -53,7 +61,7 @@
                         Designed and built the class
                         = link_to("website", "http://courses.cs.washington.edu/courses/cse352/12sp/", :target => "_blank")
                         %span .
-                        Assisted students with hardware lab sections and assignments, held office hours, graded assignments and tests. Web admin of the class website. The course focused on building a CPU with RISC architecture on an FPGA using Verilog.
+                        Assisted students with hardware lab sections and assignments, held office hours, graded assignments and tests. Web admin of the class website. The course focused on building an Y86 based CPU on an FPGA using Verilog.
 
             %li.work
                 %input.radio#resume_genie(name='works' type='radio')
@@ -68,10 +76,9 @@
                     .small-7.small-centered.columns.pad-10
                         = image_tag("genie/genie_stadium.jpg")
                     %p
-                        Worked with large C codebase. Implemented the control system via a web browser interface with Javascript for a new line of
-                        = link_to("scissor lift", "http://www.genielift.com/en/products/scissor-lifts/", :target => "_blank")
-                        and performed QA tasks for the electrical and mechanical components.
-
+                        Implemented a control system via the first web browser based interface for a new line of
+                        = link_to("scissor lift.", "http://www.genielift.com/en/products/scissor-lifts/", :target => "_blank")
+                        Programmed with Javascript, C++ and Rhapsody. Performed QA tasks for the electrical and mechanical components. Some mechanical and soldering work.
             %li.work
                 %input.radio#resume_mindbloom(name='works' type='radio')
                 .relative
@@ -85,7 +92,7 @@
                     .small-12.small-centered.columns.pad-10
                         = image_tag("mindbloom/banner.jpg")
                     %p
-                        Performed QA automation for a health wellness social game in the startup scene. Tasked with simple web development in Javascript, HTML and Selenium.
+                        Performed QA automation for a health wellness social game in the startup scene. Web development in Javascript, HTML and Selenium.
 
 
 
