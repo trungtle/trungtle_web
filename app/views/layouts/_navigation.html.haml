@@ -29,6 +29,8 @@
             %li.has-dropdown
                 %a(href="#")Games
                 %ul.dropdown
+                    %Li
+                        = link_to("Assylium", game_assylium_path(@game))
                     %li
                         = link_to("Local chicken", game_petevstom_path(@game))
                     %li
