@@ -4,9 +4,10 @@
             %h1 Capstone project: Wireless charging drone station
 
             %p1.black
-                This was one of my capstone projects in undergraduate. We built a docking station
-                for a quadra-copter to wirelessly charge its battery when low (I've lost the video
-                archiving our process unfortunately).
+                This was one of my capstone projects in undergraduate. Our team was "DirtyBit" and we built a wireless charging docking station
+                for a quadra-copter,
+                = link_to("the Parrot AR Drone.", "http://ardrone2.parrot.com/", :target => "_blank")
+
 
             .pad-10
 
@@ -18,17 +19,29 @@
 
             %ul.small-block-grid-2
                 %li
+                    Stephan and I measuring the current of a docking drone.
                     = image_tag("wrad/0426111648-01.jpg")
                 %li
+                    The station in its final assemble. The amplifier and the transmit coils are tucked away under the wooden platform.
                     = image_tag("wrad/IMG_1336.JPG")
                 %li
+                    The custom battery charger mounted on the drone.
                     = image_tag("wrad/IMG_1334.JPG")
                 %li
+                    The first successful attempt with the charging station. Here the transmit coil is at the bottom and connected to an amplifier, and the receiver coil is mounted on the drone. The green LED indicates that the drone is charged and running.
                     = image_tag("wrad/IMG_1277.JPG")
                 %li
+                    Ryan's testing out an alternative configuration where we would have the charging station above, instead of below the drone as designed. Eventually, in order to dock, the station has to be designed to stay on the ground.
                     = image_tag("wrad/0515111746-01.jpg")
                 %li
+                    The DirtyBit team (from left to right) with Sep Makhsous, Stephan McLaughlin, Ben Waters, Kara Kagi, and Trung Le.
                     = image_tag("wrad/IMG_1281.JPG")
+
+            %p
+                Video: Weight test for receiver coils on the AR Drone.
+                It experience some difficulty with the original frame, so we had to modify the drone structure to remove the protective foam and reduce its total weight.
+            .flex-video
+                %iframe(width="960" height="720" src="//www.youtube.com/embed/4MWa1GMPcvM" frameborder="0" allowfullscreen)
 
 
         .panel
@@ -46,7 +59,7 @@
 
         .panel
 
-            %h1 DDR for fingers
+            %h1 Finger Dance-Dance Revolution (a DDR clone)
 
             %p
                 This is a DDR simulation, using an LED matrix and buttons as user input. The direction is up.
@@ -54,8 +67,20 @@
                 If the note reaches the last row and turn red, points are taken.
 
             %p
+                One of the key concepts that I learned doing this project is
+                = link_to("scanlining", "http://en.wikipedia.org/wiki/Scan_line", :target => "_blank")
+                to create the illusion of a single LED dot turned on.
+
+            %p
                 This was done using a FPGA and a LED matrix
 
+            %ul.small-block-grid-2
+                %li
+                    = image_tag("ddr/ddr3.jpg")
+                %li
+                    = image_tag("ddr/ddr4.jpg")
+
+            %p Video: A demo of Finger DDR in action
             %iframe(width="560" height="315" src="http://www.youtube.com/embed/5dM9S2hc8Nk" frameborder="0" allowfullscreen)
 
         .panel
@@ -65,8 +90,16 @@
                 This is a prototype of a medicine dispenser. I got the idea from
                 = link_to("instructable", "http://www.instructables.com/id/The-Automatic-Medication-Dispencer/", :target => "_blank")
                 by user janw and it was pretty fun to work on.
-                However, due to our dispencing mechanics, there was only one type of tablets that could be used for it, so it wasn't
-                very useful in the end.
 
+            %p
+                We used a combination of PIC controllers, ADC converer, lego bricks, servos and some candy dispencer.
+
+            %ul.small-block-grid-2
+                %li
+                    Lab becomes second home.
+                    = image_tag("medicine_dispencer/md1.jpg")
+                %li
+                    Lego construction!
+                    = image_tag("medicine_dispencer/md2.jpg")
             %iframe(width="560" height="315" src="http://www.youtube.com/embed/rysgOPCh1Ww" frameborder="0" allowfullscreen)
             .pad-10
