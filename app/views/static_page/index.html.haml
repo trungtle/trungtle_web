@@ -1,29 +1,28 @@
+.small-5.right
+    - src = "me_new_glasses.jpg"
+    = image_tag(src)
 .row
-    .small-10.small-centered.columns.container
-        .row
-            .small-3.small-centered.columns
-                / .profile-circular
-                - require 'digest/md5'
-                - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
-                - src = "http://www.gravatar.com/avatar/#{md5}?s=200"
-                = image_tag(src, :class => "profile-circular")
+    .small-7.left.columns.container
+        / For showing gravatar
+        / - require 'digest/md5'
+        / - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
+        / - src = "http://www.gravatar.com/avatar/#{md5}?s=1000"
+        / = image_tag(src)
+
+        %h1 "Cheeseburger for Trungle".... What?
+
+        %p This was an actual line I exchanged with the cook at my college's cafeteria because I wrote down my last name "Le" on a burger order. Since then my friends began calling me "Trungle".
+        %p
+            I am a software engineer living in Seattle and enjoying nerdy activities in the local scene around here. I spent monumental number of hours playing Magic The Gathering and League of Legends, and there are just as many people willing to play with me. I host a monthly board game workshop for the
+            = link_to("Seattle Games Cooperative", "http://www.meetup.com/SeattleGames/", :target => "_blank")
+            and design games at night. Trivia on Tuesdays, hiking on Saturdays.
+
+        %p I am also a gay man living happily with his boyfriend without facing prejudices and bullies, so I'll drink to Seattle, one of the most progressive and liberal city in the world.
+        %p This site was built from Rails. Look around, you might find something amusing.
+
 
         .pad-10
-
-        %p.text-center I am a software engineer in Seattle and currently work for Jawbone. I grew up in Ho Chi Minh city.
-        %p.text-center I love traveling with a good book. On my free time, I play & design video games, & doodle.
-
-        %p.text-center
-            I built this website with the rails I learned over the years. Look around, there might be something that you're looking for.
-
-        .pad-10
-        .pad-20
         .row
-            .small-3.small-centered.columns
-                .scene
-                    .cube
-                        %span.top.side trungtuanle90 at gmail dot com
-                        %span.front.side EMAIL
-
-
+            .small-12.columns
+                = link_to("trungtuanle90 at gmail dot com", "mailto:trungtuanle90@gmail.com", :type => "application/pdf", :target => "_blank", :class => "button")
         .pad-20

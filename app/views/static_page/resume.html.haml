@@ -3,16 +3,12 @@
     .small-10.small-centered.columns.container
         .pad-10
         .row
-            .small-3.small-centered.columns
-                = link_to("PDF Version", "/doc/resume/Resume.pdf", :type => "application/pdf", :target => "_blank", :class => "button")
-        .row
-            .small-12.small-centered.columns
+            .small-8.small-centered.columns.panel
+                %h1 Interests:
                 %p
-                    %b Interests:
-                    wearable computing, embedded system, low energy, BTLE, human-computer interaction, scientific visualization & simulation, game design (I'm an organizer at a local
-                    = link_to("game workshop", "http://www.meetup.com/SeattleGames/events/161718492/", :target => "_blank")
-                    ).
-
+                    Wearable computing, embedded system, wireless energy, game design, human-computer interaction, scientific visualization & simulation
+                .text-center
+                    = link_to("Resume PDF", "/doc/resume/Resume.pdf", :type => "application/pdf", :target => "_blank", :class => "button")
         %ul#timeline
             %li.work
                 %input.radio#resume_jawbone(name='works' type='radio' checked)
@@ -26,10 +22,10 @@
                     %span.circle
                 .content
                     .small-12.small-centered.columns.pad-10
-                        = image_tag("jawbone/up_colors.jpg")
+                        = image_tag("jawbone/UP3.jpg")
                     %p
-                        Developed firmware for the
-                        = link_to("UP", "http://jawbone.com/up", :target => "_blank")
+                        Developed and shipped firmware for the
+                        = link_to("UP3", "http://jawbone.com/store/buy/up3", :target => "_blank")
                         fitness tracker. Delivered a wide range of infrastructural modules and applications for the ARM Cortex-M3 and the iOS platform, including BTLE protocol, authentication and encryption between band and phone, data collection, peripheral drivers, USB serial interface, band UX interactions and iOS developer tools to support research in sensor-based activity classification.
             %li.work
                 %input.radio#resume_wrel(name='works' type='radio')

@@ -20,6 +20,9 @@ class StaticPageController < ApplicationController
   def drawing
   end
 
+  def photography
+  end
+
   def watercube_webplayer
   end
 end

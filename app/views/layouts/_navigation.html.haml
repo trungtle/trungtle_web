@@ -41,11 +41,14 @@
                         = link_to("Feasor", game_feasor_path(@game))
             %li
                 = link_to("Drawing", static_page_drawing_path(@static_page))
+            %li
+                = link_to("Photography", static_page_photography_path(@static_page))
             %li.has-dropdown
-                %a(href="#")Writing
+                %a(href="#")Blog
                 %ul.dropdown
                     %li
-                        %a{:href => "http://apassingroad.wordpress.com/", :target => "_blank"}a passing road (Creative writing)
+                        %a{:href => "http://apassingroad.wordpress.com/", :target => "_blank"}A passing road
                     %li
-                        %a{:href => "https://cluesandcodes.wordpress.com/", :target => "_blank" }clues & codes (Personal)
-
+                        %a{:href => "https://cluesandcodes.wordpress.com/", :target => "_blank" }Clues & codes
+                    %li
+                        %a{:href => "http://feasorthegame.blogspot.com/", :target => "_blank"}Feasor game journal

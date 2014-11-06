@@ -17,6 +17,7 @@ Trungtle::Application.routes.draw do
   get "static_page/project"
   get "static_page/resume"
   get "static_page/drawing"
+  get "static_page/photography"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

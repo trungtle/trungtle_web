@@ -9,15 +9,13 @@ $vertical: true
  * ------------------------------------- */
 
 // Colours
-$bg: #272727
+$bg: white
 $white: #eee9dc
 $red: #f98262
 $lime: #beda2f
 $babyblue: #2fbeda
 $cream: #e6dc70
 $lightblack: #272727
-
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans)
 
 /* -------------------------------------
  * timeline
@@ -57,11 +55,11 @@ $lightblack: #272727
     top: -55px
     left: 0
     right: 0
-  font-size: .8em
-  font-family: "Noto Sans", san-serif
+  font-size: .9em
+  font-family: "Alegreya", san-serif
   line-height: 20px
   position: absolute
-  color: $cream
+  color: $lightblack
   text-align: right
 .circle
   @if $vertical
@@ -75,7 +73,7 @@ $lightblack: #272727
     right: 0
   width: 20px
   height: 20px
-  background: $bg
+  background: white
   border: 5px solid $white
   border-radius: 50%
   display: block
@@ -140,13 +138,13 @@ $lightblack: #272727
     font-size: .9em
 
 label
-  font-family: "Arvo", san-serif
-  font-size: 0.9em
+  font-family: "Alegreya", san-serif
+  font-size: 1.2em
   position: absolute
   font-weight: bold
   z-index: 100
   cursor: pointer
-  color: $white
+  color: $lightblack
   @if $vertical
     top: 10px
     transition: transform 0.2s linear
@@ -172,7 +170,7 @@ label
         transition: all 0.85s cubic-bezier(.17,.67,.14,.93)
         transition: width 0.3s linear 0.2s
     .circle
-      background: $lightblack
+      background: $white
   & ~ .content
     max-height: 1000px
     border-color: $white
@@ -185,7 +183,7 @@ label
       width: 400px
     p, img
       max-height: 200px
-      color: $white
+      color: $lightblack
       transition: all 0.85s cubic-bezier(.17,.67,.14,.93)
       transition: color 0.3s linear 0.3s
 
