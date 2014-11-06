@@ -3,10 +3,11 @@
         .panel
             %h1 Capstone project: Wireless charging drone station
 
-            %p1.black
-                This was one of my capstone projects in undergraduate. Our team was "DirtyBit" and we built a wireless charging docking station
-                for a quadra-copter,
-                = link_to("the Parrot AR Drone.", "http://ardrone2.parrot.com/", :target => "_blank")
+            %p
+                From my experience working with wireless power I realized that there was potential in building more applications for it, so I chose this theme for my capstone project with Professor Shwetak Patel: a wireless charging station for the
+                = link_to("Parrot AR Drone.", "http://ardrone2.parrot.com/", :target => "_blank")
+            %p
+                As the team lead, I worked on the wireless system for the charging station and the AI pathfinding to the station when the drone is low on battery. I suggested and was offered guidance from Alanson Sample, a postdoc, and Ben Waters, a graduate student, both at Sensor Lab, for coil design and power testing. We found out that charging an operating (flying) drone required too much current for our station to generate, so we had to park the drone while charging was on. Also, the coil’s weight and size made it significantly difficult for the drone to stay on its path, so we had to make modifications to the frame and protective shell. Despite these challenges, we presented a working charging station for the final presentation. After this, I began my interest in embedded devices that can harness energy from alternative sources.
 
 
             .pad-10
@@ -17,26 +18,29 @@
 
             = link_to("presentation", "/doc/wrad/CSE477db.pdf", :target => "_blank", :class => "button")
 
-            %ul.small-block-grid-2
+            %ul.small-block-grid-3
                 %li
-                    Stephan and I measuring the current of a docking drone.
                     = image_tag("wrad/0426111648-01.jpg")
+                    Stephan and I measuring the current of a docking drone.
                 %li
-                    The station in its final assemble. The amplifier and the transmit coils are tucked away under the wooden platform.
                     = image_tag("wrad/IMG_1336.JPG")
+                    The station in its final assemble. The amplifier and the transmit coils are tucked away under the wooden platform.
                 %li
-                    The custom battery charger mounted on the drone.
                     = image_tag("wrad/IMG_1334.JPG")
-                %li
-                    The first successful attempt with the charging station. Here the transmit coil is at the bottom and connected to an amplifier, and the receiver coil is mounted on the drone. The green LED indicates that the drone is charged and running.
-                    = image_tag("wrad/IMG_1277.JPG")
-                %li
-                    Ryan's testing out an alternative configuration where we would have the charging station above, instead of below the drone as designed. Eventually, in order to dock, the station has to be designed to stay on the ground.
-                    = image_tag("wrad/0515111746-01.jpg")
-                %li
-                    The DirtyBit team (from left to right) with Sep Makhsous, Stephan McLaughlin, Ben Waters, Kara Kagi, and Trung Le.
-                    = image_tag("wrad/IMG_1281.JPG")
+                    The custom battery charger mounted on the drone.
 
+            .pad-20
+            %ul.small-block-grid-3
+                %li
+                    = image_tag("wrad/IMG_1277.JPG")
+                    The first successful attempt with the charging station. Here the transmit coil is at the bottom and connected to an amplifier, and the receiver coil is mounted on the drone. The green LED indicates that the drone is charged and running.
+                %li
+                    = image_tag("wrad/0515111746-01.jpg")
+                    Ryan's testing out an alternative configuration where we would have the charging station above, instead of below the drone as designed. Eventually, in order to dock, the station has to be designed to stay on the ground.
+                %li
+                    = image_tag("wrad/IMG_1281.JPG")
+                    The DirtyBit team (from left to right) with Sep Makhsous, Stephan McLaughlin, Ben Waters, Kara Kagi, and Trung Le.
+            .pad-20
             %p
                 Video: Weight test for receiver coils on the AR Drone.
                 It experience some difficulty with the original frame, so we had to modify the drone structure to remove the protective foam and reduce its total weight.
@@ -72,7 +76,7 @@
                 to create the illusion of a single LED dot turned on.
 
             %p
-                This was done using a FPGA and a LED matrix
+                This was done using a FPGA and a LED matrix.
 
             %ul.small-block-grid-2
                 %li
@@ -98,8 +102,11 @@
                 %li
                     Lab becomes second home.
                     = image_tag("medicine_dispencer/md1.jpg")
+                    .pad-20
+                    Video: The dispenser in action
+                    %iframe(width="460" height="315" src="http://www.youtube.com/embed/rysgOPCh1Ww" frameborder="0" allowfullscreen)
                 %li
                     Lego construction!
                     = image_tag("medicine_dispencer/md2.jpg")
-            %iframe(width="560" height="315" src="http://www.youtube.com/embed/rysgOPCh1Ww" frameborder="0" allowfullscreen)
+
             .pad-10
