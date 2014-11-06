@@ -1,0 +1,31 @@
+.row
+    .small-12.small-centered.columns.container
+        %h1 Photography
+
+        %ul.small-block-grid-2
+            - src = "photography/tory/"
+            - files = ["DSC00246.jpg","DSC00252.jpg","DSC00268.jpg","DSC00299.jpg"]
+            %li
+                %ul.clearing-thumbs.clearing-feature(data-clearing)
+                    %li.clearing-featured-img
+                        %a.th
+                            = image_tag("#{src}DSC00055.jpg");
+
+                    - files.each do |i|
+                        %li
+                            %a.th
+                                = image_tag("#{src}#{i}")
+
+            - src = "photography/momo/"
+            - files = [ "DSC00009.jpg", "DSC00059.jpg", "DSC00065.jpg", "DSC00077.jpg", "DSC00083.jpg", "DSC00099.jpg", "DSC00105.jpg", "DSC00110.jpg", "DSC00222.jpg", "DSC00228.jpg", "DSC00233.jpg", "DSC00352.jpg"]
+            %li
+                %ul.clearing-thumbs.clearing-feature(data-clearing)
+                    %li.clearing-featured-img
+                        %a.th
+                            = image_tag("#{src}DSC00008.jpg");
+
+                    - files.each do |i|
+                        %li
+                            %a.th
+                                = image_tag("#{src}#{i}")
+
