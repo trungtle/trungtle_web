@@ -1,24 +1,26 @@
+.small-5.right
+    .pad-20
+    - src = "assylium/Lorix.jpg"
+    = image_tag(src)
 .row
-    .small-10.small-centered.columns.container
+    .small-7.left.columns.container
 
         %h1 Assylium
 
-        %p
-            Assylium was born out of an idea I had a while ago for an interative fiction that takes some elements of fantasy, horror, and Harry Potter all combined together in a same narrative. It is a work in progress.
+        .scrollable
+            %p
+                Assylium is an interactive fiction takes place in a fantasy realm of corpse readers and necromancers. The story follows Ashmore, a new apprentice at the largest corpse archive in the city, the Mortheneum. But secrets and lies abound, Ashmore found his life threatened by the dark minds of Assylium and he must find a way to defend himself and decipher his future.
 
-        %p
-            I am the programmer for the project.
-            Writer is my boyfriend Tory Adkisson, and artists are
-            = link_to("Mario Teodosio", "http://marioteodosio.deviantart.com/", :target => "_blank")
-            and
-            = link_to("Ayan Nag.", "http://crazypalette.deviantart.com/", :target => "_blank")
+            %p
+                The game is currently developed in Unity. Story script is written by Tory Adkisson. Arts are drawn by
+                = link_to("Mario Teodosio", "http://marioteodosio.deviantart.com/", :target => "_blank")
+                and
+                = link_to("Ayan Nag.", "http://crazypalette.deviantart.com/", :target => "_blank")
 
-        %p Video: Assylium Trailer (tentative)
-        .flex-video
-            %iframe(width="1280" height="720" src="//www.youtube.com/embed/YvpTCHYtgAs" frameborder="0" allowfullscreen)
+            .flex-video
+                %iframe(width="1280" height="720" src="//www.youtube.com/embed/YvpTCHYtgAs" frameborder="0" allowfullscreen)
 
-        .pad-10
-        %p Video: Assylium Gameplay Preview
-        .flex-video
-            %iframe(width="1280" height="720" src="//www.youtube.com/embed/g6YJXOCyr_w" frameborder="0" allowfullscreen)
+            .pad-10
+            .flex-video
+                %iframe(width="1280" height="720" src="//www.youtube.com/embed/g6YJXOCyr_w" frameborder="0" allowfullscreen)
         .pad-10

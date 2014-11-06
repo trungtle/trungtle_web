@@ -124,6 +124,11 @@ Class
   height: 100%;
 }
 
+.scrollable {
+  max-height: 900px;
+  overflow-y: scroll;
+}
+
 // Size
 //
 
@@ -149,6 +154,11 @@ Class
 }
 .pad-100 {
   padding: 100px;
+}
+
+// Position
+.pos_fixed {
+    position: fixed;
 }
 
 // Navigation
@@ -188,6 +198,7 @@ Class
 .black {
   color: $lightblack;
 }
+
 
 /* ----------------------------------------------------------------------------
 
