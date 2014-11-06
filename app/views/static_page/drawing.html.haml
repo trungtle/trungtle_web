@@ -6,49 +6,20 @@
             Drawing is challenging, but a rewarding experience.
 
         %ul.small-block-grid-2
+
+            - src = "drawing/sketches/"
+            - files = ["DSC00360.jpg","IMG_3546.jpg","IMG_3547.jpg","IMG_3548.jpg","IMG_3549.jpg","IMG_3550.jpg","IMG_3551.jpg","IMG_3552.jpg","IMG_3553.jpg","IMG_3554.jpg","IMG_3555.jpg","IMG_3556.jpg","IMG_3557.jpg"]
             %li
                 %ul.clearing-thumbs.clearing-feature(data-clearing)
                     %li.clearing-featured-img
                         %a.th
-                            = image_tag("drawing/sketches/DSC00358.jpg");
+                            = image_tag("#{src}DSC00358.jpg");
 
-                    %li
-                        %a.th
-                            = image_tag("drawing/sketches/DSC00360.jpg");
+                    - files.each do |i|
+                        %li
+                            %a.th
+                                = image_tag("#{src}#{i}")
 
-                    %li
-                        %a.th
-                            = image_tag("drawing/sketches/IMG_3546.jpg", :size => "240x240")
-                    %li
-                        %a.th.pad-10
-                            = image_tag("drawing/sketches/IMG_3548.jpg", :size => "240x240")
-                    %li
-                        %a.th.pad-10
-                            = image_tag("drawing/sketches/IMG_3549.jpg", :size => "240x240")
-                    %li
-                        %a.th.pad-10
-                            = image_tag("drawing/sketches/IMG_3550.jpg", :size => "240x240")
-                    %li
-                        %a.th.pad-10
-                            = image_tag("drawing/sketches/IMG_3552.jpg", :size => "240x240")
-                    %li
-                        %a.th.pad-10
-                            = image_tag("drawing/sketches/IMG_3553.jpg", :size => "240x240")
-                    %li
-                        %a.th.pad-10
-                            = image_tag("drawing/sketches/IMG_3554.jpg", :size => "240x240")
-                    %li
-                        %a.th.pad-10
-                            = image_tag("drawing/sketches/IMG_3555.jpg", :size => "240x240")
-                    %li
-                        %a.th.pad-10
-                            = image_tag("drawing/sketches/IMG_3556.jpg", :size => "240x240")
-                    %li
-                        %a.th.pad-10
-                            = image_tag("drawing/sketches/IMG_3557.jpg", :size => "240x240")
-                    %li
-                        %a.th.pad-10
-                            = image_tag("drawing/sketches/IMG_3547.jpg", :size => "240x240")
             %li
                 %ul.clearing-thumbs.clearing-feature(data-clearing)
                     %li.clearing-featured-img
@@ -75,18 +46,6 @@
                     %li
                         %a.th
                             =image_tag("drawing/googlesketch/Possion.png")
-
-            %li
-                %ul.clearing-thumbs.clearing-feature(data-clearing)
-                    %li.clearing-featured-img
-                        %a.th
-                            =image_tag("drawing/streets/street.jpg")
-                    %li
-                        %a.th
-                            =image_tag("drawing/streets/helicopter.jpg")
-                    %li
-                        %a.th
-                            =image_tag("drawing/streets/lobby.jpg")
 
             %li
                 %ul.clearing-thumbs.clearing-feature(data-clearing)
