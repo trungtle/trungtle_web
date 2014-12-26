@@ -14,6 +14,9 @@ class ProjectController < ApplicationController
   def fourierbound
   end
 
+  def townsim
+  end
+
   def wrad
   end
 end

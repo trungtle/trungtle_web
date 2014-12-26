@@ -519,94 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/static_page/index.html.haml",
-			"settings":
-			{
-				"buffer_size": 770,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/static_page.css.scss",
-			"settings":
-			{
-				"buffer_size": 2922,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 830,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_navigation.html.haml",
-			"settings":
-			{
-				"buffer_size": 1809,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/static_page/resume.html.haml",
-			"settings":
-			{
-				"buffer_size": 3616,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/project/moodbox.html.haml",
-			"settings":
-			{
-				"buffer_size": 1729,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/game/assylium.html.haml",
-			"settings":
-			{
-				"buffer_size": 580,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 1172,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/database.yml",
-			"settings":
-			{
-				"buffer_size": 671,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/button_3d.css.scss",
-			"settings":
-			{
-				"buffer_size": 887,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/vertical_timeline.css.sass",
-			"settings":
-			{
-				"buffer_size": 4886,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
@@ -815,7 +727,10 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -826,8 +741,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/tle/Documents/workspace_home/rails_projects/trungtle"
+	],
 	"file_history":
 	[
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/assets/stylesheets/vertical_timeline.css.sass",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/assets/stylesheets/button_3d.css.scss",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/assets/stylesheets/static_page.css.scss",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/config/database.yml",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/Gemfile",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/game/assylium.html.haml",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/static_page/index.html.haml",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/layouts/application.html.erb",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/layouts/_navigation.html.haml",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/static_page/resume.html.haml",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/project/moodbox.html.haml",
 		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/assets/stylesheets/calendar_box.css.scss",
 		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/views/static_page/index.html.haml",
 		"/Users/tle/Documents/workspace_home/rails_projects/trungtle/app/views/project/wrel.html.haml",
@@ -944,22 +874,11 @@
 		"/Users/tle/uploadenv/bin/sparta_sleep_uploader",
 		"/Users/tle/Documents/devsw/penelope_sdk/setup.py",
 		"/Users/tle/Documents/devsw/penelope/fw/scripts/storage.py",
-		"/Users/tle/Documents/devsw/penelope/tools/libhidmux/samples/storage2.py",
-		"/Users/tle/Documents/devsw/penelope/testing/harness_driver/bin/storage2.py",
-		"/Users/tle/Documents/devsw/uploaders/scripts/sparta_sleep_uploader",
-		"/Users/tle/Documents/devsw/uploaders/setup.py",
-		"/Users/tle/uploadenv/lib/python2.7/site-packages/penelope_sdk/sensorlog.py",
-		"/Users/tle/Documents/devsw/uploaders/.git/COMMIT_EDITMSG",
-		"/Users/tle/Documents/devsw/penelope/tools/pyinstaller/setup.py",
-		"/Users/tle/Documents/devsw/penelope/fw/project/collector/shellcmd.c",
-		"/Users/tle/Documents/devsw/penelope/fw/project/up/Makefile",
-		"/Users/tle/Documents/devsw/penelope/fw/project/up/main.c",
-		"/Users/tle/uploadenv/lib/python2.7/site-packages/penelope_sdk/recordings.py",
-		"/Users/tle/Documents/devsw/penelope/fw/project/collector/record.c"
+		"/Users/tle/Documents/devsw/penelope/tools/libhidmux/samples/storage2.py"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -1131,349 +1050,8 @@
 	"groups":
 	[
 		{
-			"selected": 6,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/static_page/index.html.haml",
-					"settings":
-					{
-						"buffer_size": 770,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								158,
-								192
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 36.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/assets/stylesheets/static_page.css.scss",
-					"settings":
-					{
-						"buffer_size": 2922,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2474,
-								2474
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 966.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/layouts/application.html.erb",
-					"settings":
-					{
-						"buffer_size": 830,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								294,
-								294
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/layouts/_navigation.html.haml",
-					"settings":
-					{
-						"buffer_size": 1809,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1198,
-								1198
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 22.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/static_page/resume.html.haml",
-					"settings":
-					{
-						"buffer_size": 3616,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								298,
-								679
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/views/project/moodbox.html.haml",
-					"settings":
-					{
-						"buffer_size": 1729,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								52
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Haml/Syntaxes/Ruby Haml.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/game/assylium.html.haml",
-					"settings":
-					{
-						"buffer_size": 580,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								580,
-								580
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 1172,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								853,
-								853
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "config/database.yml",
-					"settings":
-					{
-						"buffer_size": 671,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								213,
-								289
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "app/assets/stylesheets/static_page.css.scss",
-					"settings":
-					{
-						"buffer_size": 2922,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1347,
-								1347
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 306.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/assets/stylesheets/button_3d.css.scss",
-					"settings":
-					{
-						"buffer_size": 887,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								252,
-								252
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/assets/stylesheets/vertical_timeline.css.sass",
-					"settings":
-					{
-						"buffer_size": 4886,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1149,
-								1149
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 553.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1494,18 +1072,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1519,6 +1090,10 @@
 	{
 		"height": 396.0
 	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
 	"output.git":
 	{
 		"height": 94.0
@@ -1531,6 +1106,7 @@
 	{
 		"height": 112.0
 	},
+	"project": "trungtle.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -2068,10 +1644,25 @@
 		],
 		"width": 380.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 299.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
