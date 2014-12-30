@@ -3,17 +3,17 @@
         %h1 Drawing
 
         %p
-            Drawing is a challenging but rewarding activity.
+            Here is my penciling.
 
         %ul.small-block-grid-2
 
             - src = "drawing/sketches/"
-            - files = ["DSC00360.jpg","IMG_3546.jpg","IMG_3547.jpg","IMG_3548.jpg","IMG_3549.jpg","IMG_3550.jpg","IMG_3551.jpg","IMG_3552.jpg","IMG_3553.jpg","IMG_3554.jpg","IMG_3555.jpg","IMG_3556.jpg","IMG_3557.jpg"]
+            - files = ["WhiteBoy.jpg", "AsianBoy.jpg","NobleWoman.jpg","BoyLiquid.jpg","MedievalBoy.jpg","SelfPortrait.jpg","Man1.jpg","Woman1.jpg","MuscleStudy1.jpg","Girl1.jpg","Feet.jpg","FacialFeatures.jpg","CyclopeAbstract.jpg"]
             %li
                 %ul.clearing-thumbs.clearing-feature(data-clearing)
                     %li.clearing-featured-img
                         %a.th
-                            = image_tag("#{src}DSC00358.jpg");
+                            = image_tag("#{src}WomanGhost.jpg");
 
                     - files.each do |i|
                         %li
