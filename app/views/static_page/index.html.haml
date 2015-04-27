@@ -1,25 +1,17 @@
 .small-5.right
     - src = "me_new_glasses.jpg"
-    = image_tag(src)
+    / = image_tag(src)
 .row
     .small-7.left.columns.container
         / For showing gravatar
-        / - require 'digest/md5'
-        / - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
-        / - src = "http://www.gravatar.com/avatar/#{md5}?s=1000"
-        / = image_tag(src)
+        - require 'digest/md5'
+        - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
+        - src = "http://www.gravatar.com/avatar/#{md5}?s=1000"
+        = image_tag(src)
 
-        %h1 "Cheeseburger for Trungle".... What?
+        %p My name is Trung. I'm currently a graduate student in my first year at the University of Pennsylvania in Computer Graphics.
 
-        %p This was an actual line I exchanged with the cook at my college's cafeteria because I wrote down my last name "Le" on a burger order. Since then my friends began calling me "Trungle".
-        %p
-            I am a software engineer living in Seattle and enjoying nerdy activities in the local scene around here. I've spent a monumental number of hours playing Magic The Gathering and League of Legends, and there are just as many people willing to play with me. I host a monthly board game workshop for the
-            = link_to("Seattle Games Cooperative", "http://www.meetup.com/SeattleGames/", :target => "_blank")
-            and design games at night. Trivia on Tuesdays, hiking on Saturdays.
-
-        %p I am also a gay man living happily with his boyfriend without facing prejudice, so I drink to Seattle, one of the most progressive and liberal cities in the world.
-        %p This site was built from Rails. Look around, you might find something amusing.
-
+        %p I have worked as a firmware engineer for Jawbone to build wearables. I have chosen to go back to school to further focus in computer graphics. My mission is to build games for science education.
 
         .pad-10
         .row
