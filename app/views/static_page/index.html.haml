@@ -1,17 +1,17 @@
 .small-5.right
-    - src = "me_new_glasses.jpg"
+    / For showing gravatar
+    - require 'digest/md5'
+    - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
+    - src = "http://www.gravatar.com/avatar/#{md5}?s=1000"
+    = image_tag(src, :size => "300")
+    / - src = "me_new_glasses.jpg"
     / = image_tag(src)
 .row
     .small-7.left.columns.container
-        / For showing gravatar
-        - require 'digest/md5'
-        - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
-        - src = "http://www.gravatar.com/avatar/#{md5}?s=1000"
-        = image_tag(src)
 
-        %p My name is Trung. I'm currently a graduate student in my first year at the University of Pennsylvania in Computer Graphics.
+        %p My name is Trung. I'm currently a graduate student in my first year at the University of Pennsylvania in Computer Graphics and Game Technology.
 
-        %p I have worked as a firmware engineer for Jawbone to build wearables. I have chosen to go back to school to further focus in computer graphics. My mission is to build games for science education.
+        %p I have worked as a firmware engineer for Jawbone to build the UP3 fitness tracker wearable. I have chosen to go back to school to further focus in computer graphics. My mission is to build games for science education.
 
         .pad-10
         .row
