@@ -1,11 +1,12 @@
 .row
     .small-10.small-centered.columns.container
-        .small-8.small-centered.columns.panel
-            %h1 Interests:
-            %p
-                Wearable computing, embedded system, wireless energy, game design, human-computer interaction, scientific visualization & simulation
-            .text-center
-                = link_to("Resume PDF", "/doc/resume/Resume.pdf", :type => "application/pdf", :target => "_blank", :class => "button")
+        .resume.text-center.push-1
+            = link_to("Download PDF", "/doc/resume/Resume.pdf", :type => "application/pdf", :target => "_blank")
+
+        .small-9.push-1.small-centered.columns.panel
+            %h1.resume.text-center Interests
+            %p.resume
+                Wearable Computing, Wireless Energy, Game Technology & Scientific Simulation
 
         %ul#timeline
             %li.work
