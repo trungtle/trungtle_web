@@ -1,4 +1,7 @@
 .small-5.right
+
+    .pad-10
+
     / For showing gravatar
     - require 'digest/md5'
     - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
@@ -9,12 +12,22 @@
 .row
     .small-7.left.columns.container
 
-        %p My name is Trung. I'm currently a graduate student in my first year at the University of Pennsylvania in Computer Graphics and Game Technology.
+        %p Trung currently attends his first year as a master student at the University of Pennsylvania in Computer Graphics and Game Technology.
 
-        %p I have worked as a firmware engineer for Jawbone to build the UP3 fitness tracker wearable. I have chosen to go back to school to further focus in computer graphics. My mission is to build games for science education.
+        %p He worked as a firmware engineer at Jawbone on the UP wearable fitness tracker.
+
+        %p In his free time, he enjoys writing, hiking, traveling to a new country, and building board/video games.
 
         .pad-10
         .row
             .small-12.columns
-                = link_to("trungtuanle90 at gmail dot com", "mailto:trungtuanle90@gmail.com", :type => "application/pdf", :target => "_blank", :class => "button")
+                %a.button(href="mailto:trungtuanle90@gmail.com" target="_blank")
+                    %i.fa.fa-envelope
+
+                %a.button(href="https://www.facebook.com/trungtuanle")
+                    %i.fa.fa-facebook
+
+                %a.button(href="https://github.com/trungtle")
+                    %i.fa.fa-github
+
         .pad-20

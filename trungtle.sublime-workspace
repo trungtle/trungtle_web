@@ -519,6 +519,78 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/static_page/index.html.haml",
+			"settings":
+			{
+				"buffer_size": 947,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/vertical_timeline.css.sass",
+			"settings":
+			{
+				"buffer_size": 4913,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_page/resume.html.haml",
+			"settings":
+			{
+				"buffer_size": 6550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 1602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_navigation.html.haml",
+			"settings":
+			{
+				"buffer_size": 2438,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/game/shires.html.haml",
+			"settings":
+			{
+				"buffer_size": 452,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_page/drawing.html.haml",
+			"settings":
+			{
+				"buffer_size": 3298,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/stylesheets/static_page.css.scss",
+			"settings":
+			{
+				"buffer_size": 3846,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 2142,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -748,18 +820,29 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/tle/Documents/workspace_home/rails_projects/trungtle"
+		"/Users/trungle/Documents/rails_proj/trungtle_web",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/assets",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/assets/stylesheets",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/models",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/game",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/public",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/public/doc",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/public/doc/resume",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/vendor"
 	],
 	"file_history":
 	[
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/assets/stylesheets/static_page.css.scss",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/public/doc/resume/Resume.pdf",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/layouts/application.html.erb",
+		"/Users/trungle/Documents/rails_proj/trungtle_web/config/database.yml",
 		"/Users/trungle/Documents/rails_proj/trungtle_web/app/assets/stylesheets/vertical_timeline.css.sass",
 		"/Users/trungle/Documents/rails_proj/trungtle_web/app/assets/stylesheets/button_3d.css.scss",
-		"/Users/trungle/Documents/rails_proj/trungtle_web/app/assets/stylesheets/static_page.css.scss",
-		"/Users/trungle/Documents/rails_proj/trungtle_web/config/database.yml",
 		"/Users/trungle/Documents/rails_proj/trungtle_web/Gemfile",
 		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/game/assylium.html.haml",
 		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/static_page/index.html.haml",
-		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/layouts/application.html.erb",
 		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/layouts/_navigation.html.haml",
 		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/static_page/resume.html.haml",
 		"/Users/trungle/Documents/rails_proj/trungtle_web/app/views/project/moodbox.html.haml",
@@ -878,18 +961,22 @@
 		"/Users/tle/Documents/devsw/penelope/fw/project/bringup/deps.mk",
 		"/Users/tle/uploadenv/bin/sparta_sleep_uploader",
 		"/Users/tle/Documents/devsw/penelope_sdk/setup.py",
-		"/Users/tle/Documents/devsw/penelope/fw/scripts/storage.py",
-		"/Users/tle/Documents/devsw/penelope/tools/libhidmux/samples/storage2.py"
+		"/Users/tle/Documents/devsw/penelope/fw/scripts/storage.py"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log,~/Documents/rails_proj/trungtle_web/",
+			"-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log,/Users/tle/Documents/rails_proj/trungtle_web/",
+			"-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log,/Users/tle/Documents/rails_proj/trungtle_web",
+			"-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log,/Users/tle/Documents/workspace_home/rails_proj/trungtle_web",
+			"-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log,/Users/tle/Documents/workspace_home/rails_projects/trungtle_web",
 			"-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log,/Users/tle/Documents/workspace_home/rails_projects/trungtle",
 			"-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log,/Users/tle/Documents/workspace_home/rails_projects/Assylium",
 			"/Users/tle/Documents/devsw/penelope/,-*.lst,-*.bin,-*.elf,-*.hex,-*.map,-*.d,-*.launch,-*.html,-*.log",
@@ -909,6 +996,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Assylium",
+			"assylium",
+			"Games",
+			"font-fam",
+			"Raleway",
+			"Arvo",
+			"Alegreya",
+			"Gudea",
+			"Alegreya",
+			"Roboto",
+			"Gafata|Roboto:700",
+			"left",
+			"class",
 			"gotham",
 			"sqlite3",
 			"small",
@@ -1023,20 +1123,7 @@
 			"font-family",
 			"line",
 			"textFadeIn",
-			"clearBg",
-			"replace",
-			"clear",
-			"clearBg",
-			"paragraph",
-			"yPos",
-			"createjs",
-			"Goudy",
-			"LazyMonk",
-			"ModerneFraktur",
-			"Goudy",
-			"DamagedGoods",
-			"______________________________________________________",
-			"txt-teaser"
+			"clearBg"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1055,8 +1142,279 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/static_page/index.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								479,
+								479
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/assets/stylesheets/vertical_timeline.css.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2691,
+								2691
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1635.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/static_page/resume.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								856,
+								856
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/layouts/application.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								757,
+								850
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/layouts/_navigation.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/game/shires.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								452,
+								452
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/static_page/drawing.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/assets/stylesheets/static_page.css.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2629,
+								2638
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1125,6 +1483,46 @@
 		"selected_items":
 		[
 			[
+				"applicat",
+				"trungtle_web/app/views/layouts/application.html.erb"
+			],
+			[
+				"dra",
+				"trungtle_web/app/views/static_page/drawing.html.haml"
+			],
+			[
+				"nag",
+				"trungtle_web/app/views/layouts/_navigation.html.haml"
+			],
+			[
+				"rout",
+				"trungtle_web/config/routes.rb"
+			],
+			[
+				"nav",
+				"trungtle_web/app/views/layouts/_navigation.html.haml"
+			],
+			[
+				"na",
+				"trungtle_web/app/views/layouts/_navigation.html.haml"
+			],
+			[
+				"application.ht",
+				"trungtle_web/app/views/layouts/application.html.erb"
+			],
+			[
+				"res",
+				"trungtle_web/app/views/static_page/resume.html.haml"
+			],
+			[
+				"data",
+				"trungtle_web/config/database.yml"
+			],
+			[
+				"inde",
+				"trungtle_web/app/views/static_page/index.html.haml"
+			],
+			[
 				"assyl",
 				"app/views/game/assylium.html.haml"
 			],
@@ -1147,14 +1545,6 @@
 			[
 				"moo",
 				"app/views/project/moodbox.html.haml"
-			],
-			[
-				"inde",
-				"app/views/static_page/index.html.haml"
-			],
-			[
-				"res",
-				"app/views/static_page/resume.html.haml"
 			],
 			[
 				"vert",
@@ -1229,10 +1619,6 @@
 				"app/assets/stylesheets/application.css"
 			],
 			[
-				"application.ht",
-				"app/views/layouts/application.html.erb"
-			],
-			[
 				"route",
 				"config/routes.rb"
 			],
@@ -1243,10 +1629,6 @@
 			[
 				"applcation",
 				"config/application.rb"
-			],
-			[
-				"rout",
-				"config/routes.rb"
 			],
 			[
 				"rou",
@@ -1611,30 +1993,6 @@
 			[
 				"sys_pla",
 				"penelope/fw/sys/export/sys_platform.h"
-			],
-			[
-				"baseboard.h",
-				"penelope/fw/platform/stm32l1xx/baseboard/export/baseboard.h"
-			],
-			[
-				"platform.h",
-				"penelope/fw/platform/stm32l1xx/lewis/export/platform.h"
-			],
-			[
-				"sys.h",
-				"penelope/fw/sys/export/sys.h"
-			],
-			[
-				"battery.h",
-				"penelope/fw/svc/battery/export/battery.h"
-			],
-			[
-				"batter.c",
-				"penelope/fw/svc/battery/battery.c"
-			],
-			[
-				"btle.h",
-				"penelope/fw/ble/nrf8001/export/btle.h"
 			]
 		],
 		"width": 0.0
