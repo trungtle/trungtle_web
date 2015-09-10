@@ -18,13 +18,15 @@
             %li.has-dropdown
                 %a(href="#")Simulations
                 %ul.dropdown
-                    %li 
+                    %li
                         = link_to("Medieval town simulation", project_townsim_path(@project))
                     %li
                         = link_to("Fourierbound", project_fourierbound_path(@project))
             %li.has-dropdown
                 %a(href="#")Games
                 %ul.dropdown
+                    %li
+                        = link_to("Vietspeak", game_vietspeak_path(@game))
                     %li
                         = link_to("Shires", game_shires_path(@game))
                     %li

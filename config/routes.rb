@@ -1,4 +1,5 @@
 Trungtle::Application.routes.draw do
+  get "game/vietspeak"
   get "game/shires"
   get "game/assylium"
   get "game/desiderata"
