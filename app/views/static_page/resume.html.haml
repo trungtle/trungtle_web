@@ -1,12 +1,17 @@
 .row
     .small-10.small-centered.columns.container
-        .resume.text-center.push-1
-            = link_to("Download PDF", "/doc/resume/Resume.pdf", :type => "application/pdf", :target => "_blank")
+        .resume-download
+            = link_to("DOWNLOAD PDF", "/doc/resume/Resume.pdf", :type => "application/pdf", :class => "button", :target => "_blank")
 
         .small-9.push-1.small-centered.columns.panel
-            %h1.resume.text-center Interests
-            %p.resume
+            %h1.text-center Interests
+            %p
                 Wearable Computing, Wireless Energy, Game Technology & Scientific Simulation
+            %h1.text-center Education
+            %ul
+                %li B.S Electrical Engineering, University of Washington, Seattle, 2012
+                %li M.S.E Computer Graphics, University of Pennsylvania (expected 2017)
+
 
         %ul#timeline
             %li.work
@@ -23,7 +28,7 @@
                     .small-12.small-centered.columns.pad-10
                         = image_tag("jawbone/UP3.jpg")
                     %p
-                        Developed infrastructure and applications for the 
+                        Developed infrastructure and applications for the
                         = link_to("UP3", "http://jawbone.com/store/buy/up3", :target => "_blank")
                         fitness wristband on ARM Cortex and iOS platforms. This includes the BTLE protocol, authentication and encryption between device and mobile app, activity classification collection tools, peripheral drivers, USB interface, and UX.
 
