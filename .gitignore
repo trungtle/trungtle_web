@@ -46,6 +46,3 @@ config/secrets.yml
 /vendor/assets/bower_components
 *.bowerrc
 bower.json
-
-# Ignore images for reduced sizes
-/app/assets/images/seattlecoop/*.jpeg
