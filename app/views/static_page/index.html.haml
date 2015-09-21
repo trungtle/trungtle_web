@@ -1,35 +1,46 @@
-.small-5.right
+.row.container
+  .small-4.columns
+    .profile-pic
+      / For showing gravatar
+      - require 'digest/md5'
+      - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
+      - src = "http://www.gravatar.com/avatar/#{md5}?s=1000"
+      = image_tag(src, :size => "600", :class => "profile-circular")
+      / - src = "me_new_glasses.jpg"
+      / = image_tag(src)
 
-    .pad-10
+  .small-8.left.columns
 
-    / For showing gravatar
-    - require 'digest/md5'
-    - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
-    - src = "http://www.gravatar.com/avatar/#{md5}?s=1000"
-    = image_tag(src, :size => "300")
-    / - src = "me_new_glasses.jpg"
-    / = image_tag(src)
-.row
-    .small-7.left.columns.container
 
-        %p Trung currently attends his first year as a master student at the University of Pennsylvania in Computer Graphics and Game Technology.
+    %p In 2015, Trung started his master program in Computer Graphics and Game Technology at the University of Pennsylvania.
 
-        %p He worked as a firmware engineer at Jawbone on the UP wearable fitness tracker.
+    %p From 2012 to 2014, he was part of the development team for the Jawbone UP wearable fitness tracker.
 
-        %p In his free time, he enjoys writing, hiking, traveling to a new country, and building board/video games.
+    %p He loves to live inside his head. As a result, he enjoys being alone in a quiet forest or by a lake, or writing, or hiking aimlessly, or getting lost in a foreign country. He did get lost many times in Italy though.
 
-        %p This website is a sample of his Ruby on Rails experiment.
+    %p He is a strong supporter of the LGBTQ movement (being a gay person himself) by raising his oppions to defend bullies against LGBTQ person.
 
-        .pad-10
-        .row
-            .small-12.columns
-                %a.button(href="mailto:trungtuanle90@gmail.com" target="_blank")
-                    %i.fa.fa-envelope
+    %p He cares deeply about other cultures that are different from him. And he thinks that making games is a kind of art that could carry important messages & narratives to players. Hopefully, in that way, we would become more empathetic with each other.
 
-                %a.button(href="https://www.facebook.com/trungtuanle")
-                    %i.fa.fa-facebook
+    %p He has a liberal, optimistic, and fuzzy personality.
 
-                %a.button(href="https://github.com/trungtle")
-                    %i.fa.fa-github
+    %p This website is a sample of his Ruby on Rails experiment.
 
-        .pad-20
+    %p Social medias & various ways to contact Trung are listed below. Some might be out of date, but not email nor facebook.
+
+    %a.button(href="mailto:trungtuanle90@gmail.com" target="_blank")
+      %i.fa.fa-envelope
+
+    %a.button(hred="https://www.linkedin.com/in/trungtuanle" target="_blank")
+      %i.fa.fa-linkedin
+
+    %a.button(href="https://www.facebook.com/trungtuanle")
+      %i.fa.fa-facebook
+
+    %a.button(href="https://github.com/trungtle")
+      %i.fa.fa-github
+
+    %a.button(href="https://www.youtube.com/user/trungtuanle")
+      %i.fa.fa-youtube
+
+

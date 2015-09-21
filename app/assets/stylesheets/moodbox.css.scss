@@ -1,0 +1,30 @@
+.spec ul {
+  margin: 0;
+  padding: 0;
+}
+
+.spec li {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 17px;
+  border-left: 3px #ccc solid;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.spec li:nth-child(1) {
+  margin-top: 20px;
+  border-color: #f6ab2b;
+}
+
+.spec li:nth-child(2) {
+  border-color: #e8703d;
+}
+
+.spec li:nth-child(3) {
+  border-color: #4ebd73;
+}
+
+.spec li:nth-child(4) {
+  border-color: #67b1ec;
+}

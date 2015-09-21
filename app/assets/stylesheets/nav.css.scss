@@ -1,0 +1,17 @@
+@import "colors";
+@import "font_stack";
+
+.top-bar, .top-bar-section li:not(.has-form) a:not(.button) {
+  background: $lightblack;
+  color: #ccc;
+  font: {
+    family: $heading-font;
+    size: .8em;
+  }
+
+}
+
+.top-bar .name h1  {
+  font-size: 1.2em;
+}
+
