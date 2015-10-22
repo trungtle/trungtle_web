@@ -13,6 +13,8 @@ Trungtle::Application.routes.draw do
   get "project/collegeee"
   get "project/fourierbound"
   get "project/townsim"
+  get "project/rifted"
+  get "static_page/3d_modeling"
   get "static_page/index"
   get "static_page/about"
   get "static_page/contact"

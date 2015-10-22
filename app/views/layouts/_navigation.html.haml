@@ -18,6 +18,8 @@
                 %a(href="#")Simulations
                 %ul.dropdown
                     %li
+                        = link_to("Rifted", project_rifted_path(@project))
+                    %li
                         = link_to("Medieval town simulation", project_townsim_path(@project))
                     %li
                         = link_to("Fourierbound", project_fourierbound_path(@project))
@@ -32,8 +34,6 @@
                         = link_to("Assylium", game_assylium_path(@game))
                     %li
                         = link_to("Local Chicken", game_petevstom_path(@game))
-                    %li
-                        = link_to("Desiderata", game_desiderata_path(@game))
                     %li
                         = link_to("Watercube", game_watercube_webplayer_path(@game))
                     %li
