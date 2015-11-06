@@ -8,11 +8,17 @@
     family: $heading-font;
     size: .8em;
   }
+}
 
+nav.top-bar {
+	padding-left: 20px;
+	padding-top: 15px;
+	margin-top: 20px;
+	height: 80px;
 }
 
 .title-area .name h1  {
   family: $logo-font;
-  font-size: 1.2em;
+  font-size: 2.2em;
 }
 

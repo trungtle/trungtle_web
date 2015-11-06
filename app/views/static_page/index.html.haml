@@ -1,4 +1,81 @@
 .row.container
+
+  .large-12.columns
+
+    %ul.example-orbit-content(data-orbit)
+      %li(data-orbit-slide="Mountains")
+        %a(href="#{static_page_3d_modeling_path(@static_page)}")
+          %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/mountains/prepwork_45.jpg")
+
+      %li(data-orbit-slide="Batmobile")
+        %a(href="#{static_page_3d_modeling_path(@static_page)}")
+          %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/tumbler_with_pan_2.png")
+
+      %li(data-orbit-slide="Shires")
+        %a(href="#{game_shires_path(@game)}")
+          %img(src="https://s3-us-west-2.amazonaws.com/trle/shires/shires_screenshot.png")
+
+      %li(data-orbit-slide="Jawbone UP3")
+        = image_tag("jawbone/up_colors.jpg")
+
+      %li(data-orbit-slide="Moodbox")
+        %a(href="#{project_moodbox_path(@project)}")
+          = image_tag("moodbox/moodbox1.jpg")
+
+  .large-12.columns
+
+    %hr
+
+    %h1 Sample Work
+
+    %ul.small-block-grid-1.medium-block-grid-2.large-block-grid-3
+
+      %li
+        %b Perlin noise (Processing)
+        .flex-video
+          %iframe(width="420" height="315" src="https://www.youtube.com/embed/jXHOhgNERvA" frameborder="0" allowfullscreen)
+
+      %li
+        %b 3D Music equalizer (Unity)
+        .flex-video
+          %iframe(width="640" height="360" src="//www.youtube.com/embed/DR2Rh4Tj8Ns" frameborder="0" allowfullscreen)
+      %li
+        %b Watercube (Game in Unity)
+        .flex-video
+          %iframe(width="1280" height="720" src="//www.youtube.com/embed/VO87zy0KQ0Y" frameborder="0" allowfullscreen)
+
+      %li
+        %b Shires (Game in Unity)
+        .flex-video
+          %iframe(width="420" height="315" src="https://www.youtube.com/embed/DY3OcfuWLh8" frameborder="0" allowfullscreen)
+
+      %li
+        %b Vietspeak (Meteor)
+        .flex-video
+          %iframe(width="560" height="315" src="https://www.youtube.com/embed/8StcVy9nJTc" frameborder="0" allowfullscreen)
+
+      %li
+        %b Village simulation (Unity)
+        .flex-video
+          %iframe(width="560" height="315" src="//www.youtube.com/embed/eYErjPcPE4s" frameborder="0" allowfullscreen)
+
+      %li
+        %b Composite (Maya + Unity)
+        .flex-video
+          %iframe(width="420" height="315" src="https://www.youtube.com/embed/-Id1leYWlbY" frameborder="0" allowfullscreen)
+
+      %li
+        %b Assylium (Game in Unity)
+        .flex-video
+          %iframe(width="1280" height="720" src="//www.youtube.com/embed/YvpTCHYtgAs" frameborder="0" allowfullscreen)
+
+      %li
+        %b Seattle Indies workshop (Community)
+        %a(href="#{project_seattlecoop_path(@project)}")
+          = image_tag("seattlecoop/seattlecoop_9.jpeg")
+
+  %hr
+
   .small-4.columns
     .profile-pic
       / For showing gravatar
@@ -11,14 +88,32 @@
 
   .small-8.left.columns
 
+    %h1 About
+
+    %p In 2015, I start my master program in Computer Graphics and Game Technology at the University of Pennsylvania.
+
+    %p From 2012 to 2014, I took part in developing the Jawbone UP wearable fitness tracker.
+
+    %p I belive that video games is an important art form in the future that could impact society in a meaningful way.
+
+    / %p He adores Seattle, having studied and worked there for the last 6 years. The other adorable city is Saigon, having born and raised there for more than 15 years.
+
+    /*%p He loves to live inside his head. As a result, he enjoys being alone in a quiet forest or by a lake, or writing, or hiking aimlessly, or getting lost in a foreign country. He did get lost many times in Italy though.*/
+
+    %p I am a LGBT person, and I strongly support the LGBT movement.
+
+    %p This website is a sample of my Ruby on Rails experiment.
+
+  %hr
+    %h1 Contact
+
+    %p Feel free to contact me if you're looking for computer graphics developer :)
+
     %a.button(href="mailto:trungtuanle90@gmail.com" target="_blank")
       %i.fa.fa-envelope
 
     %a.button(hred="https://www.linkedin.com/in/trungtuanle" target="_blank")
       %i.fa.fa-linkedin
-
-    %a.button(href="https://www.facebook.com/trungtuanle")
-      %i.fa.fa-facebook
 
     %a.button(href="https://github.com/trungtle")
       %i.fa.fa-github
@@ -26,39 +121,9 @@
     %a.button(href="https://www.youtube.com/user/trungtuanle")
       %i.fa.fa-youtube
 
-
-    %p In 2015, Trung started his master program in Computer Graphics and Game Technology at the University of Pennsylvania.
-
-    %p From 2012 to 2014, he was part of the development team for the Jawbone UP wearable fitness tracker in Seattle.
-
-    / %p He adores Seattle, having studied and worked there for the last 6 years. The other adorable city is Saigon, having born and raised there for more than 15 years.
-
-    %p He loves to live inside his head. As a result, he enjoys being alone in a quiet forest or by a lake, or writing, or hiking aimlessly, or getting lost in a foreign country. He did get lost many times in Italy though.
-
-    %p He is a strong supporter of the LGBTQ movement (being a gay person himself) by raising his oppions to defend bullies against LGBTQ person.
-
-    %p He cares deeply about other cultures that are different from him. And he thinks that making games is a kind of art that could carry important messages & narratives to players. Hopefully, in that way, we would become more empathetic with each other.
-
-    %p He has a liberal, optimistic, and fuzzy personality.
-
-    %p This website is a sample of his Ruby on Rails experiment.
-
   %hr
-  .large-12.columns
-    %h1 Sample work in graphics
 
-    %ul.small-block-grid-1.medium-block-grid-2.large-block-grid-3
-      %li
-        %a(href="#{static_page_3d_modeling_path(@static_page)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/mountains/prepwork_45.jpg")
-      %li
-        %a(href="#{project_townsim_path(@project)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/simulation/townsim/MarketStationScreenShot.png")
-
-      %li
-        %a(href="#{game_shires_path(@game)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/shires/shires_screenshot.png")
-
-  %hr
+  .footer
+    ©2015 Trung Le. All Rights Reserved.
 
 

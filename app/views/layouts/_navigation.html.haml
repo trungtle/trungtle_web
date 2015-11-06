@@ -1,61 +1,62 @@
-%nav.top-bar(data-topbar)
-    %ul.title-area
+.row
+  .large-12.columns
+    %nav.top-bar(data-topbar)
+      %ul.title-area
         %li.name
-            %h1
-                = link_to("Trung Le", static_page_index_path(@static_page))
+          %h1
+            = link_to("Trung Le", static_page_index_path(@static_page))
 
         / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
         %li.toggle-topbar.menu-icon
-            %a(href="#")
-                %span Menu
+          %a(href="#")
+            %span Menu
 
-    %section.top-bar-section
+      %section.top-bar-section
 
         %ul
-            %li
-                = link_to("Resume", static_page_resume_path(@static_page))
-            %li.has-dropdown
-                %a(href="#")Simulations
-                %ul.dropdown
-                    %li
-                        = link_to("Rifted", project_rifted_path(@project))
-                    %li
-                        = link_to("Medieval town simulation", project_townsim_path(@project))
-                    %li
-                        = link_to("Fourierbound", project_fourierbound_path(@project))
-            %li.has-dropdown
-                %a(href="#")Games
-                %ul.dropdown
-                    %li
-                        = link_to("Vietspeak", game_vietspeak_path(@game))
-                    %li
-                        = link_to("Shires", game_shires_path(@game))
-                    %li
-                        = link_to("Assylium", game_assylium_path(@game))
-                    %li
-                        = link_to("Local Chicken", game_petevstom_path(@game))
-                    %li
-                        = link_to("Watercube", game_watercube_webplayer_path(@game))
-                    %li
-                        = link_to("Feasor", game_feasor_path(@game))
+          %li
+            = link_to("Resume", static_page_resume_path(@static_page))
+          %li
+            = link_to("3D Modeling", static_page_3d_modeling_path(@static_page))
+          %li.has-dropdown
+            %a(href="#")Simulations
+            %ul.dropdown
+              %li
+                = link_to("Rifted", project_rifted_path(@project))
+              %li
+                = link_to("Medieval town simulation", project_townsim_path(@project))
+              %li
+                = link_to("Fourierbound", project_fourierbound_path(@project))
+          %li.has-dropdown
+            %a(href="#")Games
+            %ul.dropdown
+              %li
+                = link_to("Vietspeak", game_vietspeak_path(@game))
+              %li
+                = link_to("Shires", game_shires_path(@game))
+              %li
+                = link_to("Assylium", game_assylium_path(@game))
+              %li
+                = link_to("Watercube", game_watercube_webplayer_path(@game))
 
-            %li
-                = link_to("Seattle Indies", project_seattlecoop_path(@project))
-            %li.has-dropdown
-                %a(href="#")Embedded
-                %ul.dropdown
-                    %li
-                        = link_to("Moodbox", project_moodbox_path(@project))
-                    %li
-                        = link_to("Wireless energy", project_wrel_path(@project))
-                    %li
-                        = link_to("Undergraduate", project_collegeee_path(@project))
-            %li.has-dropdown
-                %a(href="#")Blog
-                %ul.dropdown
-                    %li
-                        %a{:href => "http://apassingroad.wordpress.com/", :target => "_blank"}A passing road
-                    %li
-                        %a{:href => "https://cluesandcodes.wordpress.com/", :target => "_blank" }Clues & codes
-                    %li
-                        %a{:href => "http://feasorthegame.blogspot.com/", :target => "_blank"}Feasor game journal
+          %li
+            = link_to("Seattle Indies", project_seattlecoop_path(@project))
+          %li.has-dropdown
+            %a(href="#")Embedded
+            %ul.dropdown
+              %li
+                = link_to("Moodbox", project_moodbox_path(@project))
+              %li
+                = link_to("Wireless energy", project_wrel_path(@project))
+              %li
+                = link_to("Undergraduate", project_collegeee_path(@project))
+
+          %li.has-dropdown
+            %a(href="#")Blog
+            %ul.dropdown
+              %li
+                %a{:href => "http://apassingroad.wordpress.com/", :target => "_blank"}A passing road
+              %li
+                %a{:href => "https://cluesandcodes.wordpress.com/", :target => "_blank" }Clues & codes
+              %li
+                %a{:href => "http://feasorthegame.blogspot.com/", :target => "_blank"}Feasor game journal
