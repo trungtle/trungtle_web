@@ -5,13 +5,13 @@
         %p
             My first exposure to wireless energy was as an undergrad at UW. When I was looking for a part-time internship, my instructor for the LabView course invited me to interview for the Seattle Intel Lab, and that was when I met Joshua Smith. Accepted as a research assistant, my project was to build a graphing and analytical graphical user interface (GUI) software to control wireless resonant energy link (WREL) systems for demo purposes in PyQt.
 
-            = image_tag("wrel/WrelDemo.jpg")
+        = image_tag("wrel/WrelDemo.jpg")
 
 
         %p
             This was my first opportunity working directly on a research that was applicable to my study in electrical engineering. Later on, when Josh joined the faculty at UW, I continued working together with other students and researchers to expand the software by adding new analysis tools. A wireless system often includes a transmit coil, a receive coil and an amplifier as power source.
 
-            = image_tag("wrel/rr.png")
+        = image_tag("wrel/rr.png")
 
         %p
             I coded the program to communicate with the microcontroller embedded inside the amplifier to adjust the signal’s frequency and power level, thus giving us a flexibility in experimenting with different configurations. To make the system reliable when the received coil is moving, I faced a challenge to build an adaptive impedance matching algorithm. Eventually, we had some success with a frequency scanning algorithm, but because of government regulations restricting frequency domains, other adaptive impedance matching networks were used instead to control the input and output impedance of the system. Toward the end, we were approached by a LVAD company to develop a wireless heart pump. In the animal trials, we used the GUI to control the power source for a coil implanted inside a pig, and got successful results on all of them. Outside of UW, the source code has been forked by the RoboBee research team at Harvard University as part of the collaboration to integrate wireless energy in robotic bees. This made me proud of my contribution in research for wireless energy.
@@ -25,25 +25,23 @@
             However, the challenge of making wireless power technology popular is the lack of efficiency in transmission.
             Sensors Lab seeks to find a solution for this problem.
 
-        %p Video: Concept of wireless power transfer
-
         .flex-video
             %iframe(width="560" height="315" src="//www.youtube.com/embed/mnQUxN78hBU" frameborder="0" allowfullscreen)
 
+        .flex-video
+            %iframe(width="560" height="315" src="//www.youtube.com/embed/AMgnQ-NHOZk" frameborder="0" allowfullscreen)
+
         .pad-10
-        %h1
+        .label-black
             WREL in action
 
         %ul.small-block-grid-2
             %li
                 = image_tag("wrel/wrel-bulb.jpg")
-                WREL can be used to power lightbulbs.
+                %p WREL can be used to power lightbulbs.
 
             %li
                 = image_tag("wrel/wrel0.jpg")
-                WREL at Discovery Day at University of Washington
-
-        %p Video: Auto-tuning with WREL
-        .flex-video
-            %iframe(width="560" height="315" src="//www.youtube.com/embed/AMgnQ-NHOZk" frameborder="0" allowfullscreen)
+                %p
+                    WREL at Discovery Day at University of Washington
 
