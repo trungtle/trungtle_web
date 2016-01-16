@@ -17,14 +17,19 @@
           %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/mountains/prepwork_45.jpg")
 
       %li(data-orbit-slide="ClothTearing")
-        %h1.right Cloth tearing FX (FX in Maya)
-        %a(href="#{static_page_3d_modeling_path(@static_page)}")
+        %h1.right Cloth tearing (FX in Maya)
+        %a(href="#{project_clothFX_path(@project)}")
           %img(src="https://s3-us-west-2.amazonaws.com/trle/FX/man_cloth0072.jpg")
 
       %li(data-orbit-slide="Batmobile")
         %h1.right Batmobile (modeled in Maya)
         %a(href="#{static_page_3d_modeling_path(@static_page)}")
           %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/tumbler_with_pan_2.png")
+
+      %li(data-orbit-slide="KidModel")
+        %h1.right Kid from Bastion (modeled in Maya)
+        %a(href="#{static_page_3d_modeling_path(@static_page)}")
+          %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/bastion/kid_front.jpg")
 
       %li(data-orbit-slide="Shires")
         %h1.right Shired (Game in Unity)
@@ -52,7 +57,7 @@
 
       %li
         .sample-title
-          = link_to("Cloth tearing (FX in Maya)", static_page_3d_modeling_path(@static_page))
+          = link_to("Cloth tearing (FX in Maya)", project_clothFX_path(@project))
         .flex-video
           %iframe(width="560" height="315" src="https://www.youtube.com/embed/r4g2UaC0ghg?&showinfo=0" frameborder="0" allowfullscreen)
 

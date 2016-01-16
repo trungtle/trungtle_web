@@ -14,6 +14,7 @@ Trungtle::Application.routes.draw do
   get "project/fourierbound"
   get "project/townsim"
   get "project/rifted"
+  get "project/clothFX"
   get "static_page/3d_modeling"
   get "static_page/index"
   get "static_page/about"

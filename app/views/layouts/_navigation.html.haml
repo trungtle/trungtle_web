@@ -19,8 +19,10 @@
           %li
             = link_to("3D Modeling", static_page_3d_modeling_path(@static_page))
           %li.has-dropdown
-            %a(href="#")Simulations
+            %a(href="#")Simulations/FX
             %ul.dropdown
+              %li
+                = link_to("Cloth Figure FX", project_clothFX_path(@project))
               %li
                 = link_to("Rifted", project_rifted_path(@project))
               %li
