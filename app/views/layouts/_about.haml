@@ -1,0 +1,45 @@
+.small-4.columns
+  .profile-pic
+    / For showing gravatar
+    - require 'digest/md5'
+    - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
+    - src = "http://www.gravatar.com/avatar/#{md5}?s=1000"
+    = image_tag(src, :size => "600", :class => "profile-circular")
+    / - src = "me_new_glasses.jpg"
+    / = image_tag(src)
+
+.small-8.left.columns
+
+  %h1 About
+
+  %p In 2015, I began a masters program in Computer Graphics and Game Technology at the University of Pennsylvania.
+
+  %p From 2012 to 2014, I took part in developing the Jawbone UP wearable fitness tracker.
+
+  %p I believe that video games are an important artform with the ability to impact society in a meaningful way.
+
+  / %p He adores Seattle, having studied and worked there for the last 6 years. The other adorable city is Saigon, having born and raised there for more than 15 years.
+
+  /*%p He loves to live inside his head. As a result, he enjoys being alone in a quiet forest or by a lake, or writing, or hiking aimlessly, or getting lost in a foreign country. He did get lost many times in Italy though.*/
+
+  %p I am an LGBT person, and I strongly support the LGBT movement.
+
+  %p This website is a sample of my experiments with Ruby on Rails.
+
+  %p Feel free to contact me for any graphics, games, fun projects :) I am always seeking out for new and exciting opportunities.
+
+  %a.button(href="https://github.com/trungtle")
+    %i.fa.fa-github
+
+  %a.button(href="mailto:trungtuanle90@gmail.com" target="_blank")
+    %i.fa.fa-envelope
+
+  %a.button(hred="https://www.linkedin.com/in/trungtuanle" target="_blank")
+    %i.fa.fa-linkedin
+
+  %a.button(href="https://www.youtube.com/user/trungtuanle")
+    %i.fa.fa-youtube
+
+  .pad-10
+  .pad-10
+%hr

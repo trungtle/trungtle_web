@@ -25,3 +25,12 @@
 p.resume {
   font-size: .9em;
 }
+
+.resume-date.label, h2.label {
+	font-family: $logo-font !important;
+	background-color: black;
+	font-size: 1em;
+	padding: 10px;
+	color: white;
+}
+

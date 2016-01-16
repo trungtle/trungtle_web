@@ -2,25 +2,38 @@
 
   .large-12.columns
 
+    .announce.panel
+      .fa-stack.fa-lg
+        %i.fa.fa-circle.fa-stack-2x
+        %i.fa.fa-info.fa-border.fa-stack-1x.fa-inverse
+      Update Jan 16: Beginning this Spring, I am contributing to the
+      = link_to('WebGL2 Samples Pack', 'https://github.com/WebGLSamples/WebGL2Samples', :target => '_blank')
+      in preparation for the WebGL2 release.
+
     %ul.example-orbit-content(data-orbit)
       %li(data-orbit-slide="Mountains")
         %h1.right Mountains (modeled in Maya)
         %a(href="#{static_page_3d_modeling_path(@static_page)}")
           %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/mountains/prepwork_45.jpg")
 
+      %li(data-orbit-slide="ClothTearing")
+        %h1.right Cloth tearing FX (FX in Maya)
+        %a(href="#{static_page_3d_modeling_path(@static_page)}")
+          %img(src="https://s3-us-west-2.amazonaws.com/trle/FX/man_cloth0072.jpg")
+
       %li(data-orbit-slide="Batmobile")
         %h1.right Batmobile (modeled in Maya)
         %a(href="#{static_page_3d_modeling_path(@static_page)}")
           %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/tumbler_with_pan_2.png")
 
-      %li(data-orbit-slide="Batmobile")
-        %h1.right Pathtracer (C++)
-        %img(src="https://s3-us-west-2.amazonaws.com/trle/graphics/pathtracer/rendered_images_18.bmp")
-
       %li(data-orbit-slide="Shires")
         %h1.right Shired (Game in Unity)
         %a(href="#{game_shires_path(@game)}")
           %img(src="https://s3-us-west-2.amazonaws.com/trle/shires/shires_screenshot.png")
+
+      %li(data-orbit-slide="Pathtracer")
+        %h1.right Pathtracer (C++)
+        %img(src="https://s3-us-west-2.amazonaws.com/trle/graphics/pathtracer/rendered_images_18.bmp")
 
       %li(data-orbit-slide="Jawbone UP3")
         %h1.right Jawbone UP3 (Firmware)
@@ -35,97 +48,70 @@
 
     %hr
 
-    %h1 Sample Work
-
-    %ul.small-block-grid-1.medium-block-grid-2.large-block-grid-3
+    %ul.small-block-grid-1.medium-block-grid-2.large-block-grid-2
 
       %li
-        %b Cloth tearing (Maya)
+        .sample-title
+          = link_to("Cloth tearing (FX in Maya)", static_page_3d_modeling_path(@static_page))
         .flex-video
-          %iframe(width="560" height="315" src="https://www.youtube.com/embed/r4g2UaC0ghg" frameborder="0" allowfullscreen)
+          %iframe(width="560" height="315" src="https://www.youtube.com/embed/r4g2UaC0ghg?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
-        %b Perlin noise (Processing)
+        .sample-title
+          = link_to("Shires (C#, Unity)", game_shires_path(@game))
         .flex-video
-          %iframe(width="420" height="315" src="https://www.youtube.com/embed/jXHOhgNERvA" frameborder="0" allowfullscreen)
+          %iframe(width="420" height="315" src="https://www.youtube.com/embed/DY3OcfuWLh8?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
-        %b 3D Music equalizer (Unity)
+        .sample-title
+          = link_to("Vietspeak (Meteor)", game_vietspeak_path(@game))
         .flex-video
-          %iframe(width="640" height="360" src="//www.youtube.com/embed/DR2Rh4Tj8Ns" frameborder="0" allowfullscreen)
-      %li
-        %b Watercube (Game in Unity)
-        .flex-video
-          %iframe(width="1280" height="720" src="//www.youtube.com/embed/VO87zy0KQ0Y" frameborder="0" allowfullscreen)
+          %iframe(width="560" height="315" src="https://www.youtube.com/embed/8StcVy9nJTc?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
-        %b Shires (Game in Unity)
+        .sample-title
+          = link_to("Village simulation (C#, Unity)", project_townsim_path(@project))
         .flex-video
-          %iframe(width="420" height="315" src="https://www.youtube.com/embed/DY3OcfuWLh8" frameborder="0" allowfullscreen)
+          %iframe(width="560" height="315" src="//www.youtube.com/embed/eYErjPcPE4s?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
-        %b Vietspeak (Meteor)
+        .sample-title Perlin noise (Processing)
         .flex-video
-          %iframe(width="560" height="315" src="https://www.youtube.com/embed/8StcVy9nJTc" frameborder="0" allowfullscreen)
+          %iframe(width="420" height="315" src="https://www.youtube.com/embed/jXHOhgNERvA?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
-        %b Village simulation (Unity)
+        .sample-title
+          = link_to("3D Music Equalizer (C#, Unity)", project_fourierbound_path(@project))
         .flex-video
-          %iframe(width="560" height="315" src="//www.youtube.com/embed/eYErjPcPE4s" frameborder="0" allowfullscreen)
+          %iframe(width="640" height="360" src="//www.youtube.com/embed/DR2Rh4Tj8Ns?&showinfo=0" frameborder="0" allowfullscreen)
+      %li
+        .sample-title
+          = link_to("Watercube (C#, Unity)", game_watercube_webplayer_path(@game))
+        .flex-video
+          %iframe(width="1280" height="720" src="//www.youtube.com/embed/VO87zy0KQ0Y?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
-        %b Composite (Maya + Unity)
+        .sample-title World (Maya + Unity)
         .flex-video
-          %iframe(width="420" height="315" src="https://www.youtube.com/embed/-Id1leYWlbY" frameborder="0" allowfullscreen)
+          %iframe(width="420" height="315" src="https://www.youtube.com/embed/-Id1leYWlbY?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
-        %b Assylium (Game in Unity)
+        .sample-title
+          = link_to("Assylium (Interactive fiction, Unity)", game_assylium_path(@game))
         .flex-video
-          %iframe(width="1280" height="720" src="//www.youtube.com/embed/YvpTCHYtgAs" frameborder="0" allowfullscreen)
+          %iframe(width="1280" height="720" src="//www.youtube.com/embed/YvpTCHYtgAs?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
-        %b Seattle Indies workshop (Community)
+        .sample-title
+          = link_to("Seattle Indies", project_seattlecoop_path(@project))
         %a(href="#{project_seattlecoop_path(@project)}")
           = image_tag("seattlecoop/seattlecoop_9.jpeg")
 
   %hr
-
-  .small-4.columns
-    .profile-pic
-      / For showing gravatar
-      - require 'digest/md5'
-      - md5 = Digest::MD5.hexdigest('trungtuanle@yahoo.com')
-      - src = "http://www.gravatar.com/avatar/#{md5}?s=1000"
-      = image_tag(src, :size => "600", :class => "profile-circular")
-      / - src = "me_new_glasses.jpg"
-      / = image_tag(src)
-
-  .small-8.left.columns
-
-    %h1 About
-
-    %p
-      I am currently contributing to build a reference
-      = link_to("WebGL 2 Samples Pack.", "https://github.com/WebGLSamples/WebGL2Samples")
-
-    %p In 2015, I began a masters program in Computer Graphics and Game Technology at the University of Pennsylvania.
-
-    %p From 2012 to 2014, I took part in developing the Jawbone UP wearable fitness tracker..
-
-    %p I believe that video games are an important artform with the ability to impact society in a meaningful way.
-
-    / %p He adores Seattle, having studied and worked there for the last 6 years. The other adorable city is Saigon, having born and raised there for more than 15 years.
-
-    /*%p He loves to live inside his head. As a result, he enjoys being alone in a quiet forest or by a lake, or writing, or hiking aimlessly, or getting lost in a foreign country. He did get lost many times in Italy though.*/
-
-    %p I am an LGBT person, and I strongly support the LGBT movement.
-
-    %p This website is a sample of my experiments with Ruby on Rails.
-
-  %hr
     %h1 Contact
 
-    %p Feel free to contact me if you're looking for computer graphics developer :)
+    %a.button(href="https://github.com/trungtle")
+      %i.fa.fa-github
 
     %a.button(href="mailto:trungtuanle90@gmail.com" target="_blank")
       %i.fa.fa-envelope
@@ -133,15 +119,12 @@
     %a.button(hred="https://www.linkedin.com/in/trungtuanle" target="_blank")
       %i.fa.fa-linkedin
 
-    %a.button(href="https://github.com/trungtle")
-      %i.fa.fa-github
-
     %a.button(href="https://www.youtube.com/user/trungtuanle")
       %i.fa.fa-youtube
 
   %hr
 
   .footer
-    ©2015 Trung Le. All Rights Reserved.
+    ©2016 Trung Le. All Rights Reserved.
 
 

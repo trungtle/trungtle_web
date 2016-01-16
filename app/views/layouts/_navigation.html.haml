@@ -15,7 +15,7 @@
 
         %ul
           %li
-            = link_to("Resume", static_page_resume_path(@static_page))
+            = link_to("About", static_page_resume_path(@static_page))
           %li
             = link_to("3D Modeling", static_page_3d_modeling_path(@static_page))
           %li.has-dropdown
@@ -42,7 +42,7 @@
           %li
             = link_to("Seattle Indies", project_seattlecoop_path(@project))
           %li.has-dropdown
-            %a(href="#")Embedded
+            %a(href="#")Firmware
             %ul.dropdown
               %li
                 = link_to("Moodbox", project_moodbox_path(@project))
