@@ -62,9 +62,14 @@
 
       %li
         .sample-title
+          = link_to("Carroll (Developed in Unity)", game_carroll_path(@game))
+        .flex-video
+          %iframe(src="https://player.vimeo.com/video/152879062" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+      %li
+        .sample-title
           = link_to("Paint on speaker (FX in Houdini)", project_paintspeaker_path(@project))
         .flex-video
-          %iframe(width="560" height="315" src="https://www.youtube.com/embed/SeOTMW4CqCU" frameborder="0" allowfullscreen)
+          %iframe(width="560" height="315" src="https://www.youtube.com/embed/SeOTMW4CqCU&showinfo=0" frameborder="0" allowfullscreen)
       %li
         .sample-title
           = link_to("Cloth tearing (FX in Maya)", project_clothFX_path(@project))
@@ -74,7 +79,7 @@
         .sample-title
           = link_to("Particle monster (FX in Houdini)", project_particlemonster_path(@project))
         .flex-video
-          %iframe(width="560" height="315" src="https://www.youtube.com/embed/s64rs3Mhn6o" frameborder="0" allowfullscreen)
+          %iframe(width="560" height="315" src="https://www.youtube.com/embed/s64rs3Mhn6o&showinfo=0" frameborder="0" allowfullscreen)
       %li
         .sample-title
           = link_to("Shires (C#, Unity)", game_shires_path(@game))
