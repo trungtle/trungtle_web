@@ -1,0 +1,19 @@
+.row
+  .small-10.small-centered.columns.container
+
+    %h1 Paint on speaker
+
+    %p
+      Simulating non-newtonian fluid in Houdini. I modeled and textured the model in Maya then imported over to Houdini as obj files. This demo is a close approximation of the effect but not as realistic as it could be due to meshing errors. I plan on update this as some point by tweaking the mesh via VDB.
+
+    .flex-video
+      %iframe(width="560" height="315" src="https://www.youtube.com/embed/SeOTMW4CqCU" frameborder="0" allowfullscreen)
+
+    %ul.small-block-grid-2.medium-block-grid-2.large-block-grid-2.clearing-thumbs(data-clearing)
+      - paths = ["https://s3-us-west-2.amazonaws.com/trle/FX/paintspeaker/speaker_fluid_greenpaintspecular_whitelight_16.png", "https://s3-us-west-2.amazonaws.com/trle/FX/paintspeaker/speaker_fluid_greenpaintspecular_whitelight_9.png", "https://s3-us-west-2.amazonaws.com/trle/FX/paintspeaker/side_view.png"]
+
+      - paths.each do |path|
+        %li
+          %a.th
+            = image_tag("#{path}")
+

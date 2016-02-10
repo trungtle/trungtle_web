@@ -1,0 +1,19 @@
+.row
+  .small-10.small-centered.columns.container
+
+    %h1 Particle Monster
+
+    %p
+      Simulating a particle monster that grabs an object then merges back to its original shape. In this demo, I used the POP network in Houdini to emit the particle and applied curve forces for the particles to follow a predescribed path.
+
+    .flex-video
+      %iframe(width="560" height="315" src="https://www.youtube.com/embed/s64rs3Mhn6o" frameborder="0" allowfullscreen)
+
+    %ul.small-block-grid-2.medium-block-grid-2.large-block-grid-2.clearing-thumbs(data-clearing)
+      - paths = ["https://s3-us-west-2.amazonaws.com/trle/FX/particlemonster/monster_eats_blue.png", "https://s3-us-west-2.amazonaws.com/trle/FX/particlemonster/monster_yellow.png"]
+
+      - paths.each do |path|
+        %li
+          %a.th
+            = image_tag("#{path}")
+
