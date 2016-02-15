@@ -14,3 +14,12 @@
 
         .flex-video
             %iframe(width="560" height="315" src="https://www.youtube.com/embed/8StcVy9nJTc" frameborder="0" allowfullscreen)
+
+        %ul.small-block-grid-2.medium-block-grid-2.large-block-grid-2.clearing-thumbs(data-clearing)
+            - paths = ["https://s3-us-west-2.amazonaws.com/trle/vietspeak/Vietspeak_1.png", "https://s3-us-west-2.amazonaws.com/trle/vietspeak/Vietspeak_2.png"]
+
+            - paths.each do |path|
+                %li
+                    %a.th
+                        = image_tag("#{path}")
+

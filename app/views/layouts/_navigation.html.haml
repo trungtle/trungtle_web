@@ -16,8 +16,20 @@
         %ul
           %li
             = link_to("About", static_page_resume_path(@static_page))
-          %li
-            = link_to("3D Modeling", static_page_3d_modeling_path(@static_page))
+          %li.has-dropdown
+            %a Games
+            %ul.dropdown
+              %li
+                = link_to("Carroll", game_carroll_path(@game))
+              %li
+                = link_to("Vietspeak", game_vietspeak_path(@game))
+              %li
+                = link_to("Shires", game_shires_path(@game))
+              %li
+                = link_to("Assylium", game_assylium_path(@game))
+              %li
+                = link_to("Watercube", game_watercube_webplayer_path(@game))
+
           %li.has-dropdown
             %a Simulations/FX
             %ul.dropdown
@@ -33,20 +45,8 @@
                 = link_to("Medieval town simulation", project_townsim_path(@project))
               %li
                 = link_to("Fourierbound", project_fourierbound_path(@project))
-          %li.has-dropdown
-            %a Games
-            %ul.dropdown
-              %li
-                = link_to("Carroll", game_carroll_path(@game))
-              %li
-                = link_to("Vietspeak", game_vietspeak_path(@game))
-              %li
-                = link_to("Shires", game_shires_path(@game))
-              %li
-                = link_to("Assylium", game_assylium_path(@game))
-              %li
-                = link_to("Watercube", game_watercube_webplayer_path(@game))
-
+          %li
+            = link_to("3D Modeling", static_page_3d_modeling_path(@static_page))
           %li
             = link_to("Seattle Indies", project_seattlecoop_path(@project))
           %li.has-dropdown

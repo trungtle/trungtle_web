@@ -1,7 +1,7 @@
 .row.container
 
   .large-12.columns
-
+    = render 'layouts/contact'
     .announce.panel
       .fa-stack.fa-lg
         %i.fa.fa-circle.fa-stack-2x
@@ -11,10 +11,20 @@
       in preparation for the WebGL2 release.
 
     %ul.example-orbit-content(data-orbit)
-      %li(data-orbit-slide="Mountains")
-        %h1.right Mountains (modeled in Maya)
-        %a(href="#{static_page_3d_modeling_path(@static_page)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/mountains/prepwork_45.jpg")
+      %li(data-orbit-slide="Carroll")
+        %h1.right Carroll (C# in Unity, Best Design winner of PennApps 2016)
+        %a(href="#{game_carroll_path(@game)}")
+          %img(src="https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.53.41+AM.png")
+
+      %li(data-orbit-slide="Shires")
+        %h1.right Shired (C# in Unity)
+        %a(href="#{game_shires_path(@game)}")
+          %img(src="https://s3-us-west-2.amazonaws.com/trle/shires/shires_screenshot.png")
+
+      %li(data-orbit-slide="Vietspeak")
+        %h1.right Vietspeak (Javascript in Meteor)
+        %a(href="#{game_vietspeak_path(@game)}")
+          %img(src="https://s3-us-west-2.amazonaws.com/trle/vietspeak/Vietspeak_1.png")
 
       %li(data-orbit-slide="PaintSpeaker")
         %h1.right Paint on speaker (FX in Houdini)
@@ -26,20 +36,15 @@
         %a(href="#{project_clothFX_path(@project)}")
           %img(src="https://s3-us-west-2.amazonaws.com/trle/FX/man_cloth0072.jpg")
 
+      %li(data-orbit-slide="Mountains")
+        %h1.right Mountains (modeled in Maya)
+        %a(href="#{static_page_3d_modeling_path(@static_page)}")
+          %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/mountains/prepwork_45.jpg")
+
       %li(data-orbit-slide="Batmobile")
         %h1.right Batmobile (modeled in Maya)
         %a(href="#{static_page_3d_modeling_path(@static_page)}")
           %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/tumbler_with_pan_2.png")
-
-      %li(data-orbit-slide="KidModel")
-        %h1.right Kid from Bastion (modeled in Maya)
-        %a(href="#{static_page_3d_modeling_path(@static_page)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/bastion/kid_front.jpg")
-
-      %li(data-orbit-slide="Shires")
-        %h1.right Shired (Game in Unity)
-        %a(href="#{game_shires_path(@game)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/shires/shires_screenshot.png")
 
       %li(data-orbit-slide="Pathtracer")
         %h1.right Pathtracer (C++)
@@ -62,24 +67,10 @@
 
       %li
         .sample-title
-          = link_to("Carroll (Developed in Unity)", game_carroll_path(@game))
+          = link_to("Carroll (C#, Unity)", game_carroll_path(@game))
         .flex-video
           %iframe(src="https://player.vimeo.com/video/152879062" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
-      %li
-        .sample-title
-          = link_to("Paint on speaker (FX in Houdini)", project_paintspeaker_path(@project))
-        .flex-video
-          %iframe(width="560" height="315" src="https://www.youtube.com/embed/SeOTMW4CqCU&showinfo=0" frameborder="0" allowfullscreen)
-      %li
-        .sample-title
-          = link_to("Cloth tearing (FX in Maya)", project_clothFX_path(@project))
-        .flex-video
-          %iframe(width="560" height="315" src="https://www.youtube.com/embed/r4g2UaC0ghg?&showinfo=0" frameborder="0" allowfullscreen)
-      %li
-        .sample-title
-          = link_to("Particle monster (FX in Houdini)", project_particlemonster_path(@project))
-        .flex-video
-          %iframe(width="560" height="315" src="https://www.youtube.com/embed/s64rs3Mhn6o&showinfo=0" frameborder="0" allowfullscreen)
+
       %li
         .sample-title
           = link_to("Shires (C#, Unity)", game_shires_path(@game))
@@ -88,15 +79,45 @@
 
       %li
         .sample-title
-          = link_to("Vietspeak (Meteor)", game_vietspeak_path(@game))
+          = link_to("Vietspeak (Javascript, Meteor)", game_vietspeak_path(@game))
         .flex-video
           %iframe(width="560" height="315" src="https://www.youtube.com/embed/8StcVy9nJTc?&showinfo=0" frameborder="0" allowfullscreen)
+
+      %li
+        .sample-title
+          = link_to("Assylium (Interactive fiction, C# in Unity)", game_assylium_path(@game))
+        .flex-video
+          %iframe(width="1280" height="720" src="//www.youtube.com/embed/YvpTCHYtgAs?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
         .sample-title
           = link_to("Village simulation (C#, Unity)", project_townsim_path(@project))
         .flex-video
           %iframe(width="560" height="315" src="//www.youtube.com/embed/eYErjPcPE4s?&showinfo=0" frameborder="0" allowfullscreen)
+
+      %li
+        .sample-title
+          = link_to("Watercube (C#, Unity)", game_watercube_webplayer_path(@game))
+        .flex-video
+          %iframe(width="1280" height="720" src="//www.youtube.com/embed/VO87zy0KQ0Y?&showinfo=0" frameborder="0" allowfullscreen)
+
+      %li
+        .sample-title
+          = link_to("Cloth tearing (FX in Maya)", project_clothFX_path(@project))
+        .flex-video
+          %iframe(width="560" height="315" src="https://www.youtube.com/embed/r4g2UaC0ghg?&showinfo=0" frameborder="0" allowfullscreen)
+
+      %li
+        .sample-title
+          = link_to("Paint on speaker (FX in Houdini)", project_paintspeaker_path(@project))
+        .flex-video
+          %iframe(width="560" height="315" src="https://www.youtube.com/embed/SeOTMW4CqCU?&showinfo=0" frameborder="0" allowfullscreen)
+
+      %li
+        .sample-title
+          = link_to("Particle monster (FX in Houdini)", project_particlemonster_path(@project))
+        .flex-video
+          %iframe(width="560" height="315" src="https://www.youtube.com/embed/s64rs3Mhn6o?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
         .sample-title Perlin noise (Processing)
@@ -108,22 +129,6 @@
           = link_to("3D Music Equalizer (C#, Unity)", project_fourierbound_path(@project))
         .flex-video
           %iframe(width="640" height="360" src="//www.youtube.com/embed/DR2Rh4Tj8Ns?&showinfo=0" frameborder="0" allowfullscreen)
-      %li
-        .sample-title
-          = link_to("Watercube (C#, Unity)", game_watercube_webplayer_path(@game))
-        .flex-video
-          %iframe(width="1280" height="720" src="//www.youtube.com/embed/VO87zy0KQ0Y?&showinfo=0" frameborder="0" allowfullscreen)
-
-      %li
-        .sample-title World (Maya + Unity)
-        .flex-video
-          %iframe(width="420" height="315" src="https://www.youtube.com/embed/-Id1leYWlbY?&showinfo=0" frameborder="0" allowfullscreen)
-
-      %li
-        .sample-title
-          = link_to("Assylium (Interactive fiction, Unity)", game_assylium_path(@game))
-        .flex-video
-          %iframe(width="1280" height="720" src="//www.youtube.com/embed/YvpTCHYtgAs?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
         .sample-title
