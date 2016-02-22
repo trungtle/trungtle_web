@@ -3,10 +3,61 @@
         %h1 Shires
 
         %p
-            A 2-person board game I developed in Unity. It is a mix between chess and capture the flag. The objective of the game is to move your king through various portals and capture your opponent's zone.
+            You can follow the github
+            = link_to("code", "https://github.com/trungtle/shires", :target => "_blank")
 
         %p
             = link_to("Download ZIP", "/files/shires.zip", :type => "application/zip", :class => "button", :target => "_blank")
 
         .flex-video
             %iframe(width="420" height="315" src="https://www.youtube.com/embed/DY3OcfuWLh8" frameborder="0" allowfullscreen)
+
+        %p
+            A 2-person board game that blends between tradition chess and capture-the-flag. The objective of the game is to move your units through various portals and capture your opponent's zone.
+
+        %h2 Rules
+
+        %ul.small-block-grid-1.medium-block-grid-1.large-block-grid-1.clearing-thumbs(data-clearing)
+            - paths = ["https://s3-us-west-2.amazonaws.com/trle/shires/shires_screenshot.png"]
+
+            - paths.each do |path|
+                %li
+                    %a.th
+                        = image_tag("#{path}")
+
+        %h2 Board
+
+        %p
+            There are five zones, or shires:
+
+        %ul
+            %li Red shire: the starting shire for red player
+            %li Blue shire: the starting shire for blue player
+            %li
+                Neutral shires:
+                %ul
+                    %li Orange shire: this represents the Hill. Hill gives +1 Rook bonus.
+                    %li Teal shire: this represents the River. River grants Lord the ability to attack.
+                    %li Purple shire: this represents the Valley. Valley converts Lord's movement to a Knight.
+        %p
+            At the center of each shire is the capture tile. In order to capture a shire, a Lord unit must land on this tile. Capturing netraul shires gives a player different bonuses, but capturing the opponent's shire is the final objective. Neutral shire can be recaptured and the bonus would transfer to the player who currently controls that shire. The board contains destructable rocks in grey. Destructable rocks can only be destroyed by a Rook. Once destroyed, destructable rocks will respawn after several turns. To travel from one shire to the other, the unit needs to enter a portal. The links between portals are indicated by the text on the portal. Unit can't immediately re-enter portals, meaning the have to make a move within the same shire before reentering the portal again.
+
+        %h2 Units
+
+        %ul
+            %li Lord: the lord is the ONLY unit that can capture a shire. Lord moves 2 tiles in straight line. The Lord cannot attack another unit.
+            %li Knight: the Knight can hop to exactly 3 tiles away. Knight can attack another unit.
+            %li Rook: the Rook moves in straight lines across the length of a shire. Rook can attack another unit can destroy rocks.
+
+        %p
+            If a unit is attacked, it will respawn at the starting location after several turns.
+
+        %h2 Objective
+
+        %p
+            The objective of the game is to capture the opponent's shire. The game is over once a red Lord lands on blue's capture tile, or vice versa.
+
+        %h2 Development
+
+        %p Shires was created in Unity3D using C#.
+
