@@ -3,8 +3,25 @@
         %h1 Carroll
 
         %p
-            An exploratory, escape the room with Alice in Wonderland inspired theme. I worked on this project during the PennApps 2016 hackathon as the main Unity programmer. The game won Best Design award at the event. Art assets were built from scratch with our wonderful artists. More details about the team and the project is
-            = link_to("here", "http://devpost.com/software/carroll", :target => "_blank")
+            Carroll is an Occulus Rift-compatible, exploratory, escape the room game. Player interacts with potions within the game environment to change their body sizes that would allow them to enter a different perspective to explore the room.
+
+        %p
+            Carrol is the proud winner of
+            = link_to("PennApps XIII", "http://devpost.com/software/carroll", :target => "_blank")
+            for Best Design.
+
+        %h1 Downloads
+        %p
+            %a.button(href="https://github.com/trungtle/carroll")
+                %i.fa.fa-github
+                Github
+
+            = link_to("OSX Version", "https://github.com/trungtle/carroll/tree/master/carroll.app", :class => "button", :target => "_blank")
+
+            = link_to("Windows Version", "https://github.com/trungtle/carroll/blob/master/caroll.exe", :class => "button", :target => "_blank")
+
+        %p
+            For VR, You can use any version of Occulus Rift. However, the game can be played without it.
 
         .flex-video
             %iframe(src="https://player.vimeo.com/video/152879062" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
@@ -16,3 +33,31 @@
                 %li
                     %a.th
                         = image_tag("#{path}")
+
+        %h1 Origin
+
+        %p We are inspired to create an exploratory game with an Alice in Wonderland theme. The name Carroll is in honour of Lewis Carroll, the genius writer that inspires us.
+
+        %h1 Built with
+
+        %p
+            C# in Unity3D, Maya, Occulus Rift
+
+        %h1 Team members
+
+        %ul
+            %li
+                = link_to("Reika Yoshino", "http://www.reikayoshino.com/", :target => "_blank")
+                , Original creator, Game Concept, Level Design, 3D Modeling, Texturing
+
+            %li
+                = link_to("Rachel Hwang", "https://www.linkedin.com/in/rachel-hwang-84a3b989", :target => "_blank")
+                , Level Design, Game Design, 3d Modeling, Mechanics.
+
+            %li
+                = link_to("Trung Le", "http://www.trungtuanle.com/", :target => "_blank")
+                , C#, Unity, Mechanics
+
+            %li
+                = link_to("Akshay Shah", "https://www.linkedin.com/in/akshaymshah", :target => "_blank")
+                , Rendering, Optimazations, Lighting, Shading
