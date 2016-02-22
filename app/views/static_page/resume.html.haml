@@ -1,138 +1,142 @@
-.row.container.small-10.small-centered.columns.container
+.row
+    .row.container.small-10.small-centered.columns.container
 
-    = render 'layouts/about'
+        = render 'layouts/about'
 
-    .resume-download
-        = link_to("RESUME IN PDF", "/doc/resume/Resume_Graphics_Trung_Le.pdf", :type => "application/pdf", :class => "button", :target => "_blank")
+        .resume-download
+            = link_to("RESUME IN PDF", "/doc/resume/Resume_Graphics_Trung_Le.pdf", :type => "application/pdf", :class => "button", :target => "_blank")
 
-    %h1.resume-section Interests
-    .panel.resume-interests
-        %p
-            Computer Graphics, Game Technology & Scientific Simulation, Wearable Computing.
+        %h1.resume-section Interests
+        .panel.resume-interests
+            %p
+                Computer Graphics, Game Technology & Scientific Simulation, Wearable Computing.
 
-    .pad-10
-    %h1.resume-section Technical skills
-    .panel.resume-skills
+        .pad-10
+        %h1.resume-section Technical skills
+        .panel.resume-skills
 
-        %ul
-            %li
-                %b Programming:
-                C/C++, Python, Unity/C#, Processing, Javascript/HTML5/CSS3, Meteor, Objective-C, iOS
-            %li
-                %b Embedded:
-                ARM, FreeRTOS, I2C, SPI, USART, USB, BTLE, Serial Flash, FPGA, AES, Verilog
+            %ul
+                %li
+                    %b Programming:
+                    C/C++, Python, Unity/C#, Processing, Javascript/HTML5/CSS3, Meteor, Objective-C, iOS
+                %li
+                    %b Embedded:
+                    ARM, FreeRTOS, I2C, SPI, USART, USB, BTLE, Serial Flash, FPGA, AES, Verilog
 
-    .pad-10
-    %h1.resume-section Education
-    .panel.resume-education
-        %ul
-            %li
-                .resume-date.label Expected 2017
-                M.S.E Computer Graphics & Game Technology, University of Pennsylvania, Philadelphia.
+        .pad-10
+        %h1.resume-section Education
+        .panel.resume-education
+            %ul
+                %li
+                    .resume-date.label Expected 2017
+                    M.S.E Computer Graphics & Game Technology, University of Pennsylvania, Philadelphia.
 
-            %li
-                .resume-date.label 2012
-                B.S Electrical Engineering, University of Washington, Seattle. GPA: 3.51
+                %li
+                    .resume-date.label 2012
+                    B.S Electrical Engineering, University of Washington, Seattle. GPA: 3.51
 
-    .pad-10
-    %h1.resume-section Research experience
+        .pad-10
+        %h1.resume-section Research experience
 
-    .panel.resume-research
+        .panel.resume-research
 
-        .resume-date.label Oct 2010 - Jun 2012
-        %h2.label
-            Research Assistant @
-            = link_to("University of Washington Sensor Lab", "http://sensor.cs.washington.edu/", :target => "_blank")
-            and Seattle Intel Lab
+            .resume-date.label Oct 2010 - Jun 2012
+            %h2.label
+                Research Assistant @
+                = link_to("University of Washington Sensor Lab", "http://sensor.cs.washington.edu/", :target => "_blank")
+                and Seattle Intel Lab
 
-        .resume-image
-            = image_tag("wrel/wrel-bulb.jpg")
+            .resume-image
+                = image_tag("wrel/wrel-bulb.jpg")
 
-        %p
-            Designed a GUI for the systems used in Wireless Resonant Energy Link (WREL) research. Built in Python QT, the software supports data collection, data visualization, wireless control, and power diagnostics. Over the years, the software has been forked and extended for use in other research and at startup company Wibotic.
+            %p
+                Designed a GUI with Python QT for the systems used in Wireless Resonant Energy Link (WREL)
+                research. The software supports data collection, data visualization, wireless control, and power
+                diagnostics. Over the years, the software has been forked and extended for use in other research
+                and at startup company Wibotic.
 
-    .pad-10
-    %h1.resume-section Employment
-    .panel.resume-employment
+        .pad-10
+        %h1.resume-section Employment
+        .panel.resume-employment
 
-        .resume-date.label Jan 2016 - April 2016
-        %h2.label
-            Teaching Assistant @
-            = link_to("University of Pennsylvania", "http://www.cis.upenn.edu/~cis277/16sp/", :target => "_blank")
+            .resume-date.label Jan 2016 - April 2016
+            %h2.label
+                Teaching Assistant @
+                = link_to("University of Pennsylvania", "http://www.cis.upenn.edu/~cis277/16sp/", :target => "_blank")
 
-        %p
-            Teaching assistant for Introduction to Computer Graphics.
+            %p
+                TA for CIS277: Introduction to Interactive Graphics. As a TA, I help students understand concepts such as camera, transformations, skinning, OpenGL, shaders, and other introductory graphics concepts. This course has a significant C++ programming component.
 
-    .panel.resume-employment
+        .panel.resume-employment
 
-        .resume-date.label Jul 2012 - Nov 2014
-        %h2.label
-            Software engineer @
-            = link_to("Jawbone", "http://www.jawbone.com/", :target => "_blank")
+            .resume-date.label Jul 2012 - Nov 2014
+            %h2.label
+                Software engineer @
+                = link_to("Jawbone", "http://www.jawbone.com/", :target => "_blank")
 
-        .resume-image
-            = image_tag("jawbone/up_colors.jpg", :size => "400")
+            .resume-image
+                = image_tag("jawbone/up_colors.jpg", :size => "400")
 
-        %p
-            Developed infrastructure and applications for the
-            = link_to("UP3", "http://jawbone.com/store/buy/up3", :target => "_blank")
-            fitness wristband on ARM Cortex and iOS platforms. This includes the BTLE protocol, authentication and encryption between device and mobile app, activity classification collection tools, peripheral drivers, USB interface, and UX.
+            %p
+                Developed infrastructure and applications for the
+                = link_to("UP3", "http://jawbone.com/store/buy/up3", :target => "_blank")
+                fitness wristband on ARM Cortex and iOS platforms. This includes the BTLE protocol, authentication and encryption between device and mobile app, activity classification collection tools, peripheral drivers, USB interface, and UX.
 
-        %p
-            My interest in working with embedded system led me to take a position at Jawbone where I joined the firmware team developing the UP3 fitness wristband. Jawbone was successful at combining upscale fashion (lead designer Yves Behar and his
-            = link_to("thoughts", "https://jawbone.com/blog/up3-design-story/", :target => "_blank")
-            about designing UP) with the latest technology to set a new bar for the industry. This was a tremendous experience for me to dive deep into a large codebase in a real world embedded system with a plethora of peripherals communicating to the main processor ARM Cortex-M3; it was also an opportunity for me to get involved more in research by developing firmware and companion iOS apps for accelerometry and bioimpedance collection to build algorithm for activity classification.
-
-
-    .panel.resume-employment
-
-        .resume-date.label Mar 2012 - Jun 2012
-        %h2.label
-            Teaching Assistant @
-            = link_to("CS Department, University of Washington", "http://www.cs.washington.edu/", :target => "_blank")
-
-        .resume-image
-            = image_tag("cse352/CSE352_banner.png")
-
-        %p
-            Assisted with the intro to hardware course. Held lab sections, prepared class materials and assignments, administrated the course website, completed grading, and ran office hours. The course materials taught Verilog to build Y86-CPUs on a FPGA.
-
-        %p
-            This was undergraduate teaching assistant position for the introductory hardware design course (CSE352) at UW, under Professor Mark Oskin. I learned quickly that I had to understand the materials beyond the context of textbooks and assignments, so I researched additional materials in parallel with the lessons in class. Since I was mainly in charge of running the lab sections, I got to spend time with different ways to complete the lab assignments - usually a writing of Verilog for different modules that were eventually put together into a RISC computer on a FPGA - to prepare for troubleshooting and explaining questions later when the students arrived. Every question asked was an opportunity for me to test my knowledge of RISC, Verilog and FPGA in depth, and I found teaching rewarding. 
+            %p
+                My interest in working with embedded system led me to take a position at Jawbone where I joined the firmware team developing the UP3 fitness wristband. Jawbone was successful at combining upscale fashion (lead designer Yves Behar and his
+                = link_to("thoughts", "https://jawbone.com/blog/up3-design-story/", :target => "_blank")
+                about designing UP) with the latest technology to set a new bar for the industry. This was a tremendous experience for me to dive deep into a large codebase in a real world embedded system with a plethora of peripherals communicating to the main processor ARM Cortex-M3; it was also an opportunity for me to get involved more in research by developing firmware and companion iOS apps for accelerometry and bioimpedance collection to build algorithm for activity classification.
 
 
-    .panel.resume-employment
+        .panel.resume-employment
 
-        .resume-date.label Jun 2011 – Dec 2011
-        %h2.label
-            Software Intern @
-            = link_to("Genie Industries", "http://www.genielift.com/", :target => "_blank")
-            , Redmond WA
+            .resume-date.label Mar 2012 - Jun 2012
+            %h2.label
+                Teaching Assistant @
+                = link_to("CS Department, University of Washington", "http://www.cs.washington.edu/", :target => "_blank")
 
-        .resume-image
-            = image_tag("genie/genie_stadium.jpg")
+            .resume-image
+                = image_tag("cse352/CSE352_banner.png")
 
-        %p
-            Developed a new control system for hydraulic scissor lifts at Genie's R&D group. Programmed with Javascript, C++ and Rhapsody. Performed mechanical quality assurance testing.
+            %p
+                Assisted with the intro to hardware course. Held lab sections, prepared class materials and assignments, administrated the course website, completed grading, and ran office hours. The course materials taught Verilog to build Y86-CPUs on a FPGA.
 
-    .panel.resume-employment
+            %p
+                This was undergraduate teaching assistant position for the introductory hardware design course (CSE352) at UW, under Professor Mark Oskin. I learned quickly that I had to understand the materials beyond the context of textbooks and assignments, so I researched additional materials in parallel with the lessons in class. Since I was mainly in charge of running the lab sections, I got to spend time with different ways to complete the lab assignments - usually a writing of Verilog for different modules that were eventually put together into a RISC computer on a FPGA - to prepare for troubleshooting and explaining questions later when the students arrived. Every question asked was an opportunity for me to test my knowledge of RISC, Verilog and FPGA in depth, and I found teaching rewarding. 
 
-        .resume-date.label Jun 2010 – Oct 2010
-        %h2.label
-            Software Intern @
-            = link_to("Mindbloom", "http://www.mindbloom.com/", :target => "_blank")
-            , Seattle WA
 
-        .resume-image
-            = image_tag("mindbloom/banner.jpg")
+        .panel.resume-employment
 
-        %p
-            Developed quality assurance test suites for a set of social health games for Mindbloom.
+            .resume-date.label Jun 2011 – Dec 2011
+            %h2.label
+                Software Intern @
+                = link_to("Genie Industries", "http://www.genielift.com/", :target => "_blank")
+                , Redmond WA
 
-    .pad-10
-    %h1.resume-section Extra curriculums
-    .panel.resume-curriculums
-        %ul
-            %li 3rd Trombone, University of Washington’s Husky Marching Band from 2008-2010.
-            %li Organizer, Seattle Indies’s tabletop game design meetups from 2013-2014.
-            %li Seattle Rock & Roll half marathon 2013.
+            .resume-image
+                = image_tag("genie/genie_stadium.jpg")
+
+            %p
+                Developed a new control system for hydraulic scissor lifts at Genie's R&D group. Programmed with Javascript, C++ and Rhapsody. Performed mechanical quality assurance testing.
+
+        .panel.resume-employment
+
+            .resume-date.label Jun 2010 – Oct 2010
+            %h2.label
+                Software Intern @
+                = link_to("Mindbloom", "http://www.mindbloom.com/", :target => "_blank")
+                , Seattle WA
+
+            .resume-image
+                = image_tag("mindbloom/banner.jpg")
+
+            %p
+                Developed quality assurance test suites for a set of social health games for Mindbloom.
+
+        .pad-10
+        %h1.resume-section Extra curriculums
+        .panel.resume-curriculums
+            %ul
+                %li 3rd Trombone, University of Washington’s Husky Marching Band from 2008-2010.
+                %li Organizer, Seattle Indies’s tabletop game design meetups from 2013-2014.
+                %li Seattle Rock & Roll half marathon 2013.
