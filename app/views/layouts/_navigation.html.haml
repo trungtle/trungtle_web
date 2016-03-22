@@ -31,16 +31,18 @@
                 = link_to("Watercube", game_watercube_webplayer_path(@game))
 
           %li.has-dropdown
-            %a Simulations/FX
+            %a Graphics
             %ul.dropdown
+              %li
+                = link_to("WebGL2 Samples Pack", project_webgl2samplespack_path(@project))
               %li
                 = link_to("Paint on speaker", project_paintspeaker_path(@project))
               %li
                 = link_to("Cloth figure tearing", project_clothFX_path(@project))
               %li
                 = link_to("Particle monster", project_particlemonster_path(@project))
-              %li
-                = link_to("Rifted", project_rifted_path(@project))
+              / %li
+              /   = link_to("Rifted", project_rifted_path(@project))
               %li
                 = link_to("Medieval town simulation", project_townsim_path(@project))
               %li

@@ -1,14 +1,17 @@
 .row.container
 
   .large-12.columns
+    = link_to("Resume", "/doc/resume/Resume_Graphics_Trung_Le.pdf", :type => "application/pdf", :class => "button", :target => "_blank")
     = render 'layouts/contact'
     .announce.panel
       .fa-stack.fa-lg
         %i.fa.fa-circle.fa-stack-2x
         %i.fa.fa-info.fa-border.fa-stack-1x.fa-inverse
-      Update Jan 16: Beginning this Spring, I am contributing to the
+      Update 03/22/16: My
+      = link_to('presentation', 'https://www.youtube.com/watch?v=qAjWiVfR5Nw&t=38m31s', :target => '_blank')
+      on
       = link_to('WebGL2 Samples Pack', 'https://github.com/WebGLSamples/WebGL2Samples', :target => '_blank')
-      in preparation for the WebGL2 release.
+      at Khronos event, GDC 2016
 
     %ul.example-orbit-content(data-orbit)
       %li(data-orbit-slide="Carroll")
