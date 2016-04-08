@@ -39,11 +39,6 @@
         %a(href="#{project_clothFX_path(@project)}")
           %img(src="https://s3-us-west-2.amazonaws.com/trle/FX/man_cloth0072.jpg")
 
-      %li(data-orbit-slide="Mountains")
-        %h1.right Mountains (modeled in Maya)
-        %a(href="#{static_page_3d_modeling_path(@static_page)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/3d_modeling/mountains/prepwork_45.jpg")
-
       %li(data-orbit-slide="Batmobile")
         %h1.right Batmobile (modeled in Maya)
         %a(href="#{static_page_3d_modeling_path(@static_page)}")
@@ -100,12 +95,6 @@
 
       %li
         .sample-title
-          = link_to("Watercube (C#, Unity)", game_watercube_webplayer_path(@game))
-        .flex-video
-          %iframe(width="1280" height="720" src="//www.youtube.com/embed/VO87zy0KQ0Y?&showinfo=0" frameborder="0" allowfullscreen)
-
-      %li
-        .sample-title
           = link_to("Cloth tearing (FX in Maya)", project_clothFX_path(@project))
         .flex-video
           %iframe(width="560" height="315" src="https://www.youtube.com/embed/r4g2UaC0ghg?&showinfo=0" frameborder="0" allowfullscreen)
@@ -121,11 +110,6 @@
           = link_to("Particle monster (FX in Houdini)", project_particlemonster_path(@project))
         .flex-video
           %iframe(width="560" height="315" src="https://www.youtube.com/embed/s64rs3Mhn6o?&showinfo=0" frameborder="0" allowfullscreen)
-
-      %li
-        .sample-title Perlin noise (Processing)
-        .flex-video
-          %iframe(width="420" height="315" src="https://www.youtube.com/embed/jXHOhgNERvA?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
         .sample-title
