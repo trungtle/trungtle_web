@@ -1,0 +1,66 @@
+.row
+    .small-10.small-centered.columns.container
+        %h1 Carroll
+
+        %p
+            Apepi is an inifinite runner in a gorgeous world. The objective of the game is to chase the sun and and capture "sun stuff", shiny missing pieces of the sun to prevent the sun from being swallowed by darkness.
+
+        %p
+            Apepi won Best Art at Penn Play 2016, a game jam at for students at University of Pennsylvania.
+
+        %p
+            Carrol is the proud winner of
+            = link_to("PennApps XIII", "http://devpost.com/software/carroll", :target => "_blank")
+            for Best Design.
+
+        %h1 Downloads
+        %p
+            %a.button(href="https://github.com/trungtle/carroll")
+                %i.fa.fa-github
+                Github
+
+            = link_to("OSX Version", "https://github.com/trungtle/carroll/tree/master/carroll.app", :class => "button", :target => "_blank")
+
+            = link_to("Windows Version", "https://github.com/trungtle/carroll/blob/master/caroll.exe", :class => "button", :target => "_blank")
+
+        %p
+            For VR, You can use any version of Occulus Rift. However, the game can be played without it.
+
+        .flex-video
+            %iframe(src="https://player.vimeo.com/video/152879062" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+
+        %ul.small-block-grid-2.medium-block-grid-2.large-block-grid-2.clearing-thumbs(data-clearing)
+            - paths = ["https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.53.41+AM.png", "https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.54.44+AM.png", "https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.55.03+AM.png", "https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.55.20+AM.png"]
+
+            - paths.each do |path|
+                %li
+                    %a.th
+                        = image_tag("#{path}")
+
+        %h1 Origin
+
+        %p We are inspired to create an exploratory game with an Alice in Wonderland theme. The name Carroll is in honour of Lewis Carroll, the genius writer that inspires us.
+
+        %h1 Built with
+
+        %p
+            C# in Unity3D, Maya, Occulus Rift
+
+        %h1 Team members
+
+        %ul
+            %li
+                = link_to("Reika Yoshino", "http://www.reikayoshino.com/", :target => "_blank")
+                , Original creator, Game Concept, Level Design, 3D Modeling, Texturing
+
+            %li
+                = link_to("Irem Öz", "https://www.linkedin.com/in/irem-öz-19772544/en", :target => "_blank")
+                , Level Design, Game Design, 3d Modeling, Mechanics.
+
+            %li
+                = link_to("Trung Le", "http://www.trungtuanle.com/", :target => "_blank")
+                , C#, Unity, Mechanics
+
+            %li
+                = link_to("Akshay Shah", "https://www.linkedin.com/in/akshaymshah", :target => "_blank")
+                , Rendering, Optimazations, Lighting, Shading
