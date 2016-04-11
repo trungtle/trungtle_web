@@ -15,6 +15,7 @@ Trungtle::Application.routes.draw do
   get "project/fourierbound"
   get "project/townsim"
   get "project/rifted"
+  get "project/SPHSolverCPP"
   get "project/webgl2samplespack"
   get "project/clothFX"
   get "project/paintspeaker"

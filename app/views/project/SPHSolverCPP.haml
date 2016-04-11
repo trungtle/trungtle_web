@@ -1,0 +1,34 @@
+.row
+  .small-10.small-centered.columns.container
+
+    %h1 Smoothed Particle Hydrodynamics (SPH) Fluid Solver in C++
+
+    %a.button(href="https://github.com/trungtle/KorraFluidSolver")
+      %i.fa.fa-github
+      Github
+
+    .flex-video
+      %iframe(width="560" height="315" src="https://www.youtube.com/embed/QeSkB5jceCE" frameborder="0" allowfullscreen)
+
+    %p
+      I implemented the SPH based on Eurographics'
+      = link_to("SPH Fluids in Computer Graphics", "https://graphics.ethz.ch/~sobarbar/papers/Sol14/2014_EG_SPH_STAR.pdf", :target => "_blank")
+      and Matthias Müller's
+      = link_to("Particle-Based Fluid Simulation for Interactive Applications.", "http://dl.acm.org/citation.cfm?id=846298")
+
+
+    %p
+      All the implementation was built from the ground up with external libraries (see Github page's README for more details), including OpenGL, NanoGUI, TBB, and OpenVDB. The SPH solver itself is done on the CPU, but I plan to move it to GPU for performance improvement. More details coming soon.
+
+    %h1 Renders
+
+    %ul.small-block-grid-2.medium-block-grid-2.large-block-grid-2.clearing-thumbs(data-clearing)
+      - paths = ["https://s3-us-west-2.amazonaws.com/trle/SPHSolverCPP/SPHSnapShotFullRender_SkyLight.jpg", "https://s3-us-west-2.amazonaws.com/trle/SPHSolverCPP/render_full_angled.jpg"]
+
+      - paths.each do |path|
+        %li
+          %a.th
+            = image_tag("#{path}")
+
+
+
