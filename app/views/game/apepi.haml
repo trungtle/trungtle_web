@@ -1,66 +1,39 @@
 .row
     .small-10.small-centered.columns.container
-        %h1 Carroll
+        %h1 Apepi (WIP)
 
         %p
-            Apepi is an inifinite runner in a gorgeous world. The objective of the game is to chase the sun and and capture "sun stuff", shiny missing pieces of the sun to prevent the sun from being swallowed by darkness.
+            Apepi is an inifinite runner in a gorgeous world. The objective of the game is to chase the sun and and capture "sun stuff", shiny missing pieces of the sun to prevent the sun from being swallowed by darkness. The game was built in 24 hours using Unreal Engine and custom arts created in Maya.
 
         %p
-            Apepi won Best Art at Penn Play 2016, a game jam at for students at University of Pennsylvania.
-
-        %p
-            Carrol is the proud winner of
-            = link_to("PennApps XIII", "http://devpost.com/software/carroll", :target => "_blank")
-            for Best Design.
-
-        %h1 Downloads
-        %p
-            %a.button(href="https://github.com/trungtle/carroll")
-                %i.fa.fa-github
-                Github
-
-            = link_to("OSX Version", "https://github.com/trungtle/carroll/tree/master/carroll.app", :class => "button", :target => "_blank")
-
-            = link_to("Windows Version", "https://github.com/trungtle/carroll/blob/master/caroll.exe", :class => "button", :target => "_blank")
-
-        %p
-            For VR, You can use any version of Occulus Rift. However, the game can be played without it.
+            Apepi won Best Art at Penn Play 2016, a game jam at for students at University of Pennsylvania. We're working putting together a final build for different platforms.
 
         .flex-video
-            %iframe(src="https://player.vimeo.com/video/152879062" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+            %iframe(width="560" height="315" src="https://www.youtube.com/embed/go-dhytPoRg?&showinfo=0" frameborder="0" allowfullscreen)
 
         %ul.small-block-grid-2.medium-block-grid-2.large-block-grid-2.clearing-thumbs(data-clearing)
-            - paths = ["https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.53.41+AM.png", "https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.54.44+AM.png", "https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.55.03+AM.png", "https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.55.20+AM.png"]
+            - paths = ["https://s3-us-west-2.amazonaws.com/trle/apepi/Screen+Shot+2016-04-10+at+9.56.36+PM.png", "https://s3-us-west-2.amazonaws.com/trle/apepi/Screen+Shot+2016-04-10+at+9.57.06+PM.png", "https://s3-us-west-2.amazonaws.com/trle/apepi/Screen+Shot+2016-04-10+at+9.57.25+PM.png", "https://s3-us-west-2.amazonaws.com/trle/apepi/Screenshot+2016-04-03+11.58.19.png", "https://s3-us-west-2.amazonaws.com/trle/apepi/Screenshot+2016-04-03+11.58.37.png", "https://s3-us-west-2.amazonaws.com/trle/apepi/Screenshot+2016-04-03+11.58.52.png"]
 
             - paths.each do |path|
                 %li
                     %a.th
                         = image_tag("#{path}")
 
-        %h1 Origin
-
-        %p We are inspired to create an exploratory game with an Alice in Wonderland theme. The name Carroll is in honour of Lewis Carroll, the genius writer that inspires us.
-
-        %h1 Built with
-
-        %p
-            C# in Unity3D, Maya, Occulus Rift
-
         %h1 Team members
 
         %ul
             %li
                 = link_to("Reika Yoshino", "http://www.reikayoshino.com/", :target => "_blank")
-                , Original creator, Game Concept, Level Design, 3D Modeling, Texturing
+                , Original creator, Art Assets
 
             %li
                 = link_to("Irem Öz", "https://www.linkedin.com/in/irem-öz-19772544/en", :target => "_blank")
-                , Level Design, Game Design, 3d Modeling, Mechanics.
+                , Visual Effects, Materials.
 
             %li
                 = link_to("Trung Le", "http://www.trungtuanle.com/", :target => "_blank")
-                , C#, Unity, Mechanics
+                , Gameplay Programming
 
             %li
                 = link_to("Akshay Shah", "https://www.linkedin.com/in/akshaymshah", :target => "_blank")
-                , Rendering, Optimazations, Lighting, Shading
+                , Rendering, Lighting

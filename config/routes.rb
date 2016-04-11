@@ -7,6 +7,7 @@ Trungtle::Application.routes.draw do
   get "game/watercube_webplayer"
   get "game/feasor"
   get "game/carroll"
+  get "game/apepi"
   get "project/seattlecoop"
   get "project/wrel"
   get "project/wrad"

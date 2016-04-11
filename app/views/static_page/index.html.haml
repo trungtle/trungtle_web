@@ -19,6 +19,11 @@
         %a(href="#{project_SPHSolverCPP_path(@project)}")
           %img(src="https://s3-us-west-2.amazonaws.com/trle/SPHSolverCPP/render_full_angled.jpg")
 
+      %li(data-orbit-slide="Apepi")
+        %h1.right Apepi (Unreal)
+        %a(href="#{game_apepi_path(@game)}")
+          %img(src="https://s3-us-west-2.amazonaws.com/trle/apepi/Screen+Shot+2016-04-10+at+9.56.36+PM.png")
+
       %li(data-orbit-slide="Carroll")
         %h1.right Carroll (C# in Unity, Best Design winner of PennApps 2016)
         %a(href="#{game_carroll_path(@game)}")
@@ -73,6 +78,12 @@
           = link_to("SPH Fluid Solver in C++", project_SPHSolverCPP_path(@project))
         .flex-video
           %iframe(src="https://www.youtube.com/embed/QeSkB5jceCE?&showinfo=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+
+      %li
+        .sample-title
+          = link_to("Apepi (Unreal)", game_apepi_path(@game))
+        .flex-video
+          %iframe(src="https://www.youtube.com/embed/go-dhytPoRg?&showinfo=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
 
       %li
         .sample-title
