@@ -1,0 +1,46 @@
+.row
+    .small-10.small-centered.columns.container
+        %h1 Project Em
+
+        %p
+            Project Em won 2nd place At Penn Apps XIV in 2016. It is a voice-control 3D puzzle platform game that uses Amazon's
+            = link_to("Alexa", "http://alexa.amazon.com/spa/index.html", :target => "_blank")
+            API to interact with an AI character in game, named Em. The game uses speech as the sole way of communication - by having the player speak directly into a mic - to the character named "Em". Player can inquire about her observation of the environment and request her to perform certain tasks such as opening door or navigate to a different room.
+
+
+        .flex-video
+            %iframe(width="560" height="315" src="https://www.youtube.com/embed/t-2w_q-RPyk" frameborder="0" allowfullscreen)
+
+
+        %p
+            Below is some screenshots of Em within the level.
+
+        %ul.small-block-grid-2.medium-block-grid-2.large-block-grid-2.clearing-thumbs(data-clearing)
+            - paths = ["https://s3-us-west-2.amazonaws.com/trle/projec_em/gallery.jpg", "https://s3-us-west-2.amazonaws.com/trle/projec_em/gallery+(1).jpg", "https://s3-us-west-2.amazonaws.com/trle/projec_em/gallery+(2).jpg", "https://s3-us-west-2.amazonaws.com/trle/projec_em/gallery+(3).jpg", "https://s3-us-west-2.amazonaws.com/trle/projec_em/gallery+(4).jpg"]
+
+            - paths.each do |path|
+                %li
+                    %a.th
+                        = image_tag("#{path}")
+
+
+
+
+        %h1 Team members
+
+        %ul
+            %li
+                = link_to("Sach Best", "https://www.linkedin.com/in/sachabest")
+                , Unreal & Alex integration
+
+            %li
+                = link_to("Max Gilbert", "http://maxlgilbert.com/", :target => "_blank")
+                , Unreal, Alexa
+
+            %li
+                = link_to("Trung Le", "http://www.trungtuanle.com/", :target => "_blank")
+                , Concept, Design, Unreal Programming
+
+            %li
+                = link_to("Akshay Shah", "https://www.linkedin.com/in/akshaymshah", :target => "_blank")
+                , Alexa integration

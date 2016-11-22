@@ -1,0 +1,18 @@
+.row
+    .small-10.small-centered.columns.container
+        %h1 Real time fracturing plugin tool for Unity
+
+        %p
+
+        %p
+
+        .flex-video
+            %iframe(src="https://player.vimeo.com/video/164703631" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen)
+
+        %ul.small-block-grid-2.medium-block-grid-2.large-block-grid-2.clearing-thumbs(data-clearing)
+            - paths = [""]
+
+            - paths.each do |path|
+                %li
+                    %a.th
+                        = image_tag("#{path}")

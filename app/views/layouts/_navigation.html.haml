@@ -20,6 +20,8 @@
             %a Games
             %ul.dropdown
               %li
+                = link_to("Project Em", game_projectEm_path(@game))
+              %li
                 = link_to("Apepi", game_apepi_path(@game))
               %li
                 = link_to("Carroll", game_carroll_path(@game))
@@ -39,6 +41,8 @@
                 = link_to("SPH FLuid Solver", project_SPHSolverCPP_path(@project))
               %li
                 = link_to("WebGL2 Samples Pack", project_webgl2samplespack_path(@project))
+              %li
+                = link_to("Real time fracturing tool for Unity", project_realtimefractureUnity_path(@project))
               %li
                 = link_to("Paint on speaker", project_paintspeaker_path(@project))
               %li
