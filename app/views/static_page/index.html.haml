@@ -3,15 +3,6 @@
   .large-12.columns
     = link_to("Resume", "/doc/resume/Resume_Graphics_Trung_Le.pdf", :type => "application/pdf", :class => "button", :target => "_blank")
     = render 'layouts/contact'
-    .announce.panel
-      .fa-stack.fa-lg
-        %i.fa.fa-circle.fa-stack-2x
-        %i.fa.fa-info.fa-border.fa-stack-1x.fa-inverse
-      Update 03/22/16: My
-      = link_to('presentation', 'https://www.youtube.com/watch?v=qAjWiVfR5Nw&t=38m31s', :target => '_blank')
-      on
-      = link_to('WebGL2 Samples Pack', 'https://github.com/WebGLSamples/WebGL2Samples', :target => '_blank')
-      at Khronos event, GDC 2016
 
     %ul.example-orbit-content(data-orbit)
       %li(data-orbit-slide="SPHSolverCPP")
@@ -87,7 +78,8 @@
       %li
         .sample-title
           = link_to("Project Em", game_projectEm_path(@game))
-          = image_tag("https://s3-us-west-2.amazonaws.com/trle/projec_em/gallery.jpg")
+        .flex-video
+          %iframe(width="560" height="315" src="https://www.youtube.com/embed/t-2w_q-RPyk?&showinfo=0" frameborder="0" allowfullscreen)
 
       %li
         .sample-title
@@ -149,8 +141,8 @@
         .flex-video
           %iframe(width="640" height="360" src="//www.youtube.com/embed/DR2Rh4Tj8Ns?&showinfo=0" frameborder="0" allowfullscreen)
 
-      %li
-        .sample-title
-          = link_to("Seattle Indies", project_seattlecoop_path(@project))
-        %a(href="#{project_seattlecoop_path(@project)}")
-          = image_tag("seattlecoop/seattlecoop_9.jpeg")
+      / %li
+      /   .sample-title
+      /     = link_to("Seattle Indies", project_seattlecoop_path(@project))
+      /   %a(href="#{project_seattlecoop_path(@project)}")
+      /     = image_tag("seattlecoop/seattlecoop_9.jpeg")
