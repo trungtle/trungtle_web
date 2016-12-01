@@ -29,10 +29,10 @@
                 = link_to("Vietspeak", game_vietspeak_path(@game))
               %li
                 = link_to("Shires", game_shires_path(@game))
-              %li
-                = link_to("Assylium", game_assylium_path(@game))
-              %li
-                = link_to("Watercube", game_watercube_webplayer_path(@game))
+              / %li
+              /   = link_to("Assylium", game_assylium_path(@game))
+              / %li
+              /   = link_to("Watercube", game_watercube_webplayer_path(@game))
 
           %li.has-dropdown
             %a Graphics
@@ -41,24 +41,22 @@
                 = link_to("SPH FLuid Solver", project_SPHSolverCPP_path(@project))
               %li
                 = link_to("WebGL2 Samples Pack", project_webgl2samplespack_path(@project))
-              %li
-                = link_to("Real time fracturing tool for Unity", project_realtimefractureUnity_path(@project))
-              %li
-                = link_to("Paint on speaker", project_paintspeaker_path(@project))
+              / %li
+              /   = link_to("Real time fracturing tool for Unity", project_realtimefractureUnity_path(@project))
+              / %li
+              /   = link_to("Paint on speaker", project_paintspeaker_path(@project))
               %li
                 = link_to("Cloth figure tearing", project_clothFX_path(@project))
-              %li
-                = link_to("Particle monster", project_particlemonster_path(@project))
+              / %li
+              /   = link_to("Particle monster", project_particlemonster_path(@project))
               / %li
               /   = link_to("Rifted", project_rifted_path(@project))
               %li
                 = link_to("Medieval town simulation", project_townsim_path(@project))
               %li
                 = link_to("Fourierbound", project_fourierbound_path(@project))
-              %li
-                = link_to("3D Modeling", static_page_3d_modeling_path(@static_page))
-          %li
-            = link_to("Seattle Indies", project_seattlecoop_path(@project))
+              / %li
+              /   = link_to("3D Modeling", static_page_3d_modeling_path(@static_page))
           %li.has-dropdown
             %a Firmware
             %ul.dropdown
@@ -66,15 +64,17 @@
                 = link_to("Moodbox", project_moodbox_path(@project))
               %li
                 = link_to("Wireless energy", project_wrel_path(@project))
-              %li
-                = link_to("Undergraduate", project_collegeee_path(@project))
+              / %li
+              /   = link_to("Undergraduate", project_collegeee_path(@project))
+          %li
+            = link_to("Seattle Indies", project_seattlecoop_path(@project))
 
-          %li.has-dropdown
-            %a Blog
-            %ul.dropdown
-              %li
-                %a{:href => "http://apassingroad.wordpress.com/", :target => "_blank"}A passing road
-              %li
-                %a{:href => "https://cluesandcodes.wordpress.com/", :target => "_blank" }Clues & codes
-              %li
-                %a{:href => "http://feasorthegame.blogspot.com/", :target => "_blank"}Feasor game journal
+          / %li.has-dropdown
+          /   %a Blog
+          /   %ul.dropdown
+          /     %li
+          /       %a{:href => "http://apassingroad.wordpress.com/", :target => "_blank"}A passing road
+          /     %li
+          /       %a{:href => "https://cluesandcodes.wordpress.com/", :target => "_blank" }Clues & codes
+          /     %li
+          /       %a{:href => "http://feasorthegame.blogspot.com/", :target => "_blank"}Feasor game journal
