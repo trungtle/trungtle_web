@@ -25,4 +25,8 @@ class StaticPageController < ApplicationController
 
   def watercube_webplayer
   end
+
+  def masterthesis
+  end
+
 end
