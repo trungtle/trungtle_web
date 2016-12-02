@@ -19,6 +19,35 @@
           %li
             = link_to("Master Thesis", static_page_masterThesis_path(@static_page))
           %li.has-dropdown
+            %a Graphics
+            %ul.dropdown
+              %li
+                = link_to("CUDA Path Tracer", "https://github.com/trungtle/Project3-CUDA-Path-Tracer")
+              %li
+                = link_to("CUDA Rasterizer", "https://github.com/trungtle/Project4-CUDA-Rasterizer")
+              %li
+                = link_to("WebGL Tile-based Deferred Rendering", "https://github.com/trungtle/Project5-WebGL-Deferred-Shading-with-glTF")
+              %li
+                = link_to("WebGL2 Samples Pack", project_webgl2samplespack_path(@project))
+              %li
+                = link_to("SPH FLuid Solver", project_SPHSolverCPP_path(@project))
+              / %li
+              /   = link_to("Real time fracturing tool for Unity", project_realtimefractureUnity_path(@project))
+              / %li
+              /   = link_to("Paint on speaker", project_paintspeaker_path(@project))
+              / %li
+              /   = link_to("Cloth figure tearing", project_clothFX_path(@project))
+              / %li
+              /   = link_to("Particle monster", project_particlemonster_path(@project))
+              / %li
+              /   = link_to("Rifted", project_rifted_path(@project))
+              / %li
+              /   = link_to("Medieval town simulation", project_townsim_path(@project))
+              / %li
+              /   = link_to("Fourierbound", project_fourierbound_path(@project))
+              / %li
+              /   = link_to("3D Modeling", static_page_3d_modeling_path(@static_page))
+          %li.has-dropdown
             %a Games
             %ul.dropdown
               %li
@@ -36,29 +65,6 @@
               / %li
               /   = link_to("Watercube", game_watercube_webplayer_path(@game))
 
-          %li.has-dropdown
-            %a Graphics
-            %ul.dropdown
-              %li
-                = link_to("SPH FLuid Solver", project_SPHSolverCPP_path(@project))
-              %li
-                = link_to("WebGL2 Samples Pack", project_webgl2samplespack_path(@project))
-              / %li
-              /   = link_to("Real time fracturing tool for Unity", project_realtimefractureUnity_path(@project))
-              / %li
-              /   = link_to("Paint on speaker", project_paintspeaker_path(@project))
-              %li
-                = link_to("Cloth figure tearing", project_clothFX_path(@project))
-              / %li
-              /   = link_to("Particle monster", project_particlemonster_path(@project))
-              / %li
-              /   = link_to("Rifted", project_rifted_path(@project))
-              %li
-                = link_to("Medieval town simulation", project_townsim_path(@project))
-              %li
-                = link_to("Fourierbound", project_fourierbound_path(@project))
-              / %li
-              /   = link_to("3D Modeling", static_page_3d_modeling_path(@static_page))
           / %li.has-dropdown
           /   %a Firmware
           /   %ul.dropdown

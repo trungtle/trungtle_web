@@ -1,46 +1,21 @@
 .row.container
 
   .large-12.columns
-    %ul.example-orbit-content(data-orbit)
-      %li(data-orbit-slide="SPHSolverCPP")
-        %h1.right SPH Fluid Solver in C++
-        %a(href="#{project_SPHSolverCPP_path(@project)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/SPHSolverCPP/render_full_angled.jpg")
+    %ul.example-orbit(data-orbit)
 
-      %li(data-orbit-slide="Project Em")
-        %h1.right Project Em (Unreal, Alexa, 2nd place of Penn Apps XIV)
-        %a(href="#{game_projectEm_path(@game)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/projec_em/gallery.jpg" width="1600" height="900")
+      - slides = {project_SPHSolverCPP_path(@project) => ["SPH Fluid Solver in C++", "https://s3-us-west-2.amazonaws.com/trle/SPHSolverCPP/render_full_angled.jpg"], game_projectEm_path(@game) => ["Project Em - Unreal, Alexa, 2nd place of Penn Apps XIV", "https://s3-us-west-2.amazonaws.com/trle/projec_em/gallery_full.jpg"], game_apepi_path(@game) => ["Apepi - Unreal", "https://s3-us-west-2.amazonaws.com/trle/apepi/Screen+Shot+2016-04-10+at+9.56.36+PM.png"], game_carroll_path(@game) => ["Carroll - C# in Unity, Best Design winner of PennApps 2016", "https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.53.41+AM.png"], game_shires_path(@game) => ["Shired - C# in Unity", "https://s3-us-west-2.amazonaws.com/trle/shires/shires_screenshot.png"], game_vietspeak_path(@game) => ["Vietspeak - Javascript in Meteor", "https://s3-us-west-2.amazonaws.com/trle/vietspeak/Vietspeak_1.png"], project_clothFX_path(@project) => ["Human Cloth Tearing - FX in Maya", "https://s3-us-west-2.amazonaws.com/trle/FX/man_cloth0072.jpg"]}
 
-      %li(data-orbit-slide="Apepi")
-        %h1.right Apepi (Unreal)
-        %a(href="#{game_apepi_path(@game)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/apepi/Screen+Shot+2016-04-10+at+9.56.36+PM.png")
+      - slides.each do |link, image|
+        %li
+          %a(href="#{link}")
+            %img(src="#{image[1]}" width="1600" height="900")
+          .orbit-caption #{image[0]}
 
-      %li(data-orbit-slide="Carroll")
-        %h1.right Carroll (C# in Unity, Best Design winner of PennApps 2016)
-        %a(href="#{game_carroll_path(@game)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.53.41+AM.png")
-
-      %li(data-orbit-slide="Shires")
-        %h1.right Shired (C# in Unity)
-        %a(href="#{game_shires_path(@game)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/shires/shires_screenshot.png")
-
-      %li(data-orbit-slide="Vietspeak")
-        %h1.right Vietspeak (Javascript in Meteor)
-        %a(href="#{game_vietspeak_path(@game)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/vietspeak/Vietspeak_1.png")
 
       / %li(data-orbit-slide="PaintSpeaker")
       /   %h1.right Paint on speaker (FX in Houdini)
       /   %a(href="#{project_paintspeaker_path(@project)}")
       /     %img(src="https://s3-us-west-2.amazonaws.com/trle/FX/paintspeaker/speaker_fluid_greenpaintspecular_whitelight_16.png")
-
-      %li(data-orbit-slide="ClothTearing")
-        %h1.right Cloth tearing (FX in Maya)
-        %a(href="#{project_clothFX_path(@project)}")
-          %img(src="https://s3-us-west-2.amazonaws.com/trle/FX/man_cloth0072.jpg")
 
       / %li(data-orbit-slide="Batmobile")
       /   %h1.right Batmobile (modeled in Maya)
@@ -51,9 +26,9 @@
       /   %h1.right Pathtracer (C++)
       /   %img(src="https://s3-us-west-2.amazonaws.com/trle/graphics/pathtracer/rendered_images_18.bmp")
 
-      %li(data-orbit-slide="Jawbone UP3")
-        %h1.right Jawbone UP3 (Firmware)
-        = image_tag("jawbone/up_colors.jpg")
+      / %li(data-orbit-slide="Jawbone UP3")
+      /   %h1.right Jawbone UP3 (Firmware)
+      /   = image_tag("jawbone/up_colors.jpg")
 
       / %li(data-orbit-slide="Moodbox")
       /   %h1.right Moodbox (Firmware + iOS)
@@ -65,6 +40,17 @@
     %hr
 
     %ul.small-block-grid-1.medium-block-grid-2.large-block-grid-2
+
+      / Projects with images
+      - projects = {"CUDA Path Tracer" => ["https://github.com/trungtle/Project3-CUDA-Path-Tracer", "https://raw.githubusercontent.com/trungtle/Project3-CUDA-Path-Tracer/master/img/wahoo_green.png"], "CUDA Rasterizer" => ["https://github.com/trungtle/Project4-CUDA-Rasterizer", "https://raw.githubusercontent.com/trungtle/Project4-CUDA-Rasterizer/master/renders/videos/engine_kbuffer.gif"], "WebGL Tile-based Deferred Rendering" => ["https://github.com/trungtle/Project5-WebGL-Deferred-Shading-with-glTF", "https://raw.githubusercontent.com/trungtle/Project5-WebGL-Deferred-Shading-with-glTF/master/img/100_lights.gif"]}
+
+      - projects.each do |title, link|
+        %li
+          .sample-title
+            = link_to("#{title}", "#{link[0]}")
+            %img(src="#{link[1]}")
+
+      / Projects with videos
 
       %li
         .sample-title
