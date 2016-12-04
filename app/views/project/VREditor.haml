@@ -38,22 +38,32 @@
             %li
                 %b Laser
                 %p This mode uses ray casting from the hand's position and forward vector to intersect with the keyboard screen. It is the most commonly used in VR applications right now, but presents certain limitation introduces by error from hand's movement.
+                = image_tag("https://s3-us-west-2.amazonaws.com/trle/epic/vreditor/typing_laser.gif")
+                .pad-10
             %li
                 %b Monocle
                 %p Similar to the laser mode, but instead of casting a ray from the hand's position, it casts a ray from the user's camera position toward the hand's position.
+                = image_tag("https://s3-us-west-2.amazonaws.com/trle/epic/vreditor/typing_monocle.gif")
+                .pad-10
             %li
                 %b Single-pronged drum
                 %p
                     As it sounds like! This mode allows user to type as if playing on a drumset. This idea is inspired by
                     = link_to("Google Daydream Drum Keys", "https://youtu.be/QYwzSEAyn2M", :targe => "_blank")
+                = image_tag("https://s3-us-west-2.amazonaws.com/trle/epic/vreditor/typing_drum.gif")
+                .pad-10
 
             %li
                 %b Dual-pronged drum
                 %p An extension of single-pronged drum mode. The reasoning for this is that a typist can learn to perfect typing with for than a single stick per hand by practicing on wrist rotation.
+                = image_tag("https://s3-us-west-2.amazonaws.com/trle/epic/vreditor/typing_dual_drum.gif")
+                .pad-10
 
             %li
                 %b Flat projection
                 %p Instead of casting a ray at the screen, I implemented a world aligned projection from the user's hands to the keyboard screen parallel to the ground. The advantage of this mode is that it completely eliminates errors introduced by orientation (from shaking wrists)
+                = image_tag("https://s3-us-west-2.amazonaws.com/trle/epic/vreditor/typing_flat_projection.gif")
+                .pad-10
 
         %p
             In the following video, a simple test is run for characters per minute (CPM). For comparison, the average speed for typing on a traditional physical keyboard is 190 CPM.
