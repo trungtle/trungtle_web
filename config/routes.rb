@@ -23,6 +23,7 @@ Trungtle::Application.routes.draw do
   get "project/clothFX"
   get "project/paintspeaker"
   get "project/particlemonster"
+  get "project/VREditor"
   get "static_page/3d_modeling"
   get "static_page/index"
   get "static_page/about"

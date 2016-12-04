@@ -1,0 +1,75 @@
+.row
+    .small-10.small-centered.columns.container
+        %p
+            The folllowing are my projects during an internship with Epic Games under the supervision of
+            = link_to("Mike Fricker.", "https://twitter.com/mike_fricker")
+            All projects are part of the Unreal VR Editor development.
+
+        .flex-video
+            %iframe(width="560" height="315" src="https://www.youtube.com/embed/1VVr2vMVdjc?&showinfo=0" frameborder="0" allowfullscreen)
+
+        %hr
+        %h1
+            Foliage Painting,
+            = link_to("Unreal 4.13 release", "https://docs.unrealengine.com/latest/INT/Support/Builds/ReleaseNotes/2016/4_14/index.html")
+
+        %p
+            I implemented foliage painting in VR mode by enabling the VR controllers to interact with the UI panels and project the foliage placing onto the virtual world. The "Foliage" painting mode can now be summoned from the UI panel. This feature is included in Unreal 4.13 release.
+
+        = image_tag("https://docs.unrealengine.com/latest/images/Support/Builds/ReleaseNotes/2016/4_13/image_27.gif")
+
+        %hr
+        %h1
+            Landscape Editing,
+            = link_to("Unreal 4.14 release", "https://docs.unrealengine.com/latest/INT/Support/Builds/ReleaseNotes/2016/4_14/index.html")
+
+        %p
+            In this project, I migrated several sets of landscape editing tools and enabled it in VR mode. User can now summon the "Landscape" mode from the UI panel and select which brush they want to use for painting. It is quite trickier than the foliage painting mode, since there are a lot more tools to consider for reasonable controlling scheme. We had to drop tools that require hit proxies selection, such as ramp tool etc. This feature is included in Unreal 4.14 release.
+
+        = image_tag("https://docs.unrealengine.com/latest/images/Support/Builds/ReleaseNotes/2016/4_14/image_49.gif")
+
+        %hr
+        %h1 VR Keyboard
+
+        %p
+            As part of my internship at Epic Games, I prototyped several VR typing schemes in the Unreal Engine.
+
+        %ol
+            %li
+                %b Laser
+                %p This mode uses ray casting from the hand's position and forward vector to intersect with the keyboard screen. It is the most commonly used in VR applications right now, but presents certain limitation introduces by error from hand's movement.
+            %li
+                %b Monocle
+                %p Similar to the laser mode, but instead of casting a ray from the hand's position, it casts a ray from the user's camera position toward the hand's position.
+            %li
+                %b Single-pronged drum
+                %p
+                    As it sounds like! This mode allows user to type as if playing on a drumset. This idea is inspired by
+                    = link_to("Google Daydream Drum Keys", "https://youtu.be/QYwzSEAyn2M", :targe => "_blank")
+
+            %li
+                %b Dual-pronged drum
+                %p An extension of single-pronged drum mode. The reasoning for this is that a typist can learn to perfect typing with for than a single stick per hand by practicing on wrist rotation.
+
+            %li
+                %b Flat projection
+                %p Instead of casting a ray at the screen, I implemented a world aligned projection from the user's hands to the keyboard screen parallel to the ground. The advantage of this mode is that it completely eliminates errors introduced by orientation (from shaking wrists)
+
+        %p
+            In the following video, a simple test is run for characters per minute (CPM). For comparison, the average speed for typing on a traditional physical keyboard is 190 CPM.
+
+        .flex-video
+            %iframe(width="560" height="315" src="https://www.youtube.com/embed/_h1euVvZpvg" frameborder="0" allowfullscreen)
+
+        %p Order of appearance:
+
+        %ul
+            %li [0:00] Monocle mode (raycast from eye through a point hovering above hand)
+            %li [1:13] Single-pronged drum
+            %li [2:25] Dual-pronged drum
+            %li [3:35] Flat projection (orthogonal raycasting from hand to keyboard surface)
+            %li [4:46] Laser
+            %li [5:57] Monocle (2nd time)
+
+
+
