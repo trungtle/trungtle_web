@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"hea",
+				"health"
+			],
+			[
+				"he",
+				"health"
+			],
+			[
+				"vapo",
+				"vaporeon"
+			],
+			[
 				"margin",
 				"margin-bottom"
 			],
@@ -502,45 +514,51 @@
 			[
 				"D2PEn",
 				"D2PEncryptedStream2"
-			],
-			[
-				"BUCK",
-				"BUCKET_NUM"
-			],
-			[
-				"XOR",
-				"XOR_TEST_LEN"
-			],
-			[
-				"uinq",
-				"uinqueCount"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/views/static_page/index.html.haml",
+			"file": "app/views/project/SPHSolverCPP.haml",
 			"settings":
 			{
-				"buffer_size": 6963,
+				"buffer_size": 1418,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/game/carroll.haml",
+			"file": "app/views/static_page/index.html.haml",
 			"settings":
 			{
-				"buffer_size": 2930,
+				"buffer_size": 7184,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/game/apepi.haml",
+			"file": "app/views/project/VREditor.haml",
 			"settings":
 			{
-				"buffer_size": 2194,
+				"buffer_size": 4860,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/static_page/3d_modeling.html.haml",
+			"settings":
+			{
+				"buffer_size": 3152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 2527,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -549,44 +567,17 @@
 			"file": "app/views/layouts/_navigation.html.haml",
 			"settings":
 			{
-				"buffer_size": 3145,
+				"buffer_size": 3932,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Searching 920 files for \"SPHSolverCPP\"\n\n/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/layouts/_navigation.html.haml:\n   39              %ul.dropdown\n   40                %li\n   41:                 = link_to(\"SPH FLuid Solver\", project_SPHSolverCPP_path(@project))\n   42                %li\n   43                  = link_to(\"WebGL2 Samples Pack\", project_webgl2samplespack_path(@project))\n\n/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/project/SPHSolverCPP.haml:\n   24  \n   25      %ul.small-block-grid-2.medium-block-grid-2.large-block-grid-2.clearing-thumbs(data-clearing)\n   26:       - paths = [\"https://s3-us-west-2.amazonaws.com/trle/SPHSolverCPP/SPHSnapShotFullRender_SkyLight.jpg\", \"https://s3-us-west-2.amazonaws.com/trle/SPHSolverCPP/render_full_angled.jpg\"]\n   27  \n   28        - paths.each do |path|\n\n/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page/index.html.haml:\n   15  \n   16      %ul.example-orbit-content(data-orbit)\n   17:       %li(data-orbit-slide=\"SPHSolverCPP\")\n   18          %h1.right SPH Fluid Solver in C++\n   19:         %a(href=\"#{project_SPHSolverCPP_path(@project)}\")\n   20:           %img(src=\"https://s3-us-west-2.amazonaws.com/trle/SPHSolverCPP/render_full_angled.jpg\")\n   21  \n   22        %li(data-orbit-slide=\"Apepi\")\n   ..\n   76        %li\n   77          .sample-title\n   78:           = link_to(\"SPH Fluid Solver in C++\", project_SPHSolverCPP_path(@project))\n   79          .flex-video\n   80            %iframe(src=\"https://www.youtube.com/embed/QeSkB5jceCE?&showinfo=0\" width=\"500\" height=\"281\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen)\n\n/Users/trungle/Documents/programming/rails_proj/trungtle_web/config/routes.rb:\n   17    get \"project/townsim\"\n   18    get \"project/rifted\"\n   19:   get \"project/SPHSolverCPP\"\n   20    get \"project/webgl2samplespack\"\n   21    get \"project/realtimefractureUnity\"\n\n8 matches across 4 files\n",
+			"file": "app/assets/stylesheets/static_page.css.scss",
 			"settings":
 			{
-				"buffer_size": 1982,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 2469,
+				"buffer_size": 1829,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/game/projectEm.haml",
-			"settings":
-			{
-				"buffer_size": 2221,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/project/webgl2samplespack.haml",
-			"settings":
-			{
-				"buffer_size": 1142,
 				"line_ending": "Unix"
 			}
 		},
@@ -594,25 +585,7 @@
 			"file": "app/views/layouts/_about.haml",
 			"settings":
 			{
-				"buffer_size": 1245,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/game/vietspeak.html.haml",
-			"settings":
-			{
-				"buffer_size": 6096,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/static_page/resume.html.haml",
-			"settings":
-			{
-				"buffer_size": 7948,
+				"buffer_size": 1178,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -849,28 +822,42 @@
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/models",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/game",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/layouts",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/project",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page"
 	],
 	"file_history":
 	[
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/game/projectEm.haml",
+		"/Users/trungle/Documents/penn_proj/cis460/fusion.cpp",
+		"/Users/trungle/Documents/penn_proj/cis460/non_virtual_functions.cpp",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets/stylesheets/application.css",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets/stylesheets/index.css.scss",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/Gemfile",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page/index.html.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/game/apepi.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page/resume.html.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/config/routes.rb",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/layouts/_navigation.html.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page/masterThesis.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/layouts/_footer.html.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/layouts/_contact.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/game/vietspeak.html.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/game/carroll.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/project/webgl2samplespack.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/layouts/_about.haml",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/bin/bundle",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/helpers/static_page_helper.rb",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/controllers/static_page_controller.rb",
+		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page/project.html.haml",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/project/rifted.html.haml",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/game/watercube_webplayer.html.haml",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/controllers/project_controller.rb",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/config/routes.rb",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page/project_em.haml",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/layouts/_contact.haml",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page/index.html.haml",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/install/README.md",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/project/SPHSolverCPP.haml",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/game/carroll.haml",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page/about.html.haml",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/layouts/_footer.html.haml",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/game/vietspeak.html.haml",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/project/particlemonster.haml",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/game/shires.html.haml",
 		"/Users/trungle/Documents/programming/unity_proj/Shires/README.md",
@@ -878,15 +865,11 @@
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/LICENSE",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page/contact.html.haml",
 		"/Users/trungle/Documents/programming/unity_proj/Carroll/README.md",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/Gemfile",
 		"/Users/trungle/Documents/penn_proj/xlab-xToys/.gitignore",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/project/paintspeaker.haml",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/project/clothFX.haml",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/static_page/resume.html.haml",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/layouts/_about.haml",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/layouts/application.html.erb",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets/stylesheets/static_page.css.scss",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets/stylesheets/index.css.scss",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets/stylesheets/resume.css.scss",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets/stylesheets/_font_stack.css.scss",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/views/project/wrel.html.haml",
@@ -906,7 +889,6 @@
 		"/Users/trungle/Documents/programming/three_js/tutorial.html",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets/stylesheets/colors.css.scss",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets/stylesheets/moodbox.css.scss",
-		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets/stylesheets/application.css",
 		"/Users/trungle/Documents/programming/rails_proj/trungtle_web/app/assets/stylesheets/vertical_timeline.css.sass",
 		"/Users/trungle/Documents/rails_proj/trungtle_web/app/assets/stylesheets/static_page.css.scss",
 		"/Users/trungle/Documents/rails_proj/trungtle_web/public/doc/resume/Resume.pdf",
@@ -974,17 +956,7 @@
 		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/public/assets/cat.png",
 		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/db/migrate/20131129202038_add_index_to_users_email.rb",
 		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/db/migrate/20131129194957_create_users.rb",
-		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/db/schema.rb",
-		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/db/migrate/20131129202828_add_password_digest_to_users.rb",
-		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/app/helpers/home_helper.rb",
-		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/app/assets/javascripts/word.js.coffee",
-		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/app/assets/fonts/AngelicWar.otf",
-		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/config/environments/development.rb",
-		"/Users/tle/Documents/devsw/penelope/fw/up/record.c",
-		"/Users/tle/Documents/devsw/penelope/fw/project/bringup/main.c",
-		"/Users/tle/Documents/devsw/penelope/fw/lib/sensorlog/sensorlog.c",
-		"/Users/tle/Documents/devsw/penelope/fw/lib/rawrec/export/rawrec.h",
-		"/Users/tle/Documents/devsw/penelope/fw/peripherals/tmp112/tmp112.c"
+		"/Users/tle/Documents/workspace_home/rails_projects/Assylium/db/schema.rb"
 	],
 	"find":
 	{
@@ -1020,6 +992,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h2",
+			"- ",
+			"std::",
+			"saphire",
+			"vaporeon_pokeball",
+			"eevee_pokeball",
+			"vaporeon",
+			"value",
+			"health",
+			".right",
+			"resume",
+			"_resume",
+			"Alex",
 			"project_pro",
 			"project",
 			"SPHSolverCPP",
@@ -1134,20 +1119,7 @@
 			"replace",
 			"clear",
 			"clearbg",
-			"drawCurve",
-			"ctx",
-			"fractalTree",
-			"drawExpression",
-			"else",
-			"requestAnimationFrame",
-			"context",
-			"expression",
-			"context",
-			"expression",
-			"processInstruction",
-			"g_ctx",
-			"context",
-			"createjs"
+			"drawCurve"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1166,24 +1138,24 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/static_page/index.html.haml",
+					"file": "app/views/project/SPHSolverCPP.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6963,
+						"buffer_size": 1418,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								892,
-								892
+								587,
+								587
 							]
 						],
 						"settings":
@@ -1193,218 +1165,6 @@
 							"glsv_spec": 0,
 							"history_list_is_closing": true,
 							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/game/carroll.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2930,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								2930
-							]
-						],
-						"settings":
-						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/game/apepi.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2194,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1381,
-								1381
-							]
-						],
-						"settings":
-						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"history_list_is_closing": true,
-							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/layouts/_navigation.html.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3145,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1303,
-								1315
-							]
-						],
-						"settings":
-						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"history_list_is_closing": true,
-							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 79.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1982,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										260,
-										272
-									],
-									[
-										688,
-										700
-									],
-									[
-										779,
-										791
-									],
-									[
-										1054,
-										1066
-									],
-									[
-										1152,
-										1164
-									],
-									[
-										1250,
-										1262
-									],
-									[
-										1453,
-										1465
-									],
-									[
-										1856,
-										1868
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								1864,
-								1864
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "config/routes.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2469,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								983,
-								983
-							]
-						],
-						"settings":
-						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1416,20 +1176,53 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "app/views/game/projectEm.haml",
+					"buffer": 1,
+					"file": "app/views/static_page/index.html.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2221,
+						"buffer_size": 7184,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1751,
-								1751
+								2606,
+								2606
+							]
+						],
+						"settings":
+						{
+							"glsv_configured": true,
+							"glsv_enabled": 1,
+							"glsv_spec": 0,
+							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 635.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/project/VREditor.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4860,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								856,
+								856
 							]
 						],
 						"settings":
@@ -1442,27 +1235,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 302.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "app/views/project/webgl2samplespack.haml",
-					"semi_transient": false,
+					"buffer": 3,
+					"file": "app/views/static_page/3d_modeling.html.haml",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1142,
+						"buffer_size": 3152,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								783,
-								783
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1471,70 +1264,31 @@
 							"glsv_enabled": 1,
 							"glsv_spec": 0,
 							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "app/views/layouts/_about.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1245,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								481,
-								481
-							]
-						],
-						"settings":
-						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "config/routes.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2469,
+						"buffer_size": 2527,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								783,
-								783
+								670,
+								670
 							]
 						],
 						"settings":
@@ -1550,91 +1304,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/views/game/vietspeak.html.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6096,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								964,
-								964
-							]
-						],
-						"settings":
-						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/views/static_page/resume.html.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7948,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								528,
-								528
-							]
-						],
-						"settings":
-						{
-							"glsv_configured": true,
-							"glsv_enabled": 1,
-							"glsv_spec": 0,
-							"history_list_is_closing": true,
-							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 0,
-					"file": "app/views/static_page/index.html.haml",
+					"buffer": 5,
+					"file": "app/views/layouts/_navigation.html.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6963,
+						"buffer_size": 3932,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1178,
-								1178
+								828,
+								828
 							]
 						],
 						"settings":
@@ -1642,7 +1329,6 @@
 							"glsv_configured": true,
 							"glsv_enabled": 1,
 							"glsv_spec": 0,
-							"history_list_is_closing": true,
 							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1651,24 +1337,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/views/game/apepi.haml",
+					"buffer": 6,
+					"file": "app/assets/stylesheets/static_page.css.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2194,
+						"buffer_size": 1829,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								584,
-								584
+								880,
+								880
 							]
 						],
 						"settings":
@@ -1676,25 +1362,24 @@
 							"glsv_configured": true,
 							"glsv_enabled": 1,
 							"glsv_spec": 0,
-							"history_list_is_closing": true,
-							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 80.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "app/views/layouts/_about.haml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1245,
+						"buffer_size": 1178,
 						"regions":
 						{
 						},
@@ -1718,7 +1403,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1741,18 +1426,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.510247105675,
 			1.0
 		],
 		"rows":
@@ -1796,20 +1474,128 @@
 		"selected_items":
 		[
 			[
+				"_na",
+				"app/views/layouts/_navigation.html.haml"
+			],
+			[
+				"static",
+				"app/assets/stylesheets/static_page.css.scss"
+			],
+			[
+				"applic.css",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"proj",
+				"app/views/game/projectEm.haml"
+			],
+			[
 				"inde",
 				"app/views/static_page/index.html.haml"
 			],
 			[
-				"_na",
+				"sph",
+				"app/views/project/SPHSolverCPP.haml"
+			],
+			[
+				"viet",
+				"app/views/game/vietspeak.html.haml"
+			],
+			[
+				"stat",
+				"app/assets/stylesheets/static_page.css.scss"
+			],
+			[
+				".css",
+				"app/assets/stylesheets/index.css.scss"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"bund",
+				"bin/bundle"
+			],
+			[
+				"he",
+				"app/helpers/static_page_helper.rb"
+			],
+			[
+				"ape",
+				"app/views/game/apepi.haml"
+			],
+			[
+				"mas",
+				"app/views/static_page/masterThesis.haml"
+			],
+			[
+				"resu",
+				"app/views/static_page/resume.html.haml"
+			],
+			[
+				"proje",
+				"app/views/game/projectEm.haml"
+			],
+			[
+				"_fo",
+				"app/views/layouts/_footer.html.haml"
+			],
+			[
+				"",
+				"app/views/static_page/index.html.haml"
+			],
+			[
+				"ind",
+				"app/assets/stylesheets/index.css.scss"
+			],
+			[
+				"_con",
+				"app/views/layouts/_contact.haml"
+			],
+			[
+				"_n",
+				"app/views/layouts/_navigation.html.haml"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"res",
+				"app/views/static_page/resume.html.haml"
+			],
+			[
+				"projecte",
+				"app/views/game/projectEm.haml"
+			],
+			[
+				"_proje",
+				"app/views/static_page/project.html.haml"
+			],
+			[
+				"index",
+				"app/views/static_page/index.html.haml"
+			],
+			[
+				"about",
+				"app/views/layouts/_about.haml"
+			],
+			[
+				"n",
 				"app/views/layouts/_navigation.html.haml"
 			],
 			[
 				"apep",
 				"app/views/game/apepi.haml"
-			],
-			[
-				"rout",
-				"config/routes.rb"
 			],
 			[
 				"project_em",
@@ -1824,24 +1610,12 @@
 				"app/controllers/project_controller.rb"
 			],
 			[
-				"proje",
-				"app/controllers/project_controller.rb"
-			],
-			[
 				"nav",
 				"app/views/layouts/_navigation.html.haml"
 			],
 			[
-				"route",
-				"config/routes.rb"
-			],
-			[
 				"read",
 				"install/README.md"
-			],
-			[
-				"n",
-				"app/views/layouts/_navigation.html.haml"
 			],
 			[
 				"apepi",
@@ -1864,10 +1638,6 @@
 				"app/views/game/vietspeak.html.haml"
 			],
 			[
-				"index",
-				"app/views/static_page/index.html.haml"
-			],
-			[
 				"webg",
 				"app/views/project/webgl2samplespack.haml"
 			],
@@ -1876,36 +1646,12 @@
 				"app/views/layouts/_about.haml"
 			],
 			[
-				"_n",
-				"app/views/layouts/_navigation.html.haml"
-			],
-			[
-				"rou",
-				"config/routes.rb"
-			],
-			[
-				"_con",
-				"app/views/layouts/_contact.haml"
-			],
-			[
-				"about",
-				"app/views/layouts/_about.haml"
-			],
-			[
 				"rif",
 				"app/views/project/rifted.html.haml"
 			],
 			[
-				"res",
-				"app/views/static_page/resume.html.haml"
-			],
-			[
 				"wate",
 				"app/views/game/watercube_webplayer.html.haml"
-			],
-			[
-				"resu",
-				"app/views/static_page/resume.html.haml"
 			],
 			[
 				"foo",
@@ -1926,14 +1672,6 @@
 			[
 				"l",
 				"LICENSE"
-			],
-			[
-				"viet",
-				"app/views/game/vietspeak.html.haml"
-			],
-			[
-				"gem",
-				"Gemfile"
 			],
 			[
 				"vi",
@@ -1964,14 +1702,6 @@
 				"app/views/static_page/3d_modeling.html.haml"
 			],
 			[
-				"ind",
-				"app/assets/stylesheets/index.css.scss"
-			],
-			[
-				"_fo",
-				"app/views/layouts/_footer.html.haml"
-			],
-			[
 				"resume",
 				"app/views/static_page/resume.html.haml"
 			],
@@ -1990,14 +1720,6 @@
 			[
 				"navi",
 				"app/views/layouts/_navigation.html.haml"
-			],
-			[
-				"",
-				"app/assets/stylesheets/static_page.css.scss"
-			],
-			[
-				"stat",
-				"app/assets/stylesheets/static_page.css.scss"
 			],
 			[
 				"wre",
@@ -2200,10 +1922,6 @@
 				"app/assets/stylesheets/vertical_timeline.css.sass"
 			],
 			[
-				"static",
-				"app/assets/stylesheets/static_page.css.scss"
-			],
-			[
 				"project/",
 				"app/views/project/wrel.html.erb"
 			],
@@ -2265,46 +1983,6 @@
 			],
 			[
 				"application.css",
-				"app/assets/stylesheets/application.css.scss"
-			],
-			[
-				"header",
-				"app/views/layouts/_pageheader.html.haml"
-			],
-			[
-				"cust",
-				"app/assets/stylesheets/custom.css.scss"
-			],
-			[
-				"stora",
-				"app/views/static_pages/story_canvas.html.haml"
-			],
-			[
-				"stor",
-				"app/assets/javascripts/storycanvas.js.coffee"
-			],
-			[
-				"application.js",
-				"app/assets/javascripts/application.js"
-			],
-			[
-				"gemfil",
-				"Gemfile"
-			],
-			[
-				"routs",
-				"config/routes.rb"
-			],
-			[
-				"home.h",
-				"app/views/home/index.html.haml"
-			],
-			[
-				"_shi",
-				"app/views/layouts/_shim.html.haml"
-			],
-			[
-				"application.c",
 				"app/assets/stylesheets/application.css.scss"
 			]
 		],
