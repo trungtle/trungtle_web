@@ -43,8 +43,12 @@ h1, .orbit-caption {
 }
 
 h2 {
-  @extend h1;
-  size: .4em;
+  font: {
+    family: $heading-font;
+    size: 1.1em;
+    font-family: $logo-font !important;
+    font-weight: bold;
+  }
 }
 
 // Paragraph
@@ -53,6 +57,7 @@ h2 {
 p  {
   text-align: justify;
 }
+
 
 
 /* ----------------------------------------------------------------------------

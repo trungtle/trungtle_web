@@ -1,18 +1,33 @@
 .row
     .row.container.small-10.small-centered.columns.container
 
-        %p
-            As part of my current master program as University of Pennsylvnia, I am working on my master thesis in "Real-time transparency with Vulkan". The thesis explores the advantage of using modern explicit graphics API Vulkan in context of optimizing performance for transparency rendering. Thesis is inspired by
-            = link_to("Morgan McGuire", "http://cs.williams.edu/~morgan/")
-            's
-            = link_to("Phenomenological Transparency", "http://graphics.cs.williams.edu/papers/TransparencyI3D16/McGuire2016Transparency.pdf")
-            paper.
+        %h1 Evaluating BVH splitting strategies with Vulkan
+
+        %h2 Abstract
+
+        %p 
+            Iterating through thousands of objects in a scene is expensive. By
+            introducing a hierarchical spatial data structure, the time of
+            traversing objects can be greatly reduced. Such a hierarchical spatial
+            structure can be a grid, binary space partition tree, kd-tree, octree, or
+            bounding volume hierarchy (BVH). One of the most commonly used
+            spatial data structures in real-time ray tracing is the spatial split
+            bounding volume hierarchy (SBVH). This thesis surveys the tradeoffs
+            of using a SBVH in the context of ray tracing. The optimal case for
+            using SBVH is with scenes that have a mixture between low poly and
+            high poly meshes, or meshes that are not tightly fitted with axisaligned
+            bounding boxes. When the meshes have triangles with similar
+            sizes, it is best to use the object split with surface area heuristics.
+            When the scenes have uniformly distributed objects, equal counts
+            partitioning is the most efficient choice. To achieve the real-time
+            requirement, this thesis implements a hybrid rasterizer-raytracer in
+            Vulkan.
 
         %a.button(href="https://github.com/trungtle/TLVulkanRenderer")
             %i.fa.fa-github
-            Github
+            Code
 
-        %iframe.center(id="iframepdf" src="/doc/TrungLeMasterThesisProposal.pdf" height="1200" width="1000")
+        %iframe.center(id="iframepdf" src="/doc/master_thesis.pdf" height="1200" width="1000")
 
 
 
