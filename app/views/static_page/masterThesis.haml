@@ -5,23 +5,27 @@
 
         %h2 Abstract
 
-        %p 
-            Iterating through thousands of objects in a scene is expensive. By
-            introducing a hierarchical spatial data structure, the time of
-            traversing objects can be greatly reduced. Such a hierarchical spatial
-            structure can be a grid, binary space partition tree, kd-tree, octree, or
-            bounding volume hierarchy (BVH). One of the most commonly used
-            spatial data structures in real-time ray tracing is the spatial split
-            bounding volume hierarchy (SBVH). This thesis surveys the tradeoffs
-            of using a SBVH in the context of ray tracing. The optimal case for
-            using SBVH is with scenes that have a mixture between low poly and
-            high poly meshes, or meshes that are not tightly fitted with axisaligned
-            bounding boxes. When the meshes have triangles with similar
-            sizes, it is best to use the object split with surface area heuristics.
-            When the scenes have uniformly distributed objects, equal counts
-            partitioning is the most efficient choice. To achieve the real-time
-            requirement, this thesis implements a hybrid rasterizer-raytracer in
-            Vulkan.
+        .small-4.columns
+            %img(src="https://s3-us-west-2.amazonaws.com/trle/thesis/cow_ray_cost_heatmap.png" width="400" height="300")
+
+        .small-8.left.columns
+            %p 
+                Iterating through thousands of objects in a scene is expensive. By
+                introducing a hierarchical spatial data structure, the time of
+                traversing objects can be greatly reduced. Such a hierarchical spatial
+                structure can be a grid, binary space partition tree, kd-tree, octree, or
+                bounding volume hierarchy (BVH). One of the most commonly used
+                spatial data structures in real-time ray tracing is the spatial split
+                bounding volume hierarchy (SBVH). This thesis surveys the tradeoffs
+                of using a SBVH in the context of ray tracing. The optimal case for
+                using SBVH is with scenes that have a mixture between low poly and
+                high poly meshes, or meshes that are not tightly fitted with axisaligned
+                bounding boxes. When the meshes have triangles with similar
+                sizes, it is best to use the object split with surface area heuristics.
+                When the scenes have uniformly distributed objects, equal counts
+                partitioning is the most efficient choice. To achieve the real-time
+                requirement, this thesis implements a hybrid rasterizer-raytracer in
+                Vulkan.
 
         %h2 Advisor
 
