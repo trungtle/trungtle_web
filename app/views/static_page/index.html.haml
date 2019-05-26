@@ -1,6 +1,10 @@
 .row.container
 
   .large-12.columns
+
+    = link_to("Resume", "/doc/resume/Resume_Graphics_Trung_Le.pdf", :type => "application/pdf", :class => "button", :target => "_blank")
+    = render 'layouts/contact'
+  
     %ul.example-orbit(data-orbit)
 
       - slides = {project_SPHSolverCPP_path(@project) => ["SPH Fluid Solver in C++", "https://s3-us-west-2.amazonaws.com/trle/SPHSolverCPP/render_full_angled.jpg"], game_projectEm_path(@game) => ["Project Em - Unreal, Alexa, 2nd place of Penn Apps XIV", "https://s3-us-west-2.amazonaws.com/trle/projec_em/gallery_full.jpg"], game_apepi_path(@game) => ["Apepi - Unreal", "https://s3-us-west-2.amazonaws.com/trle/apepi/Screen+Shot+2016-04-10+at+9.56.36+PM.png"], game_carroll_path(@game) => ["Carroll - C# in Unity, Best Design winner of PennApps 2016", "https://s3-us-west-2.amazonaws.com/trle/carroll/Screen+Shot+2016-01-24+at+8.53.41+AM.png"], game_shires_path(@game) => ["Shired - C# in Unity", "https://s3-us-west-2.amazonaws.com/trle/shires/shires_screenshot.png"], game_vietspeak_path(@game) => ["Vietspeak - Javascript in Meteor", "https://s3-us-west-2.amazonaws.com/trle/vietspeak/Vietspeak_1.png"], project_clothFX_path(@project) => ["Human Cloth Tearing - FX in Maya", "https://s3-us-west-2.amazonaws.com/trle/FX/man_cloth0072.jpg"]}
